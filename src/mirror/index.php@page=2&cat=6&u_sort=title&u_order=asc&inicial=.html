@@ -1,0 +1,645 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Programari</TITLE>
+<META NAME='KEYWORDS' CONTENT='Programari'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Programari" href="rss.php@cat=6">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="http://img688.imageshack.us/img688/5168/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=6.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=6.html'><font color=black>Programari</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=6" title="Canal RSS de la categoria Programari"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 1
+&nbsp;&nbsp;<b>eLinks</b>: 47&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 20030 vegades" title="Categoria visualitzada 20030 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="6">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/6">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<br><div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1" style="border: 1px solid #eeeeee; background-color: #f7f7f7;"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=24.html" title="Pedaços cont&eacute; 0 subcategories...">Pedaços</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div><br/>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3171.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Megafact 2000 v.1.82</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3171&url=ed2k%3A%2F%2F%7Cfile%7CMegaFact%25202000%2520Crack%2520Versio%25201.82%2520Catal%25C3%25A0%2520%28Facturaci%25C3%25B3%2520i%2520TPV%29.zip%7C1615619%7CCFD5A7B027E460A251E61737EB37AACB%7Ch%3DQWDDZ5NAWMAACGGD24FZ3SF5EVS3U45C%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>278</strong>,   
+Puntuaci&oacute;:<img src="image/punts/5punts.gif" alt="5.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="5.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Versió en català del programa de facturació</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3574.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Messenger 7.0 en català</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3574&url=ed2k%3A%2F%2F%7Cfile%7Cmsn700813cat%2520per%2520www.messenger.catsub.net.exe%7C1180155%7CCA14A846621558E23B57CB2F2D522D9A%7Ch%3DPWVFRK3NICQME4TJPHWGH3S2STRIIMXZ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>161</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de www.messenger.catsub.net</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=4336.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Messenger 7.5 en català</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=4336&url=ed2k%3A%2F%2F%7Cfile%7Cmessenger.7.5.catala.rar%7C1367830%7CADCA9FD428A41BF0DA17CAE59B5E846C%7Ch%3D7CNN2V4AVYKZOY33G6X6TWXVHRBM4JV6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>991</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=4401.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Microsoft Visio Professional 2003</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=4401&url=ed2k%3A%2F%2F%7Cfile%7CMicrosoft%2520Visio%2520Professional%25202003%2520Espa%25C3%25B1ol%2520%2B%2520Serial.rar%7C145181768%7C4C825DE6340F507DE074B18E9C12FA8D%7Ch%3DBJSPAS4H5V7YS5JT7TI3NKBIWLLY2E2S%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>220</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Inclou el Serial Correcte !!!</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1900.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> MoreTV 3.53 + Wilma 2.10</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1900&url=ed2k%3A%2F%2F%7Cfile%7CMoreTV%203.53%20%2B%20Wilma%202.10%20%2B%20key.txt%20%5BCatala%5D%20per%20Cepheus.rar%7C534564%7CD4B9C06CA343F4533287F9E86976BBF8%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>919</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="8.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="8.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Amb key.txt</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=106.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> MorphXT v 5.12 per Emule 0.44d</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=106&url=ed2k%3A%2F%2F%7Cfile%7Cemulev0.44d-MorphXTv5.12-bin.zip%7C3591433%7C30D91DEFE5685C3C20F2A84C415A7F86%7Ch%3DHICUB2M3LB2Y6A7PXCT53TEYV26QBPCQ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>330</strong>,   
+Puntuaci&oacute;:<img src="image/punts/7punts.gif" alt="6.50 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="6.50 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">El teniu en català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=429.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Office 2003 Complert Castellà</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=57"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=429&url=ed2k%3A%2F%2F%7Cfile%7COffice.2003.AIO.Espa%25C3%25B1ol.%28incluye.project.2003.profesional%29.rar%7C494622394%7C72EF4B4B8D367422FD622359A09F6738%7Ch%3DO4LY7VXODEMZ6S6UXVYSWNQFJCDNUXY6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>313</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Comprimit amb WinRAR</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=289.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Open Office v1.1</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=289&url=ed2k%3A%2F%2F%7Cfile%7Copen.office.org.-.catal%C3%A0.valenci%C3%A0.-.1.1.-.win32.-.softcatala.zip%7C66125276%7CF752486EED0A3BBD4A97A6531FC1F74B%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>115</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de www.softcatala.org/</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3861.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> OpenOffice.org 2.0.1 (windows)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=3862"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3861&url=ed2k%3A%2F%2F%7Cfile%7COpenOffice.org_2.0.1_Win32Intel_install.exe%7C80047672%7C663CB83B8E0F9CDB49631A20B410BFC6%7Ch%3DRET34QGFDGIBXULYCRB2LWFWF2KMR7G4%7Cs%3Dhttp%3A%2F%2Fftp.snt.utwente.nl%2Fpub%2Fsoftware%2Fopenoffice%2Fstable%2F2.0.1%2FOOo_2.0.1_Win32Intel_install.exe%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>26</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Instal·lador per a windows (sense java) en anglès, necessita el paquet d'idioma català.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3862.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> OpenOffice.org 2.0.1 - Català - Paquet d'idioma</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=3861"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3862&url=ed2k%3A%2F%2F%7Cfile%7COpenOffice.org_2.0.1_languagepack_windows_install_catal%C3%A0.exe%7C15933201%7C9afd88eda58b2f9a2a6a3f014b512f17%7Cs%3Dhttp%3A%2F%2Fwww.corrius.org%2Fooo20%2Flangpack%2Fwin32%2FOOo_2.0.1_languagepack_windows_install_ca.exe%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>124</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Paquest d'idioma català per a l'OpenOffice.org 2.0.1 (windows).</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3860.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> OpenOffice.org 2.0.1 amb wJRE (windows)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=3862"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3860&url=ed2k%3A%2F%2F%7Cfile%7COpenOffice.org_2.0.1_Win32Intel_install_wJRE.exe%7C95290962%7C4D6ACC6DC9E707D448E1EA5A266D1905%7Ch%3DUHTQBL2W7OC2MEQDJHPDTN3K7ZKH7NHP%7Cs%3Dhttp%3A%2F%2Fftp.snt.utwente.nl%2Fpub%2Fsoftware%2Fopenoffice%2Fstable%2F2.0.1%2FOOo_2.0.1_Win32Intel_install_wJRE.exe%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>16</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Instal·lador per a windows (amb java) en anglès, necessita el paquet d'idioma català.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=6053.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> orientació espacial</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=6053&url=ed2k%3A%2F%2F%7Cfile%7Corientacio%20espacial%20E.%20infantil%20catala','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>256</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">catala</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=6054.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> orientació espacial</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=6054&url=ed2k%3A%2F%2F%7Cfile%7Corientacio%20espacial%20E.%20infantil%20catala','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>345</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">catala</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3220.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> PADRE 2004</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3220&url=ed2k%3A%2F%2F%7Cfile%7CAEAT.%2520PROGRAMA%2520PADRE%2520RENTA%25202004.rar%7C11915738%7C9E4119434F6E8CAFFC4974A0A71B4C01%7Ch%3DDYYXMWJE54CGVC2BCTFUVIBDXTUBTYK7%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>112</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per fer la renda del 2004</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5067.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Programari Català Abril 2006.iso</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5067&url=ed2k%3A%2F%2F%7Cfile%7CProgramari%2520Catal%25C3%25A0%2520Abril%25202006.iso%7C699678720%7CB7E912B56AE68D64CF696417DAC042F6%7Ch%3DZO4SDRQWRBIJ6STJTOVOKB5O6L6NFL4X%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>158</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">ISo Cd programari en català 2006</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1156.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Programari Lliure del Diari Avui Sant Jordi 2005</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1156&url=ed2k%3A%2F%2F%7Cfile%7CProgramari_Diri_Avui_Sant_Jordi_2005.ISO%7C443940864%7C17C5DD57C3015A138C7FA8D4C6D2BC12%7Ch%3DZ277SK3BR642TWXQLQWKQ3B6R36QT4BQ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>132</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Software Lliure Windows i Linux</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1924.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Quick Menu Builder 1.3.1</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1924&url=ed2k%3A%2F%2F%7Cfile%7CQuick.Menu.Builder.1.3.1.%2B.Espa%25C3%25B1ol.%2B.Galego.%2B.Catlan.%2B.KeyGen.%28rucatala.tk%29.rar%7C2053529%7Ca84ca05de457283ae1376bc94bbf922f%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>174</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Inclou Keygen</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=38.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Salt 3</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=38&url=ed2k%3A%2F%2F%7Cfile%7CSalt_3.0_traductor_corrector_valencia%2Fcatala_espa%25C3%25B1ol.zip%7C60327677%7C604E90119C2AA03DB0F5BAF22028FB1E%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>214</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">traductor cat-cast , corrector i eina língüistica.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=4054.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Skype 2.0.0.73 windows amb patch en català</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=4054&url=ed2k%3A%2F%2F%7Cfile%7CSkype%25202.0.0.73%2520windows%2520amb%2520patch%2520catal%25C3%25A0.zip%7C9929251%7C25438645A9C7861FE7950EC9B7A89EDF%7Ch%3DMTLLQO35UOKRV23W7CJRSXR6IDSBFEVZ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>157</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Versió Windows, cortesia de fes-ho-cat</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1925.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Subtitles Translator 1.63b</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1925&url=ed2k%3A%2F%2F%7Cfile%7Ctranslator1_63b.zip%7C369191%7Cb9ff16f8351061f91145fb3211b17115%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>130</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Amb lng_basic-ct.zip</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="6">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2134.html" title="Winverbs.2.0.(els.verbs.catalans)">Winverbs.2.0.(els....</a><br></td><td width="40"> <div align="right">2358</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8767.html" title="msn Messenger Live 8.5.1302 Final en català">msn Messenger Live...</a><br></td><td width="40"> <div align="right">1549</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4336.html" title="Messenger 7.5 en català">Messenger 7.5 en c...</a><br></td><td width="40"> <div align="right">991</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5050.html" title="MSN Messenger 7.5 en català [www.avuielruc.tk]">MSN Messenger 7.5 ...</a><br></td><td width="40"> <div align="right">978</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1900.html" title="MoreTV 3.53 + Wilma 2.10">MoreTV 3.53 + Wilm...</a><br></td><td width="40"> <div align="right">919</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=56.html" title="Windows XP català">Windows XP català...</a><br></td><td width="40"> <div align="right">746</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6408.html" title="autotrad - ara">autotrad - ara</a><br></td><td width="40"> <div align="right">609</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3083.html" title="Història de l&#039;Art Universal">Història de l&#039;Art...</a><br></td><td width="40"> <div align="right">602</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=82.html" title="Ad-aware 6.0 pro">Ad-aware 6.0 pro</a><br></td><td width="40"> <div align="right">598</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=105.html" title="Emule 0.44d - Installer">Emule 0.44d - Inst...</a><br></td><td width="40"> <div align="right">563</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=999.html" title="Gimp 2.2">Gimp 2.2</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3179.html" title="tomtom5">tomtom5</a><br></td><td width="40"> <div align="right">9.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=56.html" title="Windows XP català">Windows XP català...</a><br></td><td width="40"> <div align="right">9.7</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=105.html" title="Emule 0.44d - Installer">Emule 0.44d - Inst...</a><br></td><td width="40"> <div align="right">8.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8767.html" title="msn Messenger Live 8.5.1302 Final en català">msn Messenger Live...</a><br></td><td width="40"> <div align="right">7.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=106.html" title="MorphXT v 5.12 per Emule 0.44d">MorphXT v 5.12 per...</a><br></td><td width="40"> <div align="right">6.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6506.html" title="WinRar3.62CA_Amb_Keyfile.exe">WinRar3.62CA_Amb_K...</a><br></td><td width="40"> <div align="right">6.3</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2134.html" title="Winverbs.2.0.(els.verbs.catalans)">Winverbs.2.0.(els....</a><br></td><td width="40"> <div align="right">6.0</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9826.html" title="PowerDVD 7 en català">PowerDVD 7 en català</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9766.html" title="Pedaç traductor iTunes en català (v. 7.6.2.9)">Pedaç traductor iTune...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9744.html" title="Messenger Live Plus! 4.7 en català i valencià">Messenger Live Plus! 4...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9735.html" title="Windows Live Messenger Plus 4.60 en català">Windows Live Messenger...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8875.html" title="QuickTime 7.4 en Català">QuickTime 7.4 en Catal...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8767.html" title="msn Messenger Live 8.5.1302 Final en català">msn Messenger Live 8.5...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8694.html" title="QuickTime 7.3.1 en català">QuickTime 7.3.1 en cat...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7408.html" title="Traducció messenger live 8.1 en català">Traducció messenger l...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6848.html" title="Traducció messenger live català">Traducció messenger l...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6847.html" title="Traducció messenger live català">Traducció messenger l...</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagelinklast"><a href='index.php@page=1&amp;cat=6&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'><</a></span>
+<span class="pagelink"><a href='index.php@page=1&amp;cat=6&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>1</a></span><span class="pagecurrent"><a href='index.php@page=2&amp;cat=6&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>2</a></span><span class="pagelink"><a href='index.php@page=3&amp;cat=6&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>3</a></span><span class="pagelinklast"><a href='index.php@page=3&amp;cat=6&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<script src="/mirror/avis.js"></script></body>
+</HTML>

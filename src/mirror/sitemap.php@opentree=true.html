@@ -1,0 +1,760 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Mapa de categories</TITLE>
+<META HTTP-EQUIV='Cache-Control' CONTENT='cache'>
+<META HTTP-EQUIV='Progma' CONTENT='cache'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="SHORTCUT ICON" href="icona.png">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad = "defaultStatus='Mapa de categories'">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="http://img688.imageshack.us/img688/5168/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: here_static.html -->
+<div align="center">
+<table border='0' cellpadding='0' cellspacing='0' width='715' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; >> </font>
+<font size='2'>Categories Mapa de categories</font>
+</td></tr>
+<tr><td height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: here_static.html -->
+<!-- HERE START -->
+<!-- Search bar -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- Search bar -->
+<br>
+<div align="center"><font  size='2'>
+<table border='0' width="650" cellspacing="10" align="center">
+<tr><td>
+<table align=right border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td align=right><img src="template/comparteix/image/folder_open.gif" border=0></td>
+<td><a href="sitemap.php@opentree=true.html"><font size=2>Estendre el mapa</font></a></td>
+<td width=15>&nbsp;</td>
+<td align=right><img src="template/comparteix/image/folder_close.gif" border=0></td>
+<td><a href="sitemap.php.html"><font size=2>Contreure el mapa</font></a></td>
+</tr>
+</table>
+</td></tr>
+<tr><td><script>
+var USETEXTLINKS = 1;
+var STARTALLOPEN = 1;
+classPath = "template/comparteix/tree";
+ftv2blank = "default/ftv2blank.gif";
+ftv2doc = "default/ftv2doc.gif";
+ftv2folderclosed = "default/ftv2folderclosed.gif";
+ftv2folderopen = "default/ftv2folderopen.gif";
+ftv2lastnode = "default/ftv2lastnode.gif";
+ftv2link = "default/ftv2link.gif";
+ftv2mlastnode = "default/ftv2mlastnode.gif";
+ftv2mnode = "default/ftv2mnode.gif";
+ftv2node = "default/ftv2node.gif";
+ftv2plastnode = "default/ftv2plastnode.gif";
+ftv2pnode = "default/ftv2pnode.gif";
+ftv2vertline = "default/ftv2vertline.gif";
+basefrm = "_new";
+</script>
+<script src="template/comparteix/tree/ua.js" type="text/javascript">
+</script>
+<script src="template/comparteix/tree/ftiens4.js" type="text/javascript"></script>
+<script>
+foldersTree = gFld("Arrel (1/14)", "index.php?cat=0", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif");
+aux1 = insFld(foldersTree, gFld ("Altres vídeos (99/8)", "index.php?cat=22", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux2 = insFld(aux1, gFld ("Anuncis (39/0)", "index.php?cat=220", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux3 = insFld(aux1, gFld ("Ballet (16/0)", "index.php?cat=442", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux4 = insFld(aux1, gFld ("Castellers (54/11)", "index.php?cat=226", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux5 = insFld(aux4, gFld ("Aplec de Muixerangues (2/0)", "index.php?cat=443", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux6 = insFld(aux4, gFld ("Concurs de Tarragona (7/0)", "index.php?cat=277", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux7 = insFld(aux4, gFld ("Diada de la Mercè (2/0)", "index.php?cat=325", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux8 = insFld(aux4, gFld ("Diada de Sant Joan (3/0)", "index.php?cat=350", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux9 = insFld(aux4, gFld ("Diada de Tots Sants (2/0)", "index.php?cat=324", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux10 = insFld(aux4, gFld ("Diada del Mercadal (2/0)", "index.php?cat=323", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux11 = insFld(aux4, gFld ("Diada dels Arreplegats (3/0)", "index.php?cat=309", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux12 = insFld(aux4, gFld ("Diada dels Minyons (4/0)", "index.php?cat=308", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux13 = insFld(aux4, gFld ("Quarts de Nou (0/0)", "index.php?cat=227", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux14 = insFld(aux4, gFld ("Sant Fèlix (12/0)", "index.php?cat=276", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux15 = insFld(aux4, gFld ("Santa Úrsula (11/0)", "index.php?cat=307", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux16 = insFld(aux1, gFld ("Entrevistes (66/0)", "index.php?cat=66", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux17 = insFld(aux1, gFld ("Esports (44/1)", "index.php?cat=176", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux18 = insFld(aux17, gFld ("Formula 1 (16/0)", "index.php?cat=218", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux19 = insFld(aux1, gFld ("Teatre (33/0)", "index.php?cat=65", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux20 = insFld(aux1, gFld ("Videoclips (60/1)", "index.php?cat=59", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux21 = insFld(aux20, gFld ("Concerts i Directes (59/0)", "index.php?cat=60", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux22 = insFld(aux1, gFld ("Vídeos polítics (22/0)", "index.php?cat=195", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux23 = insFld(foldersTree, gFld ("Àudio (7/12)", "index.php?cat=5", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux24 = insFld(aux23, gFld ("Cançons (133/3)", "index.php?cat=8", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux25 = insFld(aux24, gFld ("Himnes (18/0)", "index.php?cat=467", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux26 = insFld(aux24, gFld ("La Muixeranga (20/0)", "index.php?cat=256", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux27 = insFld(aux24, gFld ("Toc de Castells (3/0)", "index.php?cat=257", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux28 = insFld(aux23, gFld ("Contes (16/0)", "index.php?cat=468", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux29 = insFld(aux23, gFld ("Directes (no editats) (15/0)", "index.php?cat=191", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux30 = insFld(aux23, gFld ("Discografies (91/0)", "index.php?cat=11", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux31 = insFld(aux23, gFld ("Discos (746/0)", "index.php?cat=9", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux32 = insFld(aux23, gFld ("Documents sonors (18/0)", "index.php?cat=145", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux33 = insFld(aux23, gFld ("Lletres i partitures (0/0)", "index.php?cat=208", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux34 = insFld(aux23, gFld ("Llibres sonors (14/0)", "index.php?cat=69", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux35 = insFld(aux23, gFld ("Monòlegs/Acudits (26/0)", "index.php?cat=190", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux36 = insFld(aux23, gFld ("Ràdio (15/1)", "index.php?cat=258", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux37 = insFld(aux36, gFld ("En guàrdia (52/0)", "index.php?cat=259", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux38 = insFld(aux23, gFld ("Recopilacions (102/0)", "index.php?cat=63", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux39 = insFld(aux23, gFld ("Videoclips (0/0)", "index.php?cat=144", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux40 = insFld(foldersTree, gFld ("Documentals (213/31)", "index.php?cat=64", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux41 = insFld(aux40, gFld ("30 Minuts (-1/0)", "index.php?cat=142", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux42 = insFld(aux40, gFld ("A la romana (0/0)", "index.php?cat=519", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux43 = insFld(aux40, gFld ("Arquitectures (25/0)", "index.php?cat=465", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux44 = insFld(aux40, gFld ("BBC - El planeta viu (4/0)", "index.php?cat=637", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux45 = insFld(aux40, gFld ("Bèsties (14/0)", "index.php?cat=164", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux46 = insFld(aux40, gFld ("Boira Negra (2/0)", "index.php?cat=623", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux47 = insFld(aux40, gFld ("Catalunya des de l'aire (43/0)", "index.php?cat=90", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux48 = insFld(aux40, gFld ("Catalunya des del mar (14/0)", "index.php?cat=91", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux49 = insFld(aux40, gFld ("Cronos (27/0)", "index.php?cat=219", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux50 = insFld(aux40, gFld ("Dies de transició (14/0)", "index.php?cat=135", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux51 = insFld(aux40, gFld ("El medi ambient (5/0)", "index.php?cat=231", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux52 = insFld(aux40, gFld ("Els grans descobriments (4/0)", "index.php?cat=232", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux53 = insFld(aux40, gFld ("Els Pirineus des de l'aire (12/0)", "index.php?cat=464", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux54 = insFld(aux40, gFld ("Històries de Catalunya (1/2)", "index.php?cat=84", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux55 = insFld(aux54, gFld ("1a Temporada (13/0)", "index.php?cat=210", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux56 = insFld(aux54, gFld ("2a Temporada (9/0)", "index.php?cat=211", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux57 = insFld(aux40, gFld ("L'Imperi daurat d'egipte (2/0)", "index.php?cat=173", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux58 = insFld(aux40, gFld ("L'univers elegant (3/0)", "index.php?cat=172", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux59 = insFld(aux40, gFld ("National geographic (9/0)", "index.php?cat=242", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux60 = insFld(aux40, gFld ("Natura viva (12/0)", "index.php?cat=291", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux61 = insFld(aux40, gFld ("Planeta Blau (9/0)", "index.php?cat=71", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux62 = insFld(aux40, gFld ("Segle XX (192/1)", "index.php?cat=244", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux63 = insFld(aux62, gFld ("2007 - 2008 (7/0)", "index.php?cat=554", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux64 = insFld(aux40, gFld ("Temps indòmit (4/0)", "index.php?cat=347", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux65 = insFld(aux40, gFld ("Thalassa (107/0)", "index.php?cat=652", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux66 = insFld(aux40, gFld ("Un avís de la història (6/0)", "index.php?cat=310", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux67 = insFld(aux40, gFld ("Veterinaris (9/0)", "index.php?cat=474", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux68 = insFld(aux40, gFld ("Zona Roja (31/0)", "index.php?cat=163", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux69 = insFld(foldersTree, gFld ("Jocs (26/1)", "index.php?cat=7", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux70 = insFld(aux69, gFld ("Pedaços (8/0)", "index.php?cat=62", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux71 = insFld(foldersTree, gFld ("Lectura (31/8)", "index.php?cat=10", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux72 = insFld(aux71, gFld ("Articles (15/0)", "index.php?cat=133", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux73 = insFld(aux71, gFld ("Còmic/Manga (18/2)", "index.php?cat=13", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux74 = insFld(aux73, gFld ("Bola de drac (22/0)", "index.php?cat=70", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux75 = insFld(aux73, gFld ("Naruto (8/0)", "index.php?cat=377", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux76 = insFld(aux71, gFld ("Legislació (14/0)", "index.php?cat=187", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux77 = insFld(aux71, gFld ("Llibres (92/0)", "index.php?cat=12", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux78 = insFld(aux71, gFld ("Llibres de referència (58/1)", "index.php?cat=185", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux79 = insFld(aux78, gFld ("Khôra (6/0)", "index.php?cat=228", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux80 = insFld(aux71, gFld ("Llibres sonors (0/0)", "index.php?cat=143", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux81 = insFld(aux71, gFld ("Manuals (23/0)", "index.php?cat=26", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux82 = insFld(aux71, gFld ("Revistes (17/2)", "index.php?cat=132", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux83 = insFld(aux82, gFld ("El temps d'història (37/0)", "index.php?cat=134", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux84 = insFld(aux82, gFld ("Paper de vidre (6/0)", "index.php?cat=351", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux85 = insFld(foldersTree, gFld ("Material per a adults (8/0)", "index.php?cat=57", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux86 = insFld(foldersTree, gFld ("Miscel·lània (33/5)", "index.php?cat=23", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux87 = insFld(aux86, gFld ("Altres llengües (23/1)", "index.php?cat=147", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux88 = insFld(aux87, gFld ("Occità (13/0)", "index.php?cat=539", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux89 = insFld(aux86, gFld ("Caràtules (364/0)", "index.php?cat=193", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux90 = insFld(aux86, gFld ("Cuina (11/1)", "index.php?cat=205", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux91 = insFld(aux90, gFld ("Cuina per solters (0/0)", "index.php?cat=225", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux92 = insFld(aux86, gFld ("Lletres i partitures (13/0)", "index.php?cat=207", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux93 = insFld(aux86, gFld ("Mapes (9/0)", "index.php?cat=194", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux94 = insFld(foldersTree, gFld ("Pel·lícules (27/16)", "index.php?cat=1", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux95 = insFld(foldersTree, gFld ("Pel·lícules (Animació) (254/9)", "index.php?cat=2", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux96 = insFld(aux95, gFld ("3x3 Ulls (0/0)", "index.php?cat=169", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux97 = insFld(aux95, gFld ("Astèrix (19/0)", "index.php?cat=175", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux98 = insFld(aux95, gFld ("Bola de Drac (0/0)", "index.php?cat=21", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux99 = insFld(aux95, gFld ("Doraemon (18/1)", "index.php?cat=146", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux100 = insFld(aux99, gFld ("Sèrie de TV (0/0)", "index.php?cat=222", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux101 = insFld(aux95, gFld ("Green Green (0/0)", "index.php?cat=61", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux102 = insFld(aux95, gFld ("Shin Chan (10/0)", "index.php?cat=148", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux103 = insFld(aux95, gFld ("Slam Dunk (0/0)", "index.php?cat=138", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux104 = insFld(aux95, gFld ("Tintín (24/0)", "index.php?cat=105", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux105 = insFld(aux95, gFld ("Wallace i Gromit (3/0)", "index.php?cat=470", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux106 = insFld(aux94, gFld ("Acció (322/0)", "index.php?cat=99", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux107 = insFld(aux94, gFld ("Animació (1/0)", "index.php?cat=126", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux108 = insFld(aux94, gFld ("Aventures (251/0)", "index.php?cat=92", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux109 = insFld(aux94, gFld ("C.Ficció/Fantasia (347/0)", "index.php?cat=94", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux110 = insFld(aux94, gFld ("Comèdia/Humor (502/0)", "index.php?cat=102", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux111 = insFld(aux94, gFld ("Crim (183/0)", "index.php?cat=104", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux112 = insFld(aux94, gFld ("Curt (8/0)", "index.php?cat=103", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux113 = insFld(aux94, gFld ("Drama (839/0)", "index.php?cat=93", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux114 = insFld(aux94, gFld ("Guerra (128/0)", "index.php?cat=100", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux115 = insFld(aux94, gFld ("Història (97/0)", "index.php?cat=125", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux116 = insFld(aux94, gFld ("Horror (201/0)", "index.php?cat=96", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux117 = insFld(aux94, gFld ("Infantil (52/1)", "index.php?cat=188", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux118 = insFld(aux117, gFld ("Dibuixos (Pel·lícules d'animació) (0/0)", "index.php?cat=189", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux119 = insFld(aux94, gFld ("Intriga (273/0)", "index.php?cat=98", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux120 = insFld(aux94, gFld ("Musical (42/0)", "index.php?cat=95", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux121 = insFld(aux94, gFld ("Oest (215/0)", "index.php?cat=101", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux122 = insFld(aux94, gFld ("Romàntiques/Amor (241/0)", "index.php?cat=97", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux123 = insFld(foldersTree, gFld ("Programari (48/1)", "index.php?cat=6", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux124 = insFld(aux123, gFld ("Pedaços (16/0)", "index.php?cat=24", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux125 = insFld(foldersTree, gFld ("Programes de TV (53/25)", "index.php?cat=67", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux126 = insFld(aux125, gFld ("30 Minuts (47/0)", "index.php?cat=128", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux127 = insFld(aux125, gFld ("60 minuts (15/0)", "index.php?cat=279", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux128 = insFld(aux125, gFld ("Aeroport (9/0)", "index.php?cat=441", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux129 = insFld(aux125, gFld ("Afers Exteriors (0/3)", "index.php?cat=68", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux130 = insFld(aux129, gFld ("1a Temporada (0/0)", "index.php?cat=538", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux131 = insFld(aux129, gFld ("2a Temporada (14/0)", "index.php?cat=266", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux132 = insFld(aux129, gFld ("3a Temporada (14/0)", "index.php?cat=209", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux133 = insFld(aux125, gFld ("APM 2007 (16/0)", "index.php?cat=482", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux134 = insFld(aux125, gFld ("Arrels (29/0)", "index.php?cat=403", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux135 = insFld(aux125, gFld ("Barçòvia (0/0)", "index.php?cat=444", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux136 = insFld(aux125, gFld ("Caçadors de bolets (2/4)", "index.php?cat=239", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux137 = insFld(aux136, gFld ("1a Temporada (14/0)", "index.php?cat=240", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux138 = insFld(aux136, gFld ("2a Temporada (6/0)", "index.php?cat=241", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux139 = insFld(aux136, gFld ("3a Temporada (9/0)", "index.php?cat=439", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux140 = insFld(aux136, gFld ("5a Temporada (1/0)", "index.php?cat=625", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux141 = insFld(aux125, gFld ("Caçadors de paraules (12/0)", "index.php?cat=509", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux142 = insFld(aux125, gFld ("Colors en sèrie (6/0)", "index.php?cat=510", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux143 = insFld(aux125, gFld ("Cuina per solters (17/0)", "index.php?cat=224", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux144 = insFld(aux125, gFld ("Dinamita! (0/4)", "index.php?cat=603", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux145 = insFld(aux144, gFld ("1a Temporada (13/0)", "index.php?cat=604", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux146 = insFld(aux144, gFld ("2a Temporada (13/0)", "index.php?cat=605", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux147 = insFld(aux144, gFld ("3a Temporada (10/0)", "index.php?cat=611", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux148 = insFld(aux144, gFld ("4a Temporada (12/0)", "index.php?cat=617", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux149 = insFld(aux125, gFld ("El Favorit (14/0)", "index.php?cat=131", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux150 = insFld(aux125, gFld ("El meu avi (7/0)", "index.php?cat=297", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux151 = insFld(aux125, gFld ("En forma (4/0)", "index.php?cat=486", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux152 = insFld(aux125, gFld ("Entre línies (10/0)", "index.php?cat=288", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux153 = insFld(aux125, gFld ("Just for laughs (7/0)", "index.php?cat=280", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux154 = insFld(aux125, gFld ("Karakia (3/6)", "index.php?cat=281", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux155 = insFld(aux154, gFld ("1a Temporada (10/0)", "index.php?cat=286", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux156 = insFld(aux154, gFld ("2a Temporada (11/0)", "index.php?cat=287", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux157 = insFld(aux154, gFld ("3a temporada (0/0)", "index.php?cat=304", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux158 = insFld(aux154, gFld ("4a temporada (0/0)", "index.php?cat=305", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux159 = insFld(aux154, gFld ("5a temporada (2/0)", "index.php?cat=306", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux160 = insFld(aux154, gFld ("6a temporada (3/0)", "index.php?cat=527", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux161 = insFld(aux125, gFld ("La cosa nostra (13/0)", "index.php?cat=170", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux162 = insFld(aux125, gFld ("La rentadora (8/0)", "index.php?cat=440", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux163 = insFld(aux125, gFld ("Mania (0/0)", "index.php?cat=537", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux164 = insFld(aux125, gFld ("Nit de misteri (13/0)", "index.php?cat=302", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux165 = insFld(aux125, gFld ("On Anem? (9/0)", "index.php?cat=407", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux166 = insFld(aux125, gFld ("Pecats capitals (7/0)", "index.php?cat=318", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux167 = insFld(aux125, gFld ("Polònia (-3/4)", "index.php?cat=294", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux168 = insFld(aux167, gFld ("1a Temporada (24/0)", "index.php?cat=451", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux169 = insFld(aux167, gFld ("2a Temporada (31/0)", "index.php?cat=434", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux170 = insFld(aux167, gFld ("3a temporada (7/0)", "index.php?cat=541", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux171 = insFld(aux167, gFld ("Extres (7/0)", "index.php?cat=435", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux172 = insFld(aux125, gFld ("Quarts de Nou (5/2)", "index.php?cat=202", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux173 = insFld(aux172, gFld ("2005 (17/0)", "index.php?cat=392", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux174 = insFld(aux172, gFld ("2006 (11/0)", "index.php?cat=393", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux175 = insFld(aux125, gFld ("Sexes (0/2)", "index.php?cat=150", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux176 = insFld(aux175, gFld ("1a Temporada (12/0)", "index.php?cat=267", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux177 = insFld(aux175, gFld ("2a Temporada (9/0)", "index.php?cat=268", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux178 = insFld(aux125, gFld ("Supernanny (10/0)", "index.php?cat=278", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux179 = insFld(aux125, gFld ("Un lloc estrany (13/0)", "index.php?cat=367", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux180 = insFld(aux125, gFld ("Villa Guerrilla (6/0)", "index.php?cat=417", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux181 = insFld(aux125, gFld ("Virus (0/0)", "index.php?cat=483", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux182 = insFld(foldersTree, gFld ("Sèries (65/110)", "index.php?cat=3", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux183 = insFld(foldersTree, gFld ("Sèries (Animació) (73/79)", "index.php?cat=4", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux184 = insFld(aux183, gFld ("Els desastres del Rei Artús [DVD] (3/0)", "index.php?cat=638", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux185 = insFld(aux183, gFld ("3x3 Ulls (0/1)", "index.php?cat=167", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux186 = insFld(aux185, gFld ("OVA(s) (4/0)", "index.php?cat=168", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux187 = insFld(aux183, gFld ("Bleach (15/0)", "index.php?cat=238", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux188 = insFld(aux183, gFld ("Bob el manetes (62/0)", "index.php?cat=290", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux189 = insFld(aux183, gFld ("Bola de Drac (257/5)", "index.php?cat=19", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux190 = insFld(aux189, gFld ("Bola de drac GT (64/0)", "index.php?cat=42", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux191 = insFld(aux189, gFld ("Bola de drac Z (90/0)", "index.php?cat=41", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux192 = insFld(aux189, gFld ("Bola de drac [Central] (113/0)", "index.php?cat=40", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux193 = insFld(aux189, gFld ("Bola de Drac [Valencià] (11/0)", "index.php?cat=331", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux194 = insFld(aux189, gFld ("OVA(s) (19/0)", "index.php?cat=43", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux195 = insFld(aux183, gFld ("Caçadors de Dracs (23/0)", "index.php?cat=639", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux196 = insFld(aux183, gFld ("Card Captor Sakura (44/0)", "index.php?cat=36", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux197 = insFld(aux183, gFld ("CO2 (7/0)", "index.php?cat=636", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux198 = insFld(aux183, gFld ("Code Geass R2 (20/0)", "index.php?cat=600", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux199 = insFld(aux183, gFld ("Combat Xiaolin (0/0)", "index.php?cat=599", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux200 = insFld(aux183, gFld ("Conan, el nen del futur (29/0)", "index.php?cat=251", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux201 = insFld(aux183, gFld ("Corto Maltés (22/0)", "index.php?cat=329", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux202 = insFld(aux183, gFld ("Cowboy Bebop (26/0)", "index.php?cat=37", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux203 = insFld(aux183, gFld ("DNA² (15/0)", "index.php?cat=328", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux204 = insFld(aux183, gFld ("Dome (4/0)", "index.php?cat=317", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux205 = insFld(aux183, gFld ("Doraemon (7/1)", "index.php?cat=221", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux206 = insFld(aux205, gFld ("Pel·lícules (0/0)", "index.php?cat=223", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux207 = insFld(aux183, gFld ("Dr.Slump (248/0)", "index.php?cat=136", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux208 = insFld(aux183, gFld ("Dragon Quest (Fly) (39/0)", "index.php?cat=284", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux209 = insFld(aux183, gFld ("El capità Harlock (0/2)", "index.php?cat=282", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux210 = insFld(aux209, gFld ("Català - Castellà (13/0)", "index.php?cat=612", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux211 = insFld(aux209, gFld ("Català - Japonès (14/0)", "index.php?cat=613", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux212 = insFld(aux183, gFld ("El rei artur (21/0)", "index.php?cat=263", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux213 = insFld(aux183, gFld ("Els barrufets (3/0)", "index.php?cat=528", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux214 = insFld(aux183, gFld ("Els Bobobobs (3/0)", "index.php?cat=515", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux215 = insFld(aux183, gFld ("Els Dalton (26/0)", "index.php?cat=655", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux216 = insFld(aux183, gFld ("Els desastres del Rei Artús [TDT] (7/0)", "index.php?cat=643", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux217 = insFld(aux183, gFld ("Els dotze regnes (6/0)", "index.php?cat=430", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux218 = insFld(aux183, gFld ("Els jetsons (3/0)", "index.php?cat=469", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux219 = insFld(aux183, gFld ("Els Quatre Fantàstics (2006) (26/0)", "index.php?cat=549", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux220 = insFld(aux183, gFld ("Escaflowne (26/0)", "index.php?cat=368", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux221 = insFld(aux183, gFld ("Ferros a les dents (3/0)", "index.php?cat=394", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux222 = insFld(aux183, gFld ("FLCL (8/0)", "index.php?cat=149", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux223 = insFld(aux183, gFld ("Full Metal Panic (4/0)", "index.php?cat=196", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux224 = insFld(aux183, gFld ("Futbol Galàctic (7/0)", "index.php?cat=431", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux225 = insFld(aux183, gFld ("Gasp! (10/0)", "index.php?cat=646", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux226 = insFld(aux183, gFld ("Green Green (12/1)", "index.php?cat=15", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux227 = insFld(aux226, gFld ("OVA(s) (2/0)", "index.php?cat=56", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux228 = insFld(aux183, gFld ("Història de Catalunya (amb en Dragui) (12/0)", "index.php?cat=283", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux229 = insFld(aux183, gFld ("Inu-Yasha (34/0)", "index.php?cat=74", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux230 = insFld(aux183, gFld ("Ja arriba en Noddy (17/0)", "index.php?cat=570", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux231 = insFld(aux183, gFld ("Kimagure Orange Road (8/0)", "index.php?cat=166", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux232 = insFld(aux183, gFld ("La Legió de Superherois (0/0)", "index.php?cat=635", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux233 = insFld(aux183, gFld ("Lacets (10/0)", "index.php?cat=216", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux234 = insFld(aux183, gFld ("Lady Oscar (12/0)", "index.php?cat=140", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux235 = insFld(aux183, gFld ("Les 3 bessones (28/0)", "index.php?cat=154", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux236 = insFld(aux183, gFld ("Les aventures d'en Massagran (4/0)", "index.php?cat=490", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux237 = insFld(aux183, gFld ("Les confessions dels animals (Creature C (14/0)", "index.php?cat=452", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux238 = insFld(aux183, gFld ("Lila (29/0)", "index.php?cat=653", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux239 = insFld(aux183, gFld ("Lucky Luke (16/0)", "index.php?cat=233", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux240 = insFld(aux183, gFld ("L'Abella Maia (18/0)", "index.php?cat=177", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux241 = insFld(aux183, gFld ("L'ós de la gran casa blava (0/0)", "index.php?cat=571", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux242 = insFld(aux183, gFld ("Martin Mistery (8/0)", "index.php?cat=364", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux243 = insFld(aux183, gFld ("Megaman, el ciberguerrer (3/0)", "index.php?cat=492", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux244 = insFld(aux183, gFld ("Minúscul (7/0)", "index.php?cat=568", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux245 = insFld(aux183, gFld ("Mr Bogus (8/0)", "index.php?cat=402", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux246 = insFld(aux183, gFld ("Musculman (52/0)", "index.php?cat=39", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux247 = insFld(aux183, gFld ("Naruto (8/0)", "index.php?cat=14", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux248 = insFld(aux183, gFld ("Neon Genesis Evangelion (26/0)", "index.php?cat=32", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux249 = insFld(aux183, gFld ("New Dr. Slump (71/0)", "index.php?cat=514", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux250 = insFld(aux183, gFld ("Niea Under 7 (14/0)", "index.php?cat=38", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux251 = insFld(aux183, gFld ("One piece (14/0)", "index.php?cat=391", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux252 = insFld(aux183, gFld ("Orphen Revenge (5/0)", "index.php?cat=414", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux253 = insFld(aux183, gFld ("Petits fantasmes (0/1)", "index.php?cat=533", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux254 = insFld(aux253, gFld ("Fantasmes al celler (10/0)", "index.php?cat=534", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux255 = insFld(aux183, gFld ("Pingüins de Madagascar (48/0)", "index.php?cat=642", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux256 = insFld(aux183, gFld ("Què hi ha, Scooby-Doo? (12/0)", "index.php?cat=654", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux257 = insFld(aux183, gFld ("Quedes detingut (10/0)", "index.php?cat=260", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux258 = insFld(aux183, gFld ("Ranma½ (161/0)", "index.php?cat=35", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux259 = insFld(aux183, gFld ("REC (9/0)", "index.php?cat=312", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux260 = insFld(aux183, gFld ("Record of Lodoss War (13/0)", "index.php?cat=33", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux261 = insFld(aux183, gFld ("Red vs. Blue (2/0)", "index.php?cat=477", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux262 = insFld(aux183, gFld ("Rovelló (2/0)", "index.php?cat=153", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux263 = insFld(aux183, gFld ("Samurai Champloo (27/0)", "index.php?cat=659", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux264 = insFld(aux183, gFld ("Slam Dunk (13/1)", "index.php?cat=76", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux265 = insFld(aux264, gFld ("OVA(s) (4/0)", "index.php?cat=137", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux266 = insFld(aux183, gFld ("Street Fighter II Victory (10/0)", "index.php?cat=249", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux267 = insFld(aux183, gFld ("SuperAmics (17/0)", "index.php?cat=487", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux268 = insFld(aux183, gFld ("Tortugues Ninja (0/5)", "index.php?cat=155", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux269 = insFld(aux268, gFld ("3a Temporada (46/0)", "index.php?cat=156", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux270 = insFld(aux268, gFld ("4a Temporada (38/0)", "index.php?cat=171", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux271 = insFld(aux268, gFld ("5a Temporada (19/0)", "index.php?cat=178", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux272 = insFld(aux268, gFld ("6a Temporada (10/0)", "index.php?cat=200", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux273 = insFld(aux268, gFld ("7a Temporada (13/0)", "index.php?cat=201", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux274 = insFld(aux183, gFld ("Trigun (9/0)", "index.php?cat=34", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux275 = insFld(aux183, gFld ("Una mà de contes (41/0)", "index.php?cat=601", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux276 = insFld(aux183, gFld ("Utena (5/0)", "index.php?cat=289", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux277 = insFld(aux183, gFld ("Wickie el Viking (17/0)", "index.php?cat=213", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux278 = insFld(aux183, gFld ("Widget (55/0)", "index.php?cat=197", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux279 = insFld(aux183, gFld ("X-Men: Evolution (13/0)", "index.php?cat=526", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux280 = insFld(aux182, gFld ("16 Dobles (0/1)", "index.php?cat=512", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux281 = insFld(aux280, gFld ("1a Temporada (8/0)", "index.php?cat=513", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux282 = insFld(aux182, gFld ("A dalt i abaix (0/2)", "index.php?cat=245", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux283 = insFld(aux282, gFld ("1a Temporada (8/0)", "index.php?cat=246", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux284 = insFld(aux282, gFld ("2a temporada (13/0)", "index.php?cat=316", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux285 = insFld(aux182, gFld ("Agència de viatges (7/0)", "index.php?cat=422", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux286 = insFld(aux182, gFld ("Allo! Allo! (0/10)", "index.php?cat=292", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux287 = insFld(aux286, gFld ("1a Temporada (8/0)", "index.php?cat=293", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux288 = insFld(aux286, gFld ("2a Temporada (6/0)", "index.php?cat=314", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux289 = insFld(aux286, gFld ("3a Temporada (7/0)", "index.php?cat=352", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux290 = insFld(aux286, gFld ("4a Temporada (6/0)", "index.php?cat=390", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux291 = insFld(aux286, gFld ("5a Temporada (11/0)", "index.php?cat=413", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux292 = insFld(aux286, gFld ("6a temporada (0/0)", "index.php?cat=478", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux293 = insFld(aux286, gFld ("7a temporada (10/0)", "index.php?cat=479", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux294 = insFld(aux286, gFld ("8a temporada (7/0)", "index.php?cat=480", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux295 = insFld(aux286, gFld ("9a temporada (6/0)", "index.php?cat=481", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux296 = insFld(aux286, gFld ("Subtítols (0/0)", "index.php?cat=376", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux297 = insFld(aux182, gFld ("Àngels i Sants (8/0)", "index.php?cat=271", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux298 = insFld(aux182, gFld ("Arnau (6/0)", "index.php?cat=485", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux299 = insFld(aux182, gFld ("Babylon 5 (0/5)", "index.php?cat=18", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux300 = insFld(aux299, gFld ("1a Temporada (44/0)", "index.php?cat=53", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux301 = insFld(aux299, gFld ("2a Temporada (44/0)", "index.php?cat=54", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux302 = insFld(aux299, gFld ("3a Temporada (25/0)", "index.php?cat=72", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux303 = insFld(aux299, gFld ("4a temporada (22/0)", "index.php?cat=330", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux304 = insFld(aux299, gFld ("5a Temporada (6/0)", "index.php?cat=345", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux305 = insFld(aux182, gFld ("Battlestar Galactica 2003 (0/1)", "index.php?cat=369", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux306 = insFld(aux305, gFld ("Temporada 2 (9/0)", "index.php?cat=370", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux307 = insFld(aux182, gFld ("Berlín, Berlín (0/4)", "index.php?cat=499", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux308 = insFld(aux307, gFld ("1a Temporada (12/0)", "index.php?cat=501", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux309 = insFld(aux307, gFld ("2a Temporada (0/0)", "index.php?cat=502", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux310 = insFld(aux307, gFld ("3a Temporada (0/0)", "index.php?cat=503", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux311 = insFld(aux307, gFld ("4a Temporada (14/0)", "index.php?cat=504", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux312 = insFld(aux182, gFld ("Boig per tu (0/2)", "index.php?cat=656", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux313 = insFld(aux182, gFld ("Boig per tu - TDT (10/0)", "index.php?cat=647", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux314 = insFld(aux312, gFld ("1a Temporada (15/0)", "index.php?cat=657", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux315 = insFld(aux312, gFld ("2a Temporada (0/0)", "index.php?cat=658", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux316 = insFld(aux182, gFld ("Bombers de Nova York (0/3)", "index.php?cat=547", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux317 = insFld(aux316, gFld ("1a Temporada (13/0)", "index.php?cat=548", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux318 = insFld(aux316, gFld ("2a Temporada (13/0)", "index.php?cat=563", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux319 = insFld(aux316, gFld ("3a Temporada (13/0)", "index.php?cat=575", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux320 = insFld(aux182, gFld ("Bones (7/0)", "index.php?cat=311", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux321 = insFld(aux182, gFld ("Bottom (0/2)", "index.php?cat=399", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux322 = insFld(aux321, gFld ("1a Temporada (6/0)", "index.php?cat=400", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux323 = insFld(aux321, gFld ("2a Temporada (6/0)", "index.php?cat=401", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux324 = insFld(aux182, gFld ("Breaking Bad (33/0)", "index.php?cat=651", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux325 = insFld(aux182, gFld ("Buck Rogers en el segle XXV (0/2)", "index.php?cat=496", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux326 = insFld(aux325, gFld ("1a Temporada (21/0)", "index.php?cat=497", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux327 = insFld(aux325, gFld ("2a Temporada (11/0)", "index.php?cat=589", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux328 = insFld(aux182, gFld ("Caiguts del cel (0/1)", "index.php?cat=182", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux329 = insFld(aux328, gFld ("1a Temporada (5/0)", "index.php?cat=183", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux330 = insFld(aux182, gFld ("Camins misteriosos (11/0)", "index.php?cat=634", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux331 = insFld(aux182, gFld ("Casats amb fills (0/7)", "index.php?cat=236", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux332 = insFld(aux331, gFld ("1a Temporada (11/0)", "index.php?cat=237", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux333 = insFld(aux331, gFld ("2a Temporada (18/0)", "index.php?cat=264", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux334 = insFld(aux331, gFld ("3a Temporada (9/0)", "index.php?cat=298", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux335 = insFld(aux331, gFld ("4a temporada (22/0)", "index.php?cat=332", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux336 = insFld(aux331, gFld ("5a Temporada (5/0)", "index.php?cat=349", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux337 = insFld(aux331, gFld ("6a Temporada (0/0)", "index.php?cat=374", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux338 = insFld(aux331, gFld ("9a Temporada (0/0)", "index.php?cat=421", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux339 = insFld(aux182, gFld ("Chuck (0/1)", "index.php?cat=618", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux340 = insFld(aux339, gFld ("1a Temporada (23/0)", "index.php?cat=619", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux341 = insFld(aux182, gFld ("Colombo (0/2)", "index.php?cat=300", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux342 = insFld(aux341, gFld ("1a temporada (7/0)", "index.php?cat=301", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux343 = insFld(aux341, gFld ("3a temporada (6/0)", "index.php?cat=358", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux344 = insFld(aux182, gFld ("Crims (15/0)", "index.php?cat=186", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux345 = insFld(aux182, gFld ("Dallas (23/4)", "index.php?cat=321", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux346 = insFld(aux345, gFld ("3a Temporada (6/0)", "index.php?cat=454", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux347 = insFld(aux345, gFld ("4a Temporada (25/0)", "index.php?cat=322", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux348 = insFld(aux345, gFld ("5a Temporada (24/0)", "index.php?cat=455", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux349 = insFld(aux345, gFld ("6a Temporada (0/0)", "index.php?cat=456", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux350 = insFld(aux182, gFld ("Danys i perjudicis (Damages) (0/1)", "index.php?cat=640", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux351 = insFld(aux350, gFld ("1a Temporada (13/0)", "index.php?cat=641", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux352 = insFld(aux182, gFld ("Dawson's Creek (0/1)", "index.php?cat=561", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux353 = insFld(aux352, gFld ("1a Temporada (1/0)", "index.php?cat=562", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux354 = insFld(aux182, gFld ("Despareguts (8/0)", "index.php?cat=363", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux355 = insFld(aux182, gFld ("Doctor Who [2005] (0/3)", "index.php?cat=594", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux356 = insFld(aux355, gFld ("1a Temporada (27/0)", "index.php?cat=595", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux357 = insFld(aux355, gFld ("2a Temporada (28/0)", "index.php?cat=596", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux358 = insFld(aux355, gFld ("3a Temporada (27/0)", "index.php?cat=598", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux359 = insFld(aux182, gFld ("Dolmen (6/0)", "index.php?cat=581", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux360 = insFld(aux182, gFld ("Dr. Caparrós, medicina general (3/0)", "index.php?cat=319", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux361 = insFld(aux182, gFld ("Egipte (6/0)", "index.php?cat=505", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux362 = insFld(aux182, gFld ("El Guardià (16/0)", "index.php?cat=491", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux363 = insFld(aux182, gFld ("El meu heroi (0/5)", "index.php?cat=582", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux364 = insFld(aux363, gFld ("1a Temporada (13/0)", "index.php?cat=583", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux365 = insFld(aux363, gFld ("2a Temporada (13/0)", "index.php?cat=597", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux366 = insFld(aux363, gFld ("3a Temporada (15/0)", "index.php?cat=602", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux367 = insFld(aux363, gFld ("4a Temporada (10/0)", "index.php?cat=609", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux368 = insFld(aux363, gFld ("5a Temporada (4/0)", "index.php?cat=615", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux369 = insFld(aux182, gFld ("El món de HG Wells (0/0)", "index.php?cat=546", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux370 = insFld(aux182, gFld ("El Món perdut (7/3)", "index.php?cat=433", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux371 = insFld(aux370, gFld ("1a Temporada (22/0)", "index.php?cat=521", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux372 = insFld(aux370, gFld ("2a Temporada (0/0)", "index.php?cat=522", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux373 = insFld(aux370, gFld ("3a Temporada (1/0)", "index.php?cat=523", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux374 = insFld(aux182, gFld ("El nan roig (0/5)", "index.php?cat=16", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux375 = insFld(aux182, gFld ("El nan roig [remasteritzat] (0/7)", "index.php?cat=365", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux376 = insFld(aux375, gFld ("1a temporada (6/0)", "index.php?cat=366", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux377 = insFld(aux375, gFld ("2a Temporada (6/0)", "index.php?cat=419", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux378 = insFld(aux375, gFld ("3a Temporada (6/0)", "index.php?cat=471", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux379 = insFld(aux375, gFld ("4a Temporada (5/0)", "index.php?cat=493", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux380 = insFld(aux375, gFld ("5a Temporada (6/0)", "index.php?cat=494", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux381 = insFld(aux375, gFld ("6a temporada (6/0)", "index.php?cat=542", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux382 = insFld(aux375, gFld ("7a Temporada (7/0)", "index.php?cat=555", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux383 = insFld(aux374, gFld ("1a Temporada (6/0)", "index.php?cat=48", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux384 = insFld(aux374, gFld ("2a Temporada (7/0)", "index.php?cat=49", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux385 = insFld(aux374, gFld ("3a Temporada (6/0)", "index.php?cat=50", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux386 = insFld(aux374, gFld ("4a Temporada (2/0)", "index.php?cat=161", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux387 = insFld(aux374, gFld ("5a Temporada (3/0)", "index.php?cat=162", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux388 = insFld(aux182, gFld ("El Perepunyetes (0/4)", "index.php?cat=389", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux389 = insFld(aux388, gFld ("1a Temporada (6/0)", "index.php?cat=457", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux390 = insFld(aux388, gFld ("2a Temporada (7/0)", "index.php?cat=405", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux391 = insFld(aux388, gFld ("3a Temporada (0/0)", "index.php?cat=445", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux392 = insFld(aux388, gFld ("5a Temporada (5/0)", "index.php?cat=458", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux393 = insFld(aux182, gFld ("Els Joves (0/2)", "index.php?cat=179", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux394 = insFld(aux393, gFld ("1a Temporada (12/0)", "index.php?cat=180", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux395 = insFld(aux393, gFld ("2a Temporada (12/0)", "index.php?cat=181", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux396 = insFld(aux182, gFld ("Els Roper (16/3)", "index.php?cat=409", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux397 = insFld(aux396, gFld ("1a Temporada (10/0)", "index.php?cat=410", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux398 = insFld(aux396, gFld ("2a Temporada (7/0)", "index.php?cat=411", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux399 = insFld(aux396, gFld ("3a Temporada (6/0)", "index.php?cat=412", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux400 = insFld(aux182, gFld ("Embruixada (0/4)", "index.php?cat=234", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux401 = insFld(aux400, gFld ("1a Temporada (23/0)", "index.php?cat=235", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux402 = insFld(aux400, gFld ("2a Temporada (8/0)", "index.php?cat=272", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux403 = insFld(aux400, gFld ("3a temporada (6/0)", "index.php?cat=348", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux404 = insFld(aux400, gFld ("4a Temporada (1/0)", "index.php?cat=273", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux405 = insFld(aux182, gFld ("Farscape (1/4)", "index.php?cat=25", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux406 = insFld(aux405, gFld ("1a Temporada (22/0)", "index.php?cat=47", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux407 = insFld(aux405, gFld ("2a Temporada (22/0)", "index.php?cat=55", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux408 = insFld(aux405, gFld ("3a Temporada (22/0)", "index.php?cat=130", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux409 = insFld(aux405, gFld ("4a Temporada (22/0)", "index.php?cat=129", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux410 = insFld(aux182, gFld ("Firefly (0/1)", "index.php?cat=247", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux411 = insFld(aux410, gFld ("1a Temporada (6/0)", "index.php?cat=248", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux412 = insFld(aux182, gFld ("Fiscal Chase (0/0)", "index.php?cat=484", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux413 = insFld(aux182, gFld ("Herois (22/2)", "index.php?cat=516", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux414 = insFld(aux413, gFld ("1a Temporada (50/0)", "index.php?cat=517", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux415 = insFld(aux413, gFld ("1a Temporada (HD) (0/0)", "index.php?cat=556", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux416 = insFld(aux182, gFld ("Hotel Fawlty (12/0)", "index.php?cat=106", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux417 = insFld(aux182, gFld ("Huff (0/1)", "index.php?cat=629", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux418 = insFld(aux417, gFld ("1a Temporada (18/0)", "index.php?cat=630", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux419 = insFld(aux182, gFld ("Invasió (22/0)", "index.php?cat=436", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux420 = insFld(aux182, gFld ("Invasió (First Wave) (0/3)", "index.php?cat=500", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux421 = insFld(aux420, gFld ("1a Temporada (17/0)", "index.php?cat=506", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux422 = insFld(aux420, gFld ("2a Temporada (3/0)", "index.php?cat=507", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux423 = insFld(aux420, gFld ("3a Temporada (0/0)", "index.php?cat=508", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux424 = insFld(aux182, gFld ("Investigadors (8/0)", "index.php?cat=553", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux425 = insFld(aux182, gFld ("Ironside (0/8)", "index.php?cat=606", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux426 = insFld(aux425, gFld ("1a Temporada (28/0)", "index.php?cat=607", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux427 = insFld(aux425, gFld ("2a Temporada (26/0)", "index.php?cat=608", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux428 = insFld(aux425, gFld ("3a Temporada (26/0)", "index.php?cat=616", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux429 = insFld(aux425, gFld ("4a Temporada (25/0)", "index.php?cat=624", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux430 = insFld(aux425, gFld ("5a Temporada (23/0)", "index.php?cat=627", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux431 = insFld(aux425, gFld ("6a Temporada (25/0)", "index.php?cat=628", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux432 = insFld(aux425, gFld ("7a Temporada (25/0)", "index.php?cat=632", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux433 = insFld(aux425, gFld ("8a Temporada (0/0)", "index.php?cat=633", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux434 = insFld(aux182, gFld ("Jet Lag (6/5)", "index.php?cat=217", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux435 = insFld(aux434, gFld ("1a temporada (13/0)", "index.php?cat=295", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux436 = insFld(aux434, gFld ("2a temporada (18/0)", "index.php?cat=342", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux437 = insFld(aux434, gFld ("3a temporada (8/0)", "index.php?cat=344", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux438 = insFld(aux434, gFld ("4a Temporada (9/0)", "index.php?cat=420", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux439 = insFld(aux434, gFld ("6a temporada (16/0)", "index.php?cat=296", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux440 = insFld(aux182, gFld ("Jo Claudi (7/0)", "index.php?cat=27", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux441 = insFld(aux182, gFld ("Joves Rebels (8/0)", "index.php?cat=243", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux442 = insFld(aux182, gFld ("Just for laughs (0/0)", "index.php?cat=265", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux443 = insFld(aux182, gFld ("Jutjant l'Amy (4/2)", "index.php?cat=346", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux444 = insFld(aux443, gFld ("1a Temporada (0/0)", "index.php?cat=488", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux445 = insFld(aux443, gFld ("2a temporada (4/0)", "index.php?cat=489", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux446 = insFld(aux182, gFld ("Kingdom Hospital (13/0)", "index.php?cat=418", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux447 = insFld(aux182, gFld ("La dimensió desconeguda (0/4)", "index.php?cat=472", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux448 = insFld(aux447, gFld ("1a Temporada (24/0)", "index.php?cat=473", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux449 = insFld(aux447, gFld ("2a Temporada (25/0)", "index.php?cat=569", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux450 = insFld(aux447, gFld ("3a Temporada (0/0)", "index.php?cat=588", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux451 = insFld(aux447, gFld ("5a Temporada (10/0)", "index.php?cat=511", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux452 = insFld(aux182, gFld ("La memòria dels cargols (27/0)", "index.php?cat=252", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux453 = insFld(aux182, gFld ("La pitjor setmana de la meva vida (0/1)", "index.php?cat=577", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux454 = insFld(aux453, gFld ("1a Temporada (3/0)", "index.php?cat=578", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux455 = insFld(aux182, gFld ("La Roma Antiga (6/0)", "index.php?cat=614", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux456 = insFld(aux182, gFld ("La Tata (3/2)", "index.php?cat=545", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux457 = insFld(aux456, gFld ("1a Temporada (22/0)", "index.php?cat=552", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux458 = insFld(aux456, gFld ("2a temporada (4/0)", "index.php?cat=580", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux459 = insFld(aux182, gFld ("La Via Augusta (7/0)", "index.php?cat=518", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux460 = insFld(aux182, gFld ("La Zona Morta (19/2)", "index.php?cat=462", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux461 = insFld(aux460, gFld ("1a Temporada (0/0)", "index.php?cat=573", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux462 = insFld(aux460, gFld ("2a Temporada (3/0)", "index.php?cat=574", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux463 = insFld(aux182, gFld ("Llei i Desordre (0/1)", "index.php?cat=157", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux464 = insFld(aux463, gFld ("1a Temporada (3/0)", "index.php?cat=159", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux465 = insFld(aux182, gFld ("Lo Cartanyà (2/3)", "index.php?cat=214", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux466 = insFld(aux465, gFld ("1a Temporada (13/0)", "index.php?cat=261", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux467 = insFld(aux465, gFld ("2a Temporada (13/0)", "index.php?cat=262", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux468 = insFld(aux465, gFld ("3a temporada (8/0)", "index.php?cat=475", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux469 = insFld(aux182, gFld ("Lost (Perduts) (0/1)", "index.php?cat=274", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux470 = insFld(aux469, gFld ("2a Temporada (4/0)", "index.php?cat=275", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux471 = insFld(aux182, gFld ("L'escurçó Negre (0/8)", "index.php?cat=379", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux472 = insFld(aux471, gFld ("1a temporada (6/0)", "index.php?cat=380", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux473 = insFld(aux471, gFld ("1a temporada DVDRip (6/0)", "index.php?cat=381", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux474 = insFld(aux471, gFld ("2a temporada (6/0)", "index.php?cat=382", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux475 = insFld(aux471, gFld ("2a temporada DVDRip (6/0)", "index.php?cat=383", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux476 = insFld(aux471, gFld ("3a temporada (6/0)", "index.php?cat=384", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux477 = insFld(aux471, gFld ("3a temporada DVDRip (6/0)", "index.php?cat=386", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux478 = insFld(aux471, gFld ("4a temporada (6/0)", "index.php?cat=387", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux479 = insFld(aux471, gFld ("Especials (2/0)", "index.php?cat=388", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux480 = insFld(aux182, gFld ("L'hora d'Alfred Hitchcock (0/2)", "index.php?cat=520", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux481 = insFld(aux480, gFld ("8a Temporada (32/0)", "index.php?cat=530", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux482 = insFld(aux480, gFld ("9a Temporada (0/0)", "index.php?cat=529", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux483 = insFld(aux182, gFld ("L'un per l'altre (0/2)", "index.php?cat=198", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux484 = insFld(aux483, gFld ("1a Temporada (14/0)", "index.php?cat=203", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux485 = insFld(aux483, gFld ("2a Temporada (11/0)", "index.php?cat=204", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux486 = insFld(aux182, gFld ("Magnum (0/3)", "index.php?cat=524", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux487 = insFld(aux486, gFld ("1a Temporada (17/0)", "index.php?cat=559", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux488 = insFld(aux486, gFld ("2a Temporada (17/0)", "index.php?cat=560", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux489 = insFld(aux486, gFld ("4a Temporada (5/0)", "index.php?cat=525", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux490 = insFld(aux182, gFld ("Mar de fons (42/0)", "index.php?cat=450", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux491 = insFld(aux182, gFld ("Mecanoscrit del segon origen (7/0)", "index.php?cat=590", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux492 = insFld(aux182, gFld ("Mirall Trencat (13/0)", "index.php?cat=432", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux493 = insFld(aux182, gFld ("Monthy Python's Fliying Circus (5/0)", "index.php?cat=212", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux494 = insFld(aux182, gFld ("Mr. Bean (12/0)", "index.php?cat=579", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux495 = insFld(aux182, gFld ("Nip/Tuck (3/5)", "index.php?cat=158", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux496 = insFld(aux495, gFld ("1a Temporada (14/0)", "index.php?cat=160", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux497 = insFld(aux495, gFld ("2a Temporada (16/0)", "index.php?cat=184", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux498 = insFld(aux495, gFld ("3a Temporada (19/0)", "index.php?cat=373", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux499 = insFld(aux495, gFld ("4a Temporada (15/0)", "index.php?cat=531", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux500 = insFld(aux495, gFld ("5a Temporada (14/0)", "index.php?cat=626", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux501 = insFld(aux182, gFld ("N'hi ha que neixen estrellats (2/3)", "index.php?cat=299", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux502 = insFld(aux501, gFld ("1a temporada (6/0)", "index.php?cat=336", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux503 = insFld(aux501, gFld ("2a temporada (1/0)", "index.php?cat=334", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux504 = insFld(aux501, gFld ("4a temporada (4/0)", "index.php?cat=335", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux505 = insFld(aux182, gFld ("Odyssey 5 (0/1)", "index.php?cat=151", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux506 = insFld(aux505, gFld ("1a Temporada (20/0)", "index.php?cat=152", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux507 = insFld(aux182, gFld ("Oh! Europa (13/0)", "index.php?cat=438", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux508 = insFld(aux182, gFld ("Parelles (0/3)", "index.php?cat=424", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux509 = insFld(aux508, gFld ("1a Temporada (6/0)", "index.php?cat=425", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux510 = insFld(aux508, gFld ("2a Temporada (0/0)", "index.php?cat=426", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux511 = insFld(aux508, gFld ("3a Temporada (0/0)", "index.php?cat=427", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux512 = insFld(aux182, gFld ("Plats bruts (0/7)", "index.php?cat=29", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux513 = insFld(aux512, gFld ("1a Temporada (14/0)", "index.php?cat=77", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux514 = insFld(aux512, gFld ("1a Temporada (DVD) (14/0)", "index.php?cat=408", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux515 = insFld(aux512, gFld ("2a Temporada (17/0)", "index.php?cat=78", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux516 = insFld(aux512, gFld ("3a Temporada (11/0)", "index.php?cat=406", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux517 = insFld(aux512, gFld ("4a temporada (8/0)", "index.php?cat=339", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux518 = insFld(aux512, gFld ("5a temporada (7/0)", "index.php?cat=337", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux519 = insFld(aux512, gFld ("6a Temporada (12/0)", "index.php?cat=139", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux520 = insFld(aux182, gFld ("Porca Misèria (1/6)", "index.php?cat=141", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux521 = insFld(aux520, gFld ("1a Temporada (13/0)", "index.php?cat=229", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux522 = insFld(aux520, gFld ("2a Temporada (13/0)", "index.php?cat=230", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux523 = insFld(aux520, gFld ("3a Temporada (13/0)", "index.php?cat=437", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux524 = insFld(aux520, gFld ("3a Temporada (DVDRip) (0/0)", "index.php?cat=584", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux525 = insFld(aux520, gFld ("4a Temporada (13/0)", "index.php?cat=540", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux526 = insFld(aux520, gFld ("4a Temporada (DVDRip) (0/0)", "index.php?cat=585", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux527 = insFld(aux182, gFld ("Quico (2/0)", "index.php?cat=461", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux528 = insFld(aux182, gFld ("Roma (1/0)", "index.php?cat=255", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux529 = insFld(aux182, gFld ("Roseanne (0/1)", "index.php?cat=543", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux530 = insFld(aux529, gFld ("1a Temporada (1/0)", "index.php?cat=544", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux531 = insFld(aux182, gFld ("Safareig al despatx (6/0)", "index.php?cat=423", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux532 = insFld(aux182, gFld ("Sexe a Nova York (0/1)", "index.php?cat=550", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux533 = insFld(aux532, gFld ("1a Temporada (10/0)", "index.php?cat=551", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux534 = insFld(aux182, gFld ("Sí, Ministre (1/3)", "index.php?cat=30", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux535 = insFld(aux534, gFld ("1a Temporada (6/0)", "index.php?cat=51", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux536 = insFld(aux534, gFld ("2a Temporada (8/0)", "index.php?cat=52", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux537 = insFld(aux534, gFld ("3a Temporada (7/0)", "index.php?cat=75", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux538 = insFld(aux182, gFld ("Sí, Primer Ministre (0/2)", "index.php?cat=174", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux539 = insFld(aux538, gFld ("1a temporada (8/0)", "index.php?cat=326", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux540 = insFld(aux538, gFld ("2a temporada (9/0)", "index.php?cat=327", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux541 = insFld(aux182, gFld ("Sitges (14/0)", "index.php?cat=320", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux542 = insFld(aux182, gFld ("Som així (7/1)", "index.php?cat=404", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux543 = insFld(aux542, gFld ("2a Temporada (0/0)", "index.php?cat=446", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux544 = insFld(aux182, gFld ("Star Trek TNG (6/5)", "index.php?cat=28", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux545 = insFld(aux544, gFld ("1a Temporada (47/0)", "index.php?cat=372", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux546 = insFld(aux544, gFld ("2a Temporada (0/0)", "index.php?cat=631", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux547 = insFld(aux544, gFld ("3a Temporada (0/0)", "index.php?cat=648", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux548 = insFld(aux544, gFld ("4a Tamporada (0/0)", "index.php?cat=649", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux549 = insFld(aux544, gFld ("5a Temporada (0/0)", "index.php?cat=650", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux550 = insFld(aux182, gFld ("Star Trek: TOS (1/4)", "index.php?cat=353", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux551 = insFld(aux550, gFld ("1a Temporada (26/0)", "index.php?cat=354", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux552 = insFld(aux550, gFld ("2a Temporada (28/0)", "index.php?cat=495", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux553 = insFld(aux550, gFld ("3a Temporada (24/0)", "index.php?cat=572", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux554 = insFld(aux550, gFld ("Subtítols (0/0)", "index.php?cat=361", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux555 = insFld(aux182, gFld ("Star Trek: Voyager (0/5)", "index.php?cat=355", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux556 = insFld(aux555, gFld ("1a Temporada (13/0)", "index.php?cat=357", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux557 = insFld(aux555, gFld ("2a temporada (26/0)", "index.php?cat=476", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux558 = insFld(aux555, gFld ("3a Temporada (1/0)", "index.php?cat=591", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux559 = insFld(aux555, gFld ("4a Temporada (0/0)", "index.php?cat=592", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux560 = insFld(aux555, gFld ("Subtítols (0/0)", "index.php?cat=362", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux561 = insFld(aux182, gFld ("Stargate SG-1 (0/10)", "index.php?cat=17", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux562 = insFld(aux561, gFld ("10a Temporada (6/0)", "index.php?cat=415", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux563 = insFld(aux561, gFld ("1a Temporada (21/0)", "index.php?cat=44", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux564 = insFld(aux561, gFld ("2a Temporada (22/0)", "index.php?cat=45", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux565 = insFld(aux561, gFld ("3a Temporada (22/0)", "index.php?cat=73", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux566 = insFld(aux561, gFld ("4a Temporada (22/0)", "index.php?cat=81", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux567 = insFld(aux561, gFld ("5a Temporada (22/0)", "index.php?cat=82", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux568 = insFld(aux561, gFld ("6a Temporada (22/0)", "index.php?cat=83", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux569 = insFld(aux561, gFld ("7a Temporada (21/0)", "index.php?cat=46", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux570 = insFld(aux561, gFld ("8a Temporada (2/0)", "index.php?cat=397", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux571 = insFld(aux561, gFld ("9a Temporada (15/0)", "index.php?cat=398", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux572 = insFld(aux182, gFld ("Stargate: Atlantis (0/1)", "index.php?cat=340", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux573 = insFld(aux572, gFld ("1a temporada (9/0)", "index.php?cat=341", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux574 = insFld(aux182, gFld ("Temps de silenci (0/3)", "index.php?cat=416", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux575 = insFld(aux574, gFld ("1a temporada (26/0)", "index.php?cat=428", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux576 = insFld(aux574, gFld ("2a temporada (11/0)", "index.php?cat=429", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux577 = insFld(aux574, gFld ("3a temporada (10/0)", "index.php?cat=449", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux578 = insFld(aux182, gFld ("Teresina, S.A. (18/0)", "index.php?cat=199", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux579 = insFld(aux182, gFld ("Terminator: Les cròniques de Sarah Conno (16/0)", "index.php?cat=593", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux580 = insFld(aux182, gFld ("Terra de gegants (17/0)", "index.php?cat=254", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux581 = insFld(aux182, gFld ("That's my Bush (7/0)", "index.php?cat=250", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux582 = insFld(aux182, gFld ("The Nine (0/1)", "index.php?cat=535", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux583 = insFld(aux582, gFld ("1a Temporada (0/0)", "index.php?cat=536", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux584 = insFld(aux182, gFld ("Tots Cinc (0/1)", "index.php?cat=586", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux585 = insFld(aux584, gFld ("1a Temporada (1/0)", "index.php?cat=587", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux586 = insFld(aux182, gFld ("Tres estrelles (15/0)", "index.php?cat=303", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux587 = insFld(aux182, gFld ("Trilita (9/0)", "index.php?cat=215", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux588 = insFld(aux182, gFld ("Turc per principiants (0/1)", "index.php?cat=557", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux589 = insFld(aux588, gFld ("1a Temporada (7/0)", "index.php?cat=558", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux590 = insFld(aux182, gFld ("V - Els Visitants (0/1)", "index.php?cat=644", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux591 = insFld(aux590, gFld ("1a Temporada (18/0)", "index.php?cat=645", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux592 = insFld(aux182, gFld ("Ventdelplà (9/6)", "index.php?cat=165", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux593 = insFld(aux592, gFld ("1a Temporada (44/0)", "index.php?cat=269", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux594 = insFld(aux592, gFld ("2a Temporada (56/0)", "index.php?cat=270", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux595 = insFld(aux592, gFld ("3a Temporada (0/0)", "index.php?cat=532", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux596 = insFld(aux592, gFld ("4a Temporada (0/0)", "index.php?cat=620", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux597 = insFld(aux592, gFld ("5a Temporada (0/0)", "index.php?cat=621", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux598 = insFld(aux592, gFld ("6a Temporada (6/0)", "index.php?cat=622", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux599 = insFld(aux182, gFld ("Vic Mackey [DVD + TDT] (0/1)", "index.php?cat=564", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux600 = insFld(aux599, gFld ("1a Temporada (14/0)", "index.php?cat=565", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux601 = insFld(aux182, gFld ("Vic MacKey [TDT] (13/2)", "index.php?cat=566", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux602 = insFld(aux601, gFld ("1a Temporada (0/0)", "index.php?cat=567", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux603 = insFld(aux601, gFld ("2a Temporada (4/0)", "index.php?cat=576", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux604 = insFld(foldersTree, gFld ("Subtítols (93/8)", "index.php?cat=20", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux605 = insFld(aux604, gFld ("Allo! Allo! (2/0)", "index.php?cat=375", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux606 = insFld(aux604, gFld ("Farscape (0/0)", "index.php?cat=498", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux607 = insFld(aux604, gFld ("Lost (8/0)", "index.php?cat=466", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux608 = insFld(aux604, gFld ("Prision Break (13/0)", "index.php?cat=459", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux609 = insFld(aux604, gFld ("Star Trek TOS (3/0)", "index.php?cat=360", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux610 = insFld(aux604, gFld ("Star Trek VOY (4/0)", "index.php?cat=359", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux611 = insFld(aux604, gFld ("Stargate Atlantis (0/0)", "index.php?cat=463", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+aux612 = insFld(aux604, gFld ("Stargate SG-1 (7/0)", "index.php?cat=460", "default/ftv2folderopen.gif", "default/ftv2folderclosed.gif"));
+initializeDocument();
+</script></td></tr></table></font>
+</div>
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+<script src="/mirror/avis.js"></script></body></html>

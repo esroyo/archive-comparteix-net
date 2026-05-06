@@ -1,0 +1,862 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Sèries</TITLE>
+<META NAME='KEYWORDS' CONTENT='Sèries'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Sèries" href="rss.php@cat=3">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="http://img688.imageshack.us/img688/5168/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=3.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=3.html'><font color=black>Sèries</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=3" title="Canal RSS de la categoria Sèries"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 110
+&nbsp;&nbsp;<b>eLinks</b>: 67&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 113683 vegades" title="Categoria visualitzada 113683 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="3">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/3">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<br><div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1" style="border: 1px solid #eeeeee; background-color: #f7f7f7;"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=512.html" title="16 Dobles cont&eacute; 1 subcategories...">16 Dobles</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=245.html" title="A dalt i abaix cont&eacute; 2 subcategories...">A dalt i abaix</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=422.html" title="Agència de viatges cont&eacute; 0 subcategories...">Agència de viatges</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=292.html" title="Allo! Allo! cont&eacute; 10 subcategories...">Allo! Allo!</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=271.html" title="Àngels i Sants cont&eacute; 0 subcategories...">Àngels i Sants</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=485.html" title="Arnau cont&eacute; 0 subcategories...">Arnau</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=18.html" title="Babylon 5 cont&eacute; 5 subcategories...">Babylon 5</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=369.html" title="Battlestar Galactica 2003 cont&eacute; 1 subcategories...">Battlestar Galactica 2003</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=499.html" title="Berlín, Berlín cont&eacute; 4 subcategories...">Berlín, Berlín</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=656.html" title="Boig per tu cont&eacute; 2 subcategories...">Boig per tu</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=647.html" title="Boig per tu - TDT cont&eacute; 0 subcategories...">Boig per tu - TDT</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=547.html" title="Bombers de Nova York cont&eacute; 3 subcategories...">Bombers de Nova York</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=311.html" title="Bones cont&eacute; 0 subcategories...">Bones</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=399.html" title="Bottom cont&eacute; 2 subcategories...">Bottom</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=651.html" title="Breaking Bad cont&eacute; 0 subcategories...">Breaking Bad</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=496.html" title="Buck Rogers en el segle XXV cont&eacute; 2 subcategories...">Buck Rogers en el segle XXV</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=182.html" title="Caiguts del cel cont&eacute; 1 subcategories...">Caiguts del cel</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=634.html" title="Camins misteriosos cont&eacute; 0 subcategories...">Camins misteriosos</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=236.html" title="Casats amb fills cont&eacute; 7 subcategories...">Casats amb fills</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=618.html" title="Chuck cont&eacute; 1 subcategories...">Chuck</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=300.html" title="Colombo cont&eacute; 2 subcategories...">Colombo</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=186.html" title="Crims cont&eacute; 0 subcategories...">Crims</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=321.html" title="Dallas cont&eacute; 4 subcategories...">Dallas</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=640.html" title="Danys i perjudicis (Damages) cont&eacute; 1 subcategories...">Danys i perjudicis (Damages)</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=561.html" title="Dawson's Creek cont&eacute; 1 subcategories...">Dawson's Creek</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=363.html" title="Despareguts cont&eacute; 0 subcategories...">Despareguts</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=594.html" title="Doctor Who [2005] cont&eacute; 3 subcategories...">Doctor Who [2005]</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=581.html" title="Dolmen cont&eacute; 0 subcategories...">Dolmen</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=319.html" title="Dr. Caparrós, medicina general cont&eacute; 0 subcategories...">Dr. Caparrós, medicina general</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=505.html" title="Egipte cont&eacute; 0 subcategories...">Egipte</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=491.html" title="El Guardià cont&eacute; 0 subcategories...">El Guardià</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=582.html" title="El meu heroi cont&eacute; 5 subcategories...">El meu heroi</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=546.html" title="El món de HG Wells cont&eacute; 0 subcategories...">El món de HG Wells</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=433.html" title="El Món perdut cont&eacute; 3 subcategories...">El Món perdut</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=16.html" title="El nan roig cont&eacute; 5 subcategories...">El nan roig</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=365.html" title="El nan roig [remasteritzat] cont&eacute; 7 subcategories...">El nan roig [remasteritzat]</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=389.html" title="El Perepunyetes cont&eacute; 4 subcategories...">El Perepunyetes</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=179.html" title="Els Joves cont&eacute; 2 subcategories...">Els Joves</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=409.html" title="Els Roper cont&eacute; 3 subcategories...">Els Roper</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=234.html" title="Embruixada cont&eacute; 4 subcategories...">Embruixada</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=25.html" title="Farscape cont&eacute; 4 subcategories...">Farscape</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=247.html" title="Firefly cont&eacute; 1 subcategories...">Firefly</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=484.html" title="Fiscal Chase cont&eacute; 0 subcategories...">Fiscal Chase</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=516.html" title="Herois cont&eacute; 2 subcategories...">Herois</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=106.html" title="Hotel Fawlty cont&eacute; 0 subcategories...">Hotel Fawlty</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=629.html" title="Huff cont&eacute; 1 subcategories...">Huff</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=436.html" title="Invasió cont&eacute; 0 subcategories...">Invasió</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=500.html" title="Invasió (First Wave) cont&eacute; 3 subcategories...">Invasió (First Wave)</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=553.html" title="Investigadors cont&eacute; 0 subcategories...">Investigadors</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=606.html" title="Ironside cont&eacute; 8 subcategories...">Ironside</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=217.html" title="Jet Lag cont&eacute; 5 subcategories...">Jet Lag</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=27.html" title="Jo Claudi cont&eacute; 0 subcategories...">Jo Claudi</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=243.html" title="Joves Rebels cont&eacute; 0 subcategories...">Joves Rebels</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=265.html" title="Just for laughs cont&eacute; 0 subcategories...">Just for laughs</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=346.html" title="Jutjant l'Amy cont&eacute; 2 subcategories...">Jutjant l'Amy</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=418.html" title="Kingdom Hospital cont&eacute; 0 subcategories...">Kingdom Hospital</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=379.html" title="L'escurçó Negre cont&eacute; 8 subcategories...">L'escurçó Negre</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=520.html" title="L'hora d'Alfred Hitchcock cont&eacute; 2 subcategories...">L'hora d'Alfred Hitchcock</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=198.html" title="L'un per l'altre cont&eacute; 2 subcategories...">L'un per l'altre</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=472.html" title="La dimensió desconeguda cont&eacute; 4 subcategories...">La dimensió desconeguda</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=252.html" title="La memòria dels cargols cont&eacute; 0 subcategories...">La memòria dels cargols</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=577.html" title="La pitjor setmana de la meva vida cont&eacute; 1 subcategories...">La pitjor setmana de la meva vida</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=614.html" title="La Roma Antiga cont&eacute; 0 subcategories...">La Roma Antiga</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=545.html" title="La Tata cont&eacute; 2 subcategories...">La Tata</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=518.html" title="La Via Augusta cont&eacute; 0 subcategories...">La Via Augusta</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=462.html" title="La Zona Morta cont&eacute; 2 subcategories...">La Zona Morta</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=157.html" title="Llei i Desordre cont&eacute; 1 subcategories...">Llei i Desordre</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=214.html" title="Lo Cartanyà cont&eacute; 3 subcategories...">Lo Cartanyà</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=274.html" title="Lost (Perduts) cont&eacute; 1 subcategories...">Lost (Perduts)</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=524.html" title="Magnum cont&eacute; 3 subcategories...">Magnum</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=450.html" title="Mar de fons cont&eacute; 0 subcategories...">Mar de fons</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=590.html" title="Mecanoscrit del segon origen cont&eacute; 0 subcategories...">Mecanoscrit del segon origen</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=432.html" title="Mirall Trencat cont&eacute; 0 subcategories...">Mirall Trencat</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=212.html" title="Monthy Python's Fliying Circus cont&eacute; 0 subcategories...">Monthy Python's Fliying Circus</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=579.html" title="Mr. Bean cont&eacute; 0 subcategories...">Mr. Bean</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=299.html" title="N'hi ha que neixen estrellats cont&eacute; 3 subcategories...">N'hi ha que neixen estrellats</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=158.html" title="Nip/Tuck cont&eacute; 5 subcategories...">Nip/Tuck</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=151.html" title="Odyssey 5 cont&eacute; 1 subcategories...">Odyssey 5</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=438.html" title="Oh! Europa cont&eacute; 0 subcategories...">Oh! Europa</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=424.html" title="Parelles cont&eacute; 3 subcategories...">Parelles</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=29.html" title="Plats bruts cont&eacute; 7 subcategories...">Plats bruts</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=141.html" title="Porca Misèria cont&eacute; 6 subcategories...">Porca Misèria</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=461.html" title="Quico cont&eacute; 0 subcategories...">Quico</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=255.html" title="Roma cont&eacute; 0 subcategories...">Roma</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=543.html" title="Roseanne cont&eacute; 1 subcategories...">Roseanne</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=423.html" title="Safareig al despatx cont&eacute; 0 subcategories...">Safareig al despatx</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=550.html" title="Sexe a Nova York cont&eacute; 1 subcategories...">Sexe a Nova York</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=30.html" title="Sí, Ministre cont&eacute; 3 subcategories...">Sí, Ministre</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=174.html" title="Sí, Primer Ministre cont&eacute; 2 subcategories...">Sí, Primer Ministre</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=320.html" title="Sitges cont&eacute; 0 subcategories...">Sitges</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=404.html" title="Som així cont&eacute; 1 subcategories...">Som així</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=28.html" title="Star Trek TNG cont&eacute; 5 subcategories...">Star Trek TNG</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=353.html" title="Star Trek: TOS cont&eacute; 4 subcategories...">Star Trek: TOS</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=355.html" title="Star Trek: Voyager cont&eacute; 5 subcategories...">Star Trek: Voyager</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=17.html" title="Stargate SG-1 cont&eacute; 10 subcategories...">Stargate SG-1</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=340.html" title="Stargate: Atlantis cont&eacute; 1 subcategories...">Stargate: Atlantis</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=416.html" title="Temps de silenci cont&eacute; 3 subcategories...">Temps de silenci</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=199.html" title="Teresina, S.A. cont&eacute; 0 subcategories...">Teresina, S.A.</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=593.html" title="Terminator: Les cròniques de Sarah Conno cont&eacute; 0 subcategories...">Terminator: Les cròniques de Sarah Conno</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=254.html" title="Terra de gegants cont&eacute; 0 subcategories...">Terra de gegants</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=250.html" title="That's my Bush cont&eacute; 0 subcategories...">That's my Bush</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=535.html" title="The Nine cont&eacute; 1 subcategories...">The Nine</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=586.html" title="Tots Cinc cont&eacute; 1 subcategories...">Tots Cinc</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=303.html" title="Tres estrelles cont&eacute; 0 subcategories...">Tres estrelles</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=215.html" title="Trilita cont&eacute; 0 subcategories...">Trilita</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=557.html" title="Turc per principiants cont&eacute; 1 subcategories...">Turc per principiants</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=644.html" title="V - Els Visitants cont&eacute; 1 subcategories...">V - Els Visitants</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=165.html" title="Ventdelplà cont&eacute; 6 subcategories...">Ventdelplà</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=564.html" title="Vic Mackey [DVD + TDT] cont&eacute; 1 subcategories...">Vic Mackey [DVD + TDT]</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=566.html" title="Vic MacKey [TDT] cont&eacute; 2 subcategories...">Vic MacKey [TDT]</A></B></font>&nbsp;<BR>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div><br/>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=37.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> APM - primer episodi</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=37&url=ed2k%3A%2F%2F%7Cfile%7CAPM%2520-%2520Alguna%2520Pregunta%2520Mes.avi%7C271292416%7CE34F4B580ABFD76D53D7413AD5BCD07E%7Ch%3D7AEXDLFURZUUSZR4WKXSNXULTGWKYLW3%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>451</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="9.67 punts (3 Vots)" width="64" height="12" border="0" align="bottom" title="9.67 punts (3 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Tvrip d' el primer programa de TV3 d' APM (primer o pilot?)</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=12790.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Barcelona Ciutat Neutral - 1ra Part - Sònia Sánchez - 2011</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=12790&url=ed2k%3A%2F%2F%7Cfile%7CBarcelona%2520Ciutat%2520Neutral%2520-%25201ra%2520Part%2520-%2520S%25C3%25B2nia%2520S%25C3%25A1nchez%2520-%25202011%2520%5BRIP%2520TDT%2520TV3%2520Catal%25C3%25A0%2520per%2520a%2520rucatala.org%2520%26%2520comparteix.cat%5D%2520Per%2520Teucre.avi%7C1174382592%7CDA3F9E04D9227F8B163BD09682F97583%7Ch%3D2ENHFUTOD4P6CKHJQD4R6GFB3E33TOTR%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>32</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">RIP TDT TV3 Català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=12789.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Barcelona Ciutat Neutral - 2na Part - Sònia Sánchez - 2011</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=12789&url=ed2k%3A%2F%2F%7Cfile%7CBarcelona%2520Ciutat%2520Neutral%2520-%25202na%2520Part%2520-%2520S%25C3%25B2nia%2520S%25C3%25A1nchez%2520-%25202011%2520%5BRIP%2520TDT%2520TV3%2520Catal%25C3%25A0%2520per%2520a%2520rucatala.org%2520%26%2520comparteix.cat%5D%2520Per%2520Teucre.avi%7C1174378496%7C53011C0776B1E97C52D1CF32DD27D82A%7Ch%3D2CFBVYNPD5QYPPKZT6RQQ6YOUVAJCS4X%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>36</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">RIP TDT TV3 Català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13120.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Connexió - Jorge Almeida - 2009 1ra Part</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13120&url=ed2k%3A%2F%2F%7Cfile%7CConnexi%25C3%25B3%2520-%2520Jorge%2520Almeida%2520-%25202009%25201ra%2520Part%2520%5BRIP%2520TDT%2520TV3%2520Catal%25C3%25A0%2520per%2520a%2520rucatala.org%2520%26%2520comparteix.net%5D%2520Per%2520Teucre.avi%7C1174818816%7C19047EA9223461FE5D589C2127E51649%7Ch%3DZRRG5JTIFDQ54YIENTJRWSZKA35XJNSN%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>10</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">RIP TDT TV3 Català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13121.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Connexió - Jorge Almeida - 2009 2na Part</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13121&url=ed2k%3A%2F%2F%7Cfile%7CConnexi%25C3%25B3%2520-%2520Jorge%2520Almeida%2520-%25202009%25202na%2520Part%2520%5BRIP%2520TDT%2520TV3%2520Catal%25C3%25A0%2520per%2520a%2520rucatala.org%2520%26%2520comparteix.net%5D%2520Per%2520Teucre.avi%7C1174827008%7C39E1D5CB018943FC0C0DA632FEA19B22%7Ch%3D2WF3DWMWTJ2IWOZB4TCRGQGHJF5ZB7PF%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>10</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">RIP TDT TV3 Català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7959.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El Cor de la Ciutat  8x01 -1424</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7959&url=ed2k%3A%2F%2F%7Cfile%7CEl%2520Cor%2520de%2520la%2520Ciutat%2520%25201x08%2520-1424-%2520TDTRip%2520per%2520huGas-TotsRucs.cat.avi%7C211200000%7C10AA6E4C188DA529C720B1B239924358%7Ch%3DM2TTDIMFJTRVOS75HF4B7INZU3ZL5KDY%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>272</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">DVBrip, català.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7960.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El Cor de la Ciutat  8x02 -1425</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7960&url=ed2k%3A%2F%2F%7Cfile%7CEl%2520Cor%2520de%2520la%2520Ciutat%2520%25208x02%2520-1425-%252013-9-07%2520-%2520TDTRip%2520per%2520huGas-TotsRucs.cat.avi%7C210921472%7C450BA8A5087B5F5E5EB7C543B954DC13%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>66</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">DVBrip, català.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7958.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El darrer Senyor dels Balcans (1de2)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7958&url=ed2k%3A%2F%2F%7Cfile%7CEl%2520darrer%2520Senyor%2520dels%2520Balcans%2520-1de2-%2520El%2520darrer%2520Senyor%2520dels%2520Balcans%2520%28DVBrip%2520catal%25C3%25A0%2520per%2520Petiso%29%28TotsRucs.cat%29.avi%7C891213824%7CDB4D31F1E25E5FCC73B7D88D7AFBF490%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>64</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">DVBrip, català.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=11193.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Elles i jo (1de2) (2008) per HAL9000</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=11193&url=ed2k%3A%2F%2F%7Cfile%7CElles.i.jo.%281de2%29.%282008%29.%28DVBrip.catala%29.per%2520HAL9000.avi%7C844406784%7C30E5275660D1C6DE328AB4D2198FF392%7Ch%3DGQGENAO7YCR6YZSHP5WPGG7FFOZNUQJL%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>240</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">DVBrip català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=11194.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Elles i jo (2de2) (2008) per HAL9000</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=11194&url=ed2k%3A%2F%2F%7Cfile%7CElles.i.jo.%282de2%29.%282008%29.%28DVBrip.catala%29.per%2520HAL9000.avi%7C830234624%7C634E814161B79CB53554A43A638F3126%7Ch%3D234NEJDF7DXGCD3ZCBEJDQRUUBND3WHA%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>352</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">DVBrip catalá</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13392.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-1492</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13392&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.1-1492-Per%2520Veixinacalenta.avi%7C541189790%7C675F4C47D393DA65FE75A5976234A057%7Ch%3D3JWENUL4ZKDIWGXVDIXXEF5IDYRGHIOV%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>55</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Els Borja 2012:  1492 és el primer capítol de la sèrie que emet TV3</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13625.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.10-Miracles</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13625&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.10-Miracles-Per%2520Veixinacalenta.avi%7C514208574%7CF6097ED5C03EA16FEDFC6F3697BC512F%7Ch%3DUMTV6T4SIO2O4ELUKR2CP5GBNGSAE6DQ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>30</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 10 de la sèrie</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13646.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.11-L'aparició de la serp</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13646&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.11-L%5C%27aparicio%2520de%2520la%2520serp-Per%2520Veixinacalenta.avi%7C581517854%7CDA78DA85E05E70FE9F07502EA2FB3795%7Ch%3DW5Z4ZI3LMEDKI5JVWXOXEVZRLD55HESV%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>29</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 11 de la sèrie</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13497.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.6-Legitimitat-Per Veixinacalenta.avi</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13497&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.6-Legitimitat-Per%2520Veixinacalenta.avi%7C451870518%7C6CF0D592256B7E530E7C4467069B829F%7Ch%3D5OZSCCXPH2MYMCOF4LEQTLRQRETELOZP%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>32</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 6 de la sèrie</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13519.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.7-Maniobres</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13519&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.7-Maniobres-Per%2520Veixinacalenta.avi%7C469203728%7CF63E89366B739148DE21D129F25D85F9%7Ch%3DLWZVJF42WINMJX4PZ2NUD2NLA7FET7Q3%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>29</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 7 de la sèrie</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13558.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.8-El preludi de l'Apocalipsi</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13558&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.8-El%2520preludi%2520de%2520l%27Apocalipsi-Per%2520Veixinacalenta.avi%7C411958430%7C754F3E9A6D8F4640C5C5DD31C5BAF913%7Ch%3DIPMJQF7J4RKEGZRYEWCD6QFW55Q3P5MU%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>36</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 8 de la sèrie</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13579.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Cap.9-La invasió de Roma</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13579&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.9-%2520La%2520invasi%25C3%25B3%2520de%2520Roma-Per%2520Veixinacalenta.avi%7C530089402%7C64DFFB8464A158F1E3656D16C0CD62AE%7Ch%3DEAVKT24JDJMAJV7FERWFKV723WCLZGJR%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>33</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 9 de la sèrie &quot;Els Borja&quot;.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13460.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-El vincle del matrimoni</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13460&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.5-El%2520vincle%2520del%2520matrimoni-Per%2520Veixinacalenta.avi%7C499648570%7C687C899C4B8509122331741B0C54D5CD%7Ch%3DS4ISPQ3DUIET53AGEMT5IMTWKKDLT7UA%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>34</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Capítol 5 de la sèrie.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13451.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-La saviesa de l'Esperit Sant</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13451&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.4-La%2520saviesa%2520de%2520l%27Esperit%2520Sant-Per%2520Veixinacalenta.avi%7C499752350%7C31CB2395E8F2E7EE7C4BFA1AEE367F6D%7Ch%3DMUIQRCFTLALUQDLJEGQXD76TBUT6TQ3D%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>31</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Quart capítol de la sèrie.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=13395.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els Borja 2012-Ondata di calore</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=13395&url=ed2k%3A%2F%2F%7Cfile%7CEls%2520Borja%25202012-Cap.2-Ondata%2520di%2520calore-Per%2520Veixinacalenta.avi%7C538342150%7C342A85AA0ED0554491E8DA99A07ABE4D%7Ch%3DWWI47BG2TUAPLVDXCWWZ4GNVRCJNHGZ5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>33</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Segon capítol de la sèrie &quot;Els Borja&quot;</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="3">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9309.html" title="Babylon 5 - 3x03 Dia de conflictes [Mecanoscrit.cat]">Babylon 5 - 3x03 D...</a><br></td><td width="40"> <div align="right">4747</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4794.html" title="N&#039;hi ha que neixen estrellats [4x13]">N&#039;hi ha que neixen...</a><br></td><td width="40"> <div align="right">3623</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3513.html" title="La memòria dels cargols [01] Cargols i escaltasangs">La memòria dels c...</a><br></td><td width="40"> <div align="right">3425</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5263.html" title="L&#039;escurçó negre [1x01] La profecia">L&#039;escurçó negre ...</a><br></td><td width="40"> <div align="right">3264</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1249.html" title="Porca Misèria 1x01 Misèria i companyia">Porca Misèria 1x0...</a><br></td><td width="40"> <div align="right">2822</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=257.html" title="N&#039;hi ha que neixen estrellats">N&#039;hi ha que neixen...</a><br></td><td width="40"> <div align="right">2809</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=144.html" title="Plats bruts 1x01 - Tinc pis">Plats bruts 1x01 -...</a><br></td><td width="40"> <div align="right">2515</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9064.html" title="Mecanoscrit del segon origen [1x01] [Mecanoscrit.cat]">Mecanoscrit del se...</a><br></td><td width="40"> <div align="right">2023</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5269.html" title="L&#039;escurçó negre [1x01 DVDRip] La profecia">L&#039;escurçó negre ...</a><br></td><td width="40"> <div align="right">1990</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4483.html" title="N&#039;hi ha que neixen estrellats [1x01] Tinc feina">N&#039;hi ha que neixen...</a><br></td><td width="40"> <div align="right">1961</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5215.html" title="Nip Tuck - 3x02 - La Kiki">Nip Tuck - 3x02 - ...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9481.html" title="Herois -2x02- Llangardaixos">Herois -2x02- Llan...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2654.html" title="Lo Cartanyà 1x02. Malabo">Lo Cartanyà 1x02....</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=9641.html" title="- Herois - 2x07 Sense temps [Mecanoscrit.cat]">- Herois - 2x07 Se...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7565.html" title="Herois 1x11 Pluja àcida">Herois 1x11 Pluja ...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7655.html" title="Herois 1x18 El paràsit">Herois 1x18 El par...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7719.html" title="Herois 1x19 0.07%">Herois 1x19 0.07%</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7754.html" title="Herois 1x21 El  més difícil">Herois 1x21 El  m...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8296.html" title="Herois - Heroes [1x01] Gènesi - Genesis [Mecanoscrit.cat]">Herois - Heroes [1...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8829.html" title="Herois - Heroes [1x12] Regal diví [Mecanoscrit.cat]">Herois - Heroes [1...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13728.html" title="Els Borja 2012. Cap.10bis.El monstre de Déu">Els Borja 2012. Cap.10...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13646.html" title="Els Borja 2012-Cap.11-L\&#039;aparició de la serp">Els Borja 2012-Cap.11-...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13625.html" title="Els Borja 2012-Cap.10-Miracles">Els Borja 2012-Cap.10-...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13579.html" title="Els Borja 2012-Cap.9-La invasió de Roma">Els Borja 2012-Cap.9-L...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13558.html" title="Els Borja 2012-Cap.8-El preludi de l&#039;Apocalipsi">Els Borja 2012-Cap.8-E...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13519.html" title="Els Borja 2012-Cap.7-Maniobres">Els Borja 2012-Cap.7-M...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13497.html" title="Els Borja 2012-Cap.6-Legitimitat-Per Veixinacalenta.avi">Els Borja 2012-Cap.6-L...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13496.html" title="Berlín, Berlín 4x11 català">Berlín, Berlín 4x11 ...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13495.html" title="Berlín, Berlín 4x10 català">Berlín, Berlín 4x10 ...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13494.html" title="Berlín, Berlín 4x09 català">Berlín, Berlín 4x09 ...</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagecurrent"><a href='index.php@page=1&amp;cat=3&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>1</a></span><span class="pagelink"><a href='index.php@page=2&amp;cat=3&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>2</a></span><span class="pagelink"><a href='index.php@page=3&amp;cat=3&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>3</a></span><span class="pagelink"><a href='index.php@page=4&amp;cat=3&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>4</a></span><span class="pagelinklast"><a href='index.php@page=2&amp;cat=3&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<script src="/mirror/avis.js"></script></body>
+</HTML>

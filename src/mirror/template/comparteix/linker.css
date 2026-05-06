@@ -1,0 +1,222 @@
+FONT { font-family: Arial, Helvetica, Verdana, sans-serif;
+font-size: 12;}
+
+body {color: #111111;}
+
+a, a:link, a:active, a:visited { color:#353535; text-decoration: none;}
+a:hover, a:visited:hover { color:#0066FF; text-decoration: underline;}
+
+/*ul {
+	margin: 0;
+	padding: 0;
+	padding-left: .3em;
+	list-style-type: none;
+}
+
+
+li {  background-image: url(http://antic.comparteix.net/image/bullet_orange.gif);
+background-repeat: no-repeat;
+background-position: 0 6;
+padding-left: .8em;
+padding-top: 0
+padding-bottom: 0
+margin: 0 }*/
+
+.newstitle, .newstitle a, .newstitle a:visited, .newstitle a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11pt; color: #CC3300; }
+.newstitle a:hover { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11pt; color: #CC3300; text-decoration: underline; }
+.smallprint { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 8pt; }
+.smallprint a, .smallprint a:visited, .smallprint a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; }
+.smallprint a:hover { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: underline; font-weight: normal; color: #000000;}
+.bodytext { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: normal; }
+
+.main_col, .main_col a { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11.5pt; color: #003366; }
+.main_col a:hover, .main_col a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11.5pt; color: #0059B2;  text-decoration: none;}
+.main_col_super { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14pt; color: #003366; }
+
+.main_col_sub, .main_col_sub a { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 9.5pt; color: #003366; }
+.main_col_sub a:hover, .main_col_sub a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 9.5pt; color: #5900B2;}
+
+img.miniatura {float: right; margin-left: 0.3em;margin-right: 0.1em;margin-top: 0.1em; border: 0;filter:alpha(opacity=60);-moz-opacity:.60;opacity:.60; }
+
+
+
+.header, .header a, .header a:visited, .header a:active {color: #ffffff;}
+.header a:hover  { font-weight: bold;  color: #ffffff; }
+
+.categories, .categories a, .categories a:visited, .categories a:active {color: blue;}
+.categories a:hover {color: blue; text-decoration: underline;}
+
+.subcategories, .subcategories a, .subcategories a:visited, .subcategories a:active {color: blue;}
+.subcategories a:hover {color: blue; text-decoration: underline; font-weight: normal;}
+
+.midsmall { font-size: 9pt; text-decoration: none}
+.smallfont { font-size: 9pt;}
+.xica { font-size: 9;}
+
+.elink a, .elink a:visited, .elink a:active, .elink { color: #ff4400;}
+.elink2 a, .elink2 a:visited, .elink2 a:active, .elink2 { color: #ff4400;
+font-size: 11pt;}
+.elink a:hover { color: #ff2200; text-decoration: underline; }
+
+.textarea {border:solid 1;}
+.input{border:solid 1;}
+
+.shade {border-style:groove;}
+.cinput {background-color:rgb(240,244,255); font-size: 10pt;}
+
+INPUT {
+background: #FFFFFF;
+
+border-bottom: #CCCCCC 1px solid;
+
+border-left: #CCCCCC 1px solid;
+
+border-right: #CCCCCC 1px solid;
+
+border-top: #CCCCCC 1px solid;
+
+font-size: 11px;
+}
+
+TEXTAREA {
+background: #FFFFFF;
+
+border-bottom: #CCCCCC 1px solid;
+
+border-left: #CCCCCC 1px solid;
+
+border-right: #CCCCCC 1px solid;
+
+border-top: #CCCCCC 1px solid;
+
+font-size: 11px;
+} 
+
+
+/* Download titlebar */
+div.tbardwn h3
+{
+        margin: 0;
+        font-size: 82.3%;
+        color: #fff;
+        text-shadow: 2px 2px #56626d;
+        border: 0;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        position: relative;
+        display: block;
+}
+div.tbardwn 
+{ 
+	margin: 0.7em .4em .5em .2em;
+	width: 17em;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #fff;
+	
+}
+div.tbardwn .tbox h3 a { display: block; padding: .3em 1em; width: 17em; color: #fff; }
+
+div.tbardwn .tbox h3 a:hover
+{
+	color: #fff;
+	text-decoration: none !important;
+}
+
+div.tbardwn h3 small
+{
+	color: #fff;
+	padding: 10px 15px;
+	position: absolute;
+	right: 0;
+	top: -6px;
+	background: url("../../image/dwnl_arrow.gif") top left no-repeat;
+}
+
+div.tbardwn .t2
+{
+	background: #fff;
+	padding: 0 1px;
+	border-left: 1px solid #093;
+	border-right: 1px solid #093;
+	height: 1px;
+	margin: 0 1px;
+}
+
+div.tbardwn .tbg
+{
+	background: #fff;
+	border-left: 1px solid #093;
+	border-right: 1px solid #093;
+}
+
+div.tbardwn .t1
+{
+	height: 1px;
+	margin: 0 2px;
+	background: #093;
+}
+
+div.tbardwn .tbox
+{
+	display: block;
+	background: #093;
+	border: 0 solid #093;
+	border-top: 1px solid #093;
+	border-width: 0 1px;
+}
+
+.ttop, .tbtm, .ttopw, .tbtmw
+{
+	display: block;
+	background: transparent;
+	font-size: 1px;
+}
+
+.t1, .t2, .t1w, .t2w
+{
+	display: block;
+	overflow: hidden;
+}
+
+
+.pagelink a,
+.pagelinklast a,
+.pagecurrent a
+{
+	background: #F3F3F3;
+	border: 1px solid #808080;
+	color: #000000;
+	padding: 1px 3px 1px 3px;
+	margin:1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.pagelink a:hover,
+.pagelinklast a:hover,
+.pagecurrent a:hover
+{
+color: #40487F;
+text-decoration: none;
+}
+
+.pagelinklast a
+{
+	background: #E4E4E4;
+}
+
+.pagecurrent a
+{
+	background: #FFE3A5;
+}
+
+.box {
+	display:block;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-right:0.3em;
+	margin-left:0.3em;
+	text-align:center;
+	overflow:visible;
+}
