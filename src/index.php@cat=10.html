@@ -1,0 +1,658 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Lectura</TITLE>
+<META NAME='KEYWORDS' CONTENT='Lectura'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Lectura" href="rss.php@cat=10">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=10.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=10.html'><font color=black>Lectura</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=10" title="Canal RSS de la categoria Lectura"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 8
+&nbsp;&nbsp;<b>eLinks</b>: 31&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 15648 vegades" title="Categoria visualitzada 15648 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="10">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/10">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<br><div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1" style="border: 1px solid #eeeeee; background-color: #f7f7f7;"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=133.html" title="Articles cont&eacute; 0 subcategories...">Articles</A></B></font>&nbsp;<img src='template/comparteix/image/new_1.gif'><BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=13.html" title="Còmic/Manga cont&eacute; 2 subcategories...">Còmic/Manga</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=187.html" title="Legislació cont&eacute; 0 subcategories...">Legislació</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=12.html" title="Llibres cont&eacute; 0 subcategories...">Llibres</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=185.html" title="Llibres de referència cont&eacute; 1 subcategories...">Llibres de referència</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=69.html" title="@Llibres sonors cont&eacute; 0 subcategories...">@Llibres sonors</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=26.html" title="Manuals cont&eacute; 0 subcategories...">Manuals</A></B></font>&nbsp;<BR>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=132.html" title="Revistes cont&eacute; 2 subcategories...">Revistes</A></B></font>&nbsp;<BR>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div><br/>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7915.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> (Llibret)-Grup de Folk - Els temps encara estan canviant 2</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7915&url=ed2k%3A%2F%2F%7Cfile%7CLlibret%2520Grup%2520de%2520Folk%2520-%2520Els%2520temps%2520encara%2520estan%2520canviant%25202%2520%28moi%29.rar%7C39241752%7CA2AFE474CC1798F5BD949537E8B2B14A%7Ch%3DWYAOWSZNB3E3KQOQNMQDBKJYXA3VDG5W%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>412</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Idiomes, rip, etc.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5374.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Barça - L'Any Màgic</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5374&url=ed2k%3A%2F%2F%7Cfile%7CBar%25C3%25A7a%2520-%2520L%27any%2520M%25C3%25A0gic%2520%28Catal%25C3%25A0%29%2520-%2520Especial%2520El%2520Periodico%2520de%2520Catalunya%2520%5Bpor%2520Roverandom%5D.pdf%7C15129509%7C32A6BBFB7227C4CD116A62A942427A3E%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>366</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Especial El Periódico de Catalunya</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1526.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Cervantes català (Jordi Bilbeny)</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1526&url=ed2k%3A%2F%2F%7Cfile%7CCervantes%20catal%C3%A0%20%28apunts%20confer%C3%A8ncia%29%20-%20Jordi%20Bilbeny.pdf%7C61499%7CBE636DB5932B6F50484BB8010A1C28D6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>756</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (5 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (5 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Material base per a la conferència d'Argentona del 22/04/2005. La censura i el control d'imprenta al s.XVI, i reflexions sobre el Cervantes que coneixem.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=445.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Dona i Sida</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=445&url=ed2k%3A%2F%2F%7Cfile%7C%28Llibre-E%2520E-Book%2520Catal%25C3%25A0%29%2520Dona%2520I%2520Sida.pdf%7C561332%7C36873AD76488557C6DC1B9A582403E3F%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>366</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Generalitat de Catalunya, Departament de Sanitat i Seguretat Social</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=291.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Egunkaria endavant (edició.solidària.23-05-03)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=291&url=ed2k%3A%2F%2F%7Cfile%7CEgunkaria.endavant.%28edici%25C3%25B3.solid%25C3%25A0ria.23-05-03%29.pdf%7C2649508%7C9FED4A09F5FBEC4943383B20AE778445%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>435</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">.pdf</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=163.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El dèficit fiscal català</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=163&url=ed2k%3A%2F%2F%7Cfile%7CEl%2520dficit%2520fiscal%2520catal%25C3%25A0%2520-%2520Xavier%2520Sala%2520i%2520Martin.pdf%7C82880%7C2D8D0BBF092D20772BEDDE342E3FAAC5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>398</strong>,   
+Puntuaci&oacute;:<img src="image/punts/5punts.gif" alt="5.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="5.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per Xavier Sala i Martin</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1662.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El descobriment d'Amèrica va ser obra de catalans</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1662&url=ed2k%3A%2F%2F%7Cfile%7CEL%2520DESCOBRIMENT%2520CATALA%2520DAMERICA.pdf%7C3411446%7C60F2BDD7F26826CD7540B8ACD98FC5BF%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>480</strong>,   
+Puntuaci&oacute;:<img src="image/punts/1punts.gif" alt="1.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="1.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Trobat per la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=305.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Els documents secrets de la Guardia Civil</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=305&url=ed2k%3A%2F%2F%7Cfile%7CGuardia%2520Civil%2520Documents%2520-%2520%2520PPCC%2520%26%2520Catalunya%2520%5BBy%2520SiRvI%5D.zip%7C5172075%7C3BAE714BDF18FFD874ADDD7761C92F44%7Ch%3DTJ6PWBLLMBDFNU75B5BJ6RE3CRXYYIGZ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>631</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="7.57 punts (7 Vots)" width="64" height="12" border="0" align="bottom" title="7.57 punts (7 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Documents trobats durant la Festa Major de Tora Any 2003.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2072.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Entrevista a Joan Fuster</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2072&url=ed2k%3A%2F%2F%7Cfile%7CEntrevista%2520a%2520Joan%2520Fuster%2520per%2520alumnes%2520de%2520l%27Escola%2520de%2520Riola%2520%28la%2520Ribera%29.doc%7C25702%7C2BA3772A04469014B225D565635FB5EA%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>392</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per alumnes de l'Escola de Riola</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3668.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Exàmens Junta Qualificadora de Valencià - Grau Elemental</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3668&url=ed2k%3A%2F%2F%7Cfile%7CValencia%25204%2520Examens%2520Practiques%2520Grau%2520Elemental.rar%7C713058%7C2EA442FA37C52283488C9A36026B01C9%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>742</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">4 exàmens</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3667.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Exàmens Junta Qualificadora de Valencià - Grau Mitjà</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3667&url=ed2k%3A%2F%2F%7Cfile%7Cvalencia%25204%2520examens%2520practiques%2520grau_mitja.rar%7C730513%7CC0072E6CF40B3FA4210D61FCFBF42093%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>8113</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="7.50 punts (4 Vots)" width="64" height="12" border="0" align="bottom" title="7.50 punts (4 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">4 exàmens</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3666.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Exàmens Junta Qualificadora de Valencià - Grau Superior</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3666&url=ed2k%3A%2F%2F%7Cfile%7Cvalencia%25204%2520examens%2520practiques%2520grau_superior.rar%7C741145%7CBB3D9DDE5059DF99C228A6A6AD28C481%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>1848</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">4 exàmens</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3669.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Exàmens Junta Qualificadora de Valencià - Oral</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3669&url=ed2k%3A%2F%2F%7Cfile%7Cvalencia%25204%2520examens%2520practiques%2520oral.rar%7C652920%7C7F4321ACF3E02A4664D514143E4C2068%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>547</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">4 exàmens</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=4086.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Joan Fuster - Qüestió de noms</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=4086&url=ed2k%3A%2F%2F%7Cfile%7CJoan%2520Fuster%2520-%2520Q%25C3%25BCesti%25C3%25B3%2520de%2520noms.doc%7C59392%7C3C41FF687D98C9DD23B275DC909C704A%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>508</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1413.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Josep Fontana - Pierre Vilar i la història de Cata</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1413&url=ed2k%3A%2F%2F%7Cfile%7CFontana%2C%2520Josep%2520-%2520Pierre%2520Vilar%2520i%2520la%2520hist%25C3%25B2ria%2520de%2520Catalunya.pdf%7C43017%7C5C328519FF69A1C376D7BFE8FEABB88E%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>186</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Josep Fontana - Pierre Vilar i la història de Catalunya</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1661.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> La descoberta catalana d'Amèrica</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1661&url=ed2k%3A%2F%2F%7Cfile%7CLa%2520descoberta%2520Catalana%2520d%27America%2520-%2520Catalunya%2520y%2520el%2520descubrimiento%2520de%2520America%2520-%2520The%2520Catalan%2520discovery%2520of%2520America.pdf%7C1072860%7C035B0F8E4190FB1F5827E21815D9B19D%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>320</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Jordi Puigneró i Ferrer</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2415.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> La dislocació a la dreta en català i anglès</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2415&url=ed2k%3A%2F%2F%7Cfile%7CMayol%2520i%2520Toll%2C%2520Laia%2520-%2520La%2520dislocaci%25C3%25B3%2520a%2520la%2520dreta%2520en%2520catal%25C3%25A0%2520i%2520en%2520angl%25C3%25A8s.pdf%7C862443%7C3498EAF5E3F5D7A56F6D460AF02479C6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>107</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Facultat de Traducció i Interpretació</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3057.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Les interferències lingüístiques en l'obra de Josep Pla</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3057&url=ed2k%3A%2F%2F%7Cfile%7CBarrera%2520i%2520Aguilera%2C%2520Mariona%2520-%2520Estudi%2520sobre%2520les%2520interfer%25C3%25A8ncies%2520ling%25C3%25BC%25C3%25ADsitques%2520a%2520Pla.zip%7C218552%7CFB4F2DF672E2C80C01C15D5D21F145B4%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>61</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Mariona Barrera i Aguilera</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=14024.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> L'ORGULL DE SER VALENCIÀ</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=14024&url=ed2k%3A%2F%2F%7Cfile%7CScan0004.pdf%7C289522%7C982232B7B960EA56B284F54E5C1A20F6%7Ch%3DNSUURKSVTI7QXD6HZFNUIT2RAJAODOTO%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>16</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Idiomes, rip, etc.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5990.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Miquel Martí i Pol - Ara mateix</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5990&url=ed2k%3A%2F%2F%7Cfile%7CAra%2520mateix%2520-%2520Miquel%2520marti%2520i%2520pol.txt%7C1124%7C90CE9FC3DB381C3B191BDAD0E0F71A24%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>536</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="10">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3667.html" title="Exàmens Junta Qualificadora de Valencià - Grau Mitjà">Exàmens Junta Qua...</a><br></td><td width="40"> <div align="right">8113</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3193.html" title="Enric Valor - La flexió verbal">Enric Valor - La f...</a><br></td><td width="40"> <div align="right">6025</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1412.html" title="Curs de català - Nivell C i D">Curs de català - ...</a><br></td><td width="40"> <div align="right">2111</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3666.html" title="Exàmens Junta Qualificadora de Valencià - Grau Superior">Exàmens Junta Qua...</a><br></td><td width="40"> <div align="right">1848</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4506.html" title="Catàleg 2006 de películes en català">Catàleg 2006 de p...</a><br></td><td width="40"> <div align="right">1674</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1313.html" title="Diccionari Occità - Català - Castellà - Francés">Diccionari Occità...</a><br></td><td width="40"> <div align="right">1463</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=394.html" title="Bonaventura Carles Aribau - Oda a la Pàtria">Bonaventura Carles...</a><br></td><td width="40"> <div align="right">1432</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2434.html" title="Decret 259-2003 d&#039;Habitabilitat de Catalunya">Decret 259-2003 d&#039;...</a><br></td><td width="40"> <div align="right">966</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2889.html" title="El mirall del fotre">El mirall del fotr...</a><br></td><td width="40"> <div align="right">953</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2917.html" title="Albert Sánchez Piñol - La pell freda">Albert Sánchez Pi...</a><br></td><td width="40"> <div align="right">856</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4506.html" title="Catàleg 2006 de películes en català">Catàleg 2006 de p...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1099.html" title="Bola de Drac - 022 - Comença la gran final!">Bola de Drac - 022...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1448.html" title="34 - Història de l&#039;independentisme">34 - Història de ...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=11277.html" title="En Patufet i els Cargols (Conte infantil, 1964)">En Patufet i els C...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1526.html" title="Cervantes català (Jordi Bilbeny)">Cervantes català ...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=519.html" title="Terra Lliure Els Documents">Terra Lliure Els D...</a><br></td><td width="40"> <div align="right">9.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2926.html" title="Alfred Bosch - Les set aromes del món">Alfred Bosch - Les...</a><br></td><td width="40"> <div align="right">9.7</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=296.html" title="All the way down">All the way down</a><br></td><td width="40"> <div align="right">9.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3406.html" title="Lluís Muntada - Canvi d&#039;agulles">Lluís Muntada - C...</a><br></td><td width="40"> <div align="right">9.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2917.html" title="Albert Sánchez Piñol - La pell freda">Albert Sánchez Pi...</a><br></td><td width="40"> <div align="right">9.5</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14061.html" title="TERRA MITICA">TERRA MITICA</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14035.html" title="ESPANYA ENS ENGANYA">ESPANYA ENS ENGANYA</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14027.html" title="EL CORREDOR MEDITERRANI INTERRUPTUS">EL CORREDOR MEDITERRAN...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14026.html" title="ENTRE TOTS HO FAREM TOT - imatge 2">ENTRE TOTS HO FAREM TO...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14025.html" title="ENTRE TOTS HO FAREM TOT - Imatge 2">ENTRE TOTS HO FAREM TO...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14024.html" title="L\&#039;ORGULL DE SER VALENCIÀ">L\&#039;ORGULL DE SER VALEN...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14023.html" title="ENTRE TOTS HO FAREM TOT- Imatge 2">ENTRE TOTS HO FAREM TO...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14022.html" title="ENTRE TOTS HO FAREM TOT - Imatge 2">ENTRE TOTS HO FAREM TO...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14021.html" title="ENTRE TOTS HO FAREM TOT - imatge 1">ENTRE TOTS HO FAREM TO...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14004.html" title="Las banderas en el País Valenciano">Las banderas en el Pa...</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagecurrent"><a href='index.php@page=1&amp;cat=10&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>1</a></span><span class="pagelink"><a href='index.php@page=2&amp;cat=10&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>2</a></span><span class="pagelinklast"><a href='index.php@page=2&amp;cat=10&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<link rel="stylesheet" href="./archive-notice.css"><script src="./archive-notice.js"></script></body>
+</HTML>

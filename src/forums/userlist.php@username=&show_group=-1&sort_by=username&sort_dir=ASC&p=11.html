@@ -1,0 +1,508 @@
+<html dir="ltr">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Comparteix - Fòrum</title> 
+<meta http-equiv='Cache-Control' content='no-cache'> 
+<meta http-equiv='Progma' content='no-cache'> 
+<meta name='KEYWORDS' content='elink,elinks,ed2k,catala,valencia,emule,comparteix,paisos catalans,pelis,pel·licules,anime,musica,fitxers,mldonkey,amule,xarxa edonkey2000,el ruc,el ruc catala,ruc'> 
+<meta http-equiv="content-Type" content="text/html; charset=utf-8"> 
+<link rel="SHORTCUT ICON" href="../icona.png"> 
+<link rel="alternate" type="application/rss+xml" title="Comparteix: Fòrums" href="forums/rss2.php"> 
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Comparteix / Llista d'usuaris</title>
+<link rel="stylesheet" type="text/css" href="style/Oxygen.css" />
+<script language="Javascript"> 
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+//--> 
+</script> 
+</head> 
+<body background="../image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+<table style="border-left: 1px solid black; border-right: 1px solid black;" align="center" bgcolor="white" border="0" cellpadding="0" cellspacing="0" height="100%" width="700"> 
+<tbody><tr> 
+<td height="100%" valign="top" align="left"> 
+<!-- headER START--> 
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="../image/title_fons_v2.gif"> 
+<tr valign="middle"> 
+<td align="left"><a href="index.php.html"><img src='../image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaços (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td> 
+<td align="center"><a href="http://www.acpv.cat"><img src="../image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr> 
+</table> 
+<!-- headER END --> 
+<!-- CAT_headER START--> 
+<!-- CAT_headER END --> 
+<!-- MENU_BAR START--> 
+<script language="Javascript"> 
+<!--
+function change_language(sel)
+{
+var index = sel.selectedIndex;
+if (index.value != '')
+window.location.href = 'change_lan.php?lan=' +sel.options[index].value;
+}
+//-->
+</script> 
+<div align="center" id="comphead"> 
+<table bgcolor="white" border="0" cellpadding="0" cellspacing="0" width="720"> 
+<tbody><tr><td> 
+<table border="0" cellpadding="0" cellspacing="1" width="100%"> 
+<tbody><tr> 
+<td align="center" bgcolor="#e0e0e0" height="19" width="11%">
+<span id="inici"><a href="../index.php.html">INICI</a></span></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../add.php@sid=0.html"> 
+Afegeix un eLink</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../new.php.html"> 
+Novetats</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../cool.php.html"> 
+Populars</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="index.html"> 
+Fòrums</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../topsite.php.html"> 
+TOP 10</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../sitemap.php.html"> 
+Mapa de categories</a></td> 
+<td align="center" bgcolor="#003366" width="11%"><a href="../vincles.php.html"> 
+Enllaços</a></td> 
+</tr> 
+</tbody></table> 
+</td></tr></tbody></table> 
+</div> 
+<!-- MENU_BAR END --> 
+<!-- HERE START --> 
+<!-- END: show_here.tpl --> 
+<!-- HERE START --> 
+<div style="align: left; text-align:left;">
+<div id="punwrap">
+<div id="punuserlist" class="pun">
+<div id="brdheader" class="block">
+<div class="box">
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navindex"><a href="index.php.html">Inici</a></li>
+<li id="navuserlist"><a href="userlist.php.html">Llista d'usuaris</a></li>
+<li id="navsearch"><a href="search.php.html">Cerca</a></li>
+<li id="navregister"><a href="register.php.html">Registre</a></li>
+<li id="navlogin"><a href="login.php.html">Entreu</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p>No esteu identificat.</p>
+</div>
+</div>
+</div>
+<div class="blockform">
+<h2><span>Cerca d'usuaris</span></h2>
+<div class="box">
+<form id="userlist" method="get" action="userlist.php.html">
+<div class="inform">
+<fieldset>
+<legend>Troba i ordena usuaris</legend>
+<div class="infldset">
+<label class="conl">Nom d'Usuari<br /><input type="text" name="username" value="" size="25" maxlength="25" /><br /></label>
+<label class="conl">Grup d'Usuaris
+<br /><select name="show_group">
+<option value="-1" selected="selected">Tots</option>
+<option value="1">Administrators</option>
+<option value="2">Moderators</option>
+<option value="4">Members</option>
+</select>
+<br /></label>
+<label class="conl">Ordenat per
+<br /><select name="sort_by">
+<option value="username" selected="selected">Nom d'Usuari</option>
+<option value="registered">Registrat</option>
+<option value="num_posts">No. de missatges</option>
+</select>
+<br /></label>
+<label class="conl">Criteri d'ordre
+<br /><select name="sort_dir">
+<option value="ASC" selected="selected">Ascendent</option>
+<option value="DESC">Descendent</option>
+</select>
+<br /></label>
+<p class="clearb">Introduïu un nom d'usuari per a buscar, i/o un grup d'usuaris per a filtrar la cerca. El camp Nom d'usuari es pot deixar en blanc. Useu el caràcter asterisc * per a coincidències parcials. Ordena els usuaris per nom, data de registre o nombre de missatges i en ordre ascendent/descendent.</p>
+</div>
+</fieldset>
+</div>
+<p><input type="submit" name="search" value="Envia" accesskey="s" /></p>
+</form>
+</div>
+</div>
+<div class="linkst">
+<div class="inbox">
+<p class="pagelink">Pàgines: <a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=1.html">1</a>&nbsp;&hellip;&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=9.html">9</a>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=10.html">10</a>&nbsp;<strong>11</strong>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=12.html">12</a>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=13.html">13</a>&nbsp;&hellip;&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=18.html">18</a></p>
+</div>
+</div>
+<div id="users1" class="blocktable">
+<h2><span>Llista d'usuaris</span></h2>
+<div class="box">
+<div class="inbox">
+<table cellspacing="0">
+<thead>
+<tr>
+<th class="tcl" scope="col">Nom d'Usuari</th>
+<th class="tc2" scope="col">Títol</th>
+<th class="tc3" scope="col">Missatges</th>
+<th class="tcr" scope="col">Registrat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tcl"><a href="profile.php@id=307.html">nevpavzo</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">10-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=521.html">newvers</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">24-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=788.html">newverswk</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">25-12-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=606.html">niketre</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">29-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=425.html">nikifuxli</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">18-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=309.html">niwyvopow</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">10-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=82.html">Nomesuna</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">30-01-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=231.html">nomesuncop</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">24-09-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=2913.html">Nostrum</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">22-01-2008</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=2927.html">noucat</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">10</td>
+<td class="tcr">23-01-2008</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=513.html">novfeks</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">23-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=315.html">novwop</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">10-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=1462.html">Nric</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">13-05-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=560.html">nubis</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">2</td>
+<td class="tcr">26-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=178.html">numae</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">02-08-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=1341.html">nuri</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">17-04-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=114.html">nuria</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">01-04-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=55.html">nyarla59</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">03-12-2005</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=444.html">nydyhhf</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">19-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=306.html">nyrwjymob</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">10-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=419.html">nysexytaw</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">17-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=881.html">nyu</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">2</td>
+<td class="tcr">13-01-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=2530.html">oge231</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">2</td>
+<td class="tcr">25-11-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=1163.html">okashi</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">11-03-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=4072.html">Oliana</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">23</td>
+<td class="tcr">27-05-2008</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=46.html">opb</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">8</td>
+<td class="tcr">30-10-2005</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=15.html">oprimit</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">3</td>
+<td class="tcr">01-07-2005</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=1390.html">Oriol</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">29-04-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=357.html">Oriol Galera</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">14-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=358.html">oriol27</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">14-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=101.html">OriolBCN</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">4</td>
+<td class="tcr">20-02-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=12457.html">oscar</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">2</td>
+<td class="tcr">20-09-2009</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=776.html">OSfllwr</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">24-12-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=749.html">OSfollower</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">17-12-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=12007.html">otger</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">15</td>
+<td class="tcr">26-07-2009</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=166.html">p3gaso</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">4</td>
+<td class="tcr">18-07-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=262.html">pajhupers</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">25-10-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=11084.html">Pakaro</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">3</td>
+<td class="tcr">29-04-2009</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=95.html">PakRab</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">09-02-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=2801.html">pallares</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">7</td>
+<td class="tcr">09-01-2008</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=1707.html">Palme</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">10-07-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=929.html">pamplinas</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">3</td>
+<td class="tcr">23-01-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=18.html">panotxa</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">457</td>
+<td class="tcr">08-07-2005</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=339.html">patic</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">11-11-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=176.html">Patricia</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">27-07-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=898.html">pau</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">1</td>
+<td class="tcr">16-01-2007</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=15609.html">paultim</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">19-08-2013</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=9726.html">pau_pi</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">5</td>
+<td class="tcr">15-02-2009</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=115.html">PaWiNHo</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">01-04-2006</td>
+</tr>
+<tr>
+<td class="tcl"><a href="profile.php@id=439.html">pcisex</a></td>
+<td class="tc2">Membre</td>
+<td class="tc3">0</td>
+<td class="tcr">18-11-2006</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="linksb">
+<div class="inbox">
+<p class="pagelink">Pàgines: <a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=1.html">1</a>&nbsp;&hellip;&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=9.html">9</a>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=10.html">10</a>&nbsp;<strong>11</strong>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=12.html">12</a>&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=13.html">13</a>&nbsp;&hellip;&nbsp;<a href="userlist.php@username=&amp;show_group=-1&amp;sort_by=username&amp;sort_dir=ASC&amp;p=18.html">18</a></p>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Peu del fòrum</span></h2>
+<div class="box">
+<div class="inbox">
+<p class="conr">Powered by <a href="http://fluxbb.org/">FluxBB</a></p>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- FOOTER START--> 
+<br> 
+<center> 
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;"> 
+<tr><td> 
+<table width="100%" border="0"> 
+<tr> 
+<td valign="middle" align="left" width="80" height="46"> 
+<a href="../rss.php@quantitat=10"><img src="../image/rss-elinks.png" border="0"></a><br> 
+<a href="rss.php"><img src="../image/rss-forums.png" border="0"></a> 
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" --> 
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="../image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan --> 
+</td> 
+<td valign="middle" align="center" width="55"> 
+<a href="http://www.mozilla-europe.org/ca/"><img src="../image/firefox.png" border="0"></a> 
+</td> 
+<td valign="middle" align="right"> 
+<font style="font-size: 7pt;color: #777">L'ús d'aquesta pàgina web implica la lectura i acceptació de la <a href="viewtopic.php@id=4.html">Normativa</a><br> 
+En línia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br> 
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2010 - Pa&iacute;s Valenci&agrave;<br> 
+</td> 
+</tr> 
+</table> 
+</td></tr> 
+</table> 
+</center><br><!-- FOOTER END --> 
+</td> 
+</tr> 
+</tbody></table> 
+<link rel="stylesheet" href="../archive-notice.css"><script src="../archive-notice.js"></script></body></html>

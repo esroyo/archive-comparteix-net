@@ -1,0 +1,645 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Discos</TITLE>
+<META NAME='KEYWORDS' CONTENT='Discos'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Discos" href="rss.php@cat=9">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=9.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=5.html'><font color=black>Àudio</font></a></font>
+<font size='2'>>> <a href='index.php@cat=9.html'><font color=black>Discos</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=9" title="Canal RSS de la categoria Discos"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 0
+&nbsp;&nbsp;<b>eLinks</b>: 746&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 243083 vegades" title="Categoria visualitzada 243083 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="9">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/5/9">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div>
+<center><div class="box"><span class="pagecurrent"><a href='index.php@cat=9&amp;inicial=.html'>Tots</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=1.html'>1</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=2.html'>2</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=9.html'>9</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=A.html'>A</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=B.html'>B</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=C.html'>C</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=D.html'>D</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=E.html'>E</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=F.html'>F</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=G.html'>G</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=H.html'>H</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=I.html'>I</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=J.html'>J</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=K.html'>K</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=L.html'>L</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=M.html'>M</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=N.html'>N</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=O.html'>O</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=P.html'>P</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=Q.html'>Q</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=R.html'>R</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=S.html'>S</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=T.html'>T</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=U.html'>U</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=V.html'>V</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=W.html'>W</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=X.html'>X</a></span><span class="pagelink"><a href='index.php@cat=9&amp;inicial=Z.html'>Z</a></span></div></center>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=274.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Sva-ters - A foc</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=274&url=ed2k%3A%2F%2F%7Cfile%7CSva-Ters....-....A.Foc.rar%7C56399890%7CBEEF35971E935FAC7A353BE5CA7ABC4B%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>148</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Primer (i per ara únic) CD dels Sva-ters</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5899.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Sva-ters - Berlanga Style</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5899&url=ed2k%3A%2F%2F%7Cfile%7CSVA-TERS.%2520Berlanga%2520Style%2520%282006%29.freerider.rar%7C50605350%7CF0B474883B1BCD72847ADD0D6CDF2E50%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>512</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="9.63 punts (8 Vots)" width="64" height="12" border="0" align="bottom" title="9.63 punts (8 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">2006</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=575.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Syphosis - De tots els colors</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=575&url=ed2k%3A%2F%2F%7Cfile%7CSyphosis-De%2520Tots%2520Els%2520Colors%2520%28Per%2520Saboner%29.rar%7C60028462%7CAD922FEDABB203A56B8FD955FA9BAC04%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>232</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="8.00 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="8.00 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Comprimit en .rar</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2982.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tancat per defunció - Llença-t'hi</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2982&url=ed2k%3A%2F%2F%7Cfile%7CTancat%2520per%2520defunci%25C3%25B3%2520-%2520Llen%25C3%25A7a-t%27hi%2520%28Gen%25C3%25ADs%29%28el_ruc.tripod.com%29.zip%7C81590009%7CC278EC87182AB70675FA542F7B94E992%7Ch%3D5CEEHSP3DZB77GPQ5IL4QNFAI3N7RPMF%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>188</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per genís per al ruc</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=11278.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Terapia de Shock - Escapa't amb mi</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=11278&url=ed2k%3A%2F%2F%7Cfile%7CTer%25C3%25A0pia%2520de%2520Shock%2520-%2520Escapa%27t%2520amb%2520mi.rar%7C38530802%7C192DAFAD0421ED65D26B248CD3705A00%7Ch%3DV7LK2TYDFQHW2PAUAWKQOYSB6GZNGATQ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>371</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Idiomes, rip, etc.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=8772.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Terminal Sur (Miquel Gil)-Viajero</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=8772&url=ed2k%3A%2F%2F%7Cfile%7CTerminal%2520Sur%2520-%2520Viajero%2520%281988%2520Etno-Rock%2520Valencia%29.rar%7C84441060%7CFDA72A7DB1F1E38BB1CD5FB00AB5CCE5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>224</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">disc del 87 de Miquel Gil.Rarissim</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1354.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Terratrèmol - Passió sota la Pell (1992) (Rock Cat</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1354&url=ed2k%3A%2F%2F%7Cfile%7CTerratr%25C3%25A8mol%2520-%2520Passi%25C3%25B3%2520sota%2520la%2520Pell%2520%281992%29%2520%28Rock%2520Catal%25C3%25A0%29.zip%7C44215383%7CE81C541252028B233D3DA274AD68DEB8%7Ch%3DTZUINFQCZ66FHHRXWJ7UR7PNMVDFFFCL%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>204</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Disc dels Terratrèmol en MP3. Molt bo!</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3281.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tete Montoliu - T'estimo tant</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3281&url=ed2k%3A%2F%2F%7Cfile%7CTete%2520Montoliu%2520-%2520T%27estimo%2520Tant%2520%5Bby%2520jemenfous%5D.zip%7C113065965%7C005D4280D7775252252155733DE1586F%7Ch%3DK2XDQCCVZDTGBJVJRB3PIDAZ7IREVL32%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>141</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de jemenfous</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1294.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> The Big Serrandez Orchestra - Els marcians són...</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1294&url=ed2k%3A%2F%2F%7Cfile%7CThe%2520Big%2520Serrandez%2520Orchestra%2520-%2520els%2520marcians%2520son..%2520%28moi%29.rar%7C249184673%7CF09C90CDABDC0280A5FAE54ECBA0A157%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>151</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Els marcians són molt bona gent</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=8306.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> The Big Serrandez Orchestra -Els marcians són molt bona gent</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=8306&url=ed2k%3A%2F%2F%7Cfile%7CThe%2520Big%2520Serrandez%2520Orchestra%2520-%2520Els%2520marcians%2520s%25C3%25B3n%2520molt%2520bona%2520gent%2520%28M%25C3%25BAsica%2520Global%2C%25202003%29%2520%5Bwww.radiocactus.com%5D.rar%7C49939391%7CF102B9972E3A41258AB6842035F8ABD7%7Ch%3D4DVKHC6SDGKGDMV5DMWYCNBP3ZI7QQJV%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>41</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Editat per Música Global Discogràfica (2003)</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1480.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> The Companys - Ni polític, ni correcte</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1480&url=ed2k%3A%2F%2F%7Cfile%7CThe%2520Companys%2520-%2520Ni%2520pol%25C3%25ADtic%2C%2520ni%2520correcte%2520%5B2004%5D%5BTxB%5D.rar%7C33237944%7C45E458363B0D2F233F63B141C9E39B0E%7Ch%3D3PN2GQNT4N3ALHTSE23KXJOA44W3NNJN%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>415</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Tercer treball d'aquesta divertida banda de ponent editat a finals del 2004</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=10797.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> The Skafeïnats - Ska Show (2008)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=10797&url=ed2k%3A%2F%2F%7Cfile%7CThe%2520Skafe%25C3%25AFnats%2520-%2520Ska%2520Show%2520%282008%29.rar%7C74427108%7CF2A73708F7550E0D4501890D7FEA188D%7Ch%3DNKZMZZJ6KY7WSFIROBR2GCEWM4BJDQAR%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>256</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">1r CD DE LA BANDA VALENCIANA D'SKA JAMAICÀ &quot;THE SKAFEÏNATS&quot;</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3523.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tinc Ladilles - Puzzle Ancestral</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3523&url=ed2k%3A%2F%2F%7Cfile%7CTinc%2520Ladilles%2520-%2520Puzzle%2520Ancestral%2520%28per%2520Sabadellenc%29.rar%7C33862653%7C52448AA4A3CAAA58D6984E0D4DD76FE5%7Ch%3DVFYDYQVBQGOGPPV754UDW3SWT5IGJK6F%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>150</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Idiomes, rip, etc.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3475.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tipuaixi - C'est la vie</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3475&url=ed2k%3A%2F%2F%7Cfile%7CTipuaix%25C3%25AD%2520-%2520C%27est%2520la%2520vie%2520%5BPer%2520Catalanet%5D%2520Si%2520us%2520agrada%2C%2520compreu%2520el%2520disc.zip%7C31209892%7C7E70E04A6208CB447775C210EE0854F5%7Ch%3D5ZFSYW5W57AB4YS47VORYQOFNBPPBNF6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>152</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de catalanet</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3267.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Titot - Guillem de Berguedà [CD1]</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=3268"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3267&url=ed2k%3A%2F%2F%7Cfile%7CTitot%2520-%2520Guillem%2520de%2520Bergued%25C3%25A0%2520%5BCd1%5D%5Bper%2520Catalanet%5D%5BSi%2520us%2520agrada%2C%2520compreu%2520el%2520disc%5D.zip%7C62001509%7C4078180919D8B095BA72B1DF9641198F%7Ch%3DJUM3B4DWNPI6RVS6M5X2KWQZURHVLL37%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>155</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de catalanet</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3268.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Titot - Guillem de Berguedà [CD2]</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=3267"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3268&url=ed2k%3A%2F%2F%7Cfile%7CTitot%2520-%2520Guillem%2520de%2520Bergued%25C3%25A0%2520%5BCd2%5D%5Bper%2520Catalanet%5D%5BSi%2520us%2520agrada%2C%2520compreu%2520el%2520disc%5D.zip%7C50293374%7C42B07A40E2400009E4ED700182F64DF4%7Ch%3DCFQJ5JVAACFTTGYIXAHHABFPO47BSLEB%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>170</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">cortesia de catalanet</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=578.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Titot i David Rosell - Viatge efímer a la vall del</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=578&url=ed2k%3A%2F%2F%7Cfile%7CTitot.i.David.Rosell-Viatge.ef%25C3%25ADmer.a.la.vall.dels.mots.%28per.Saboner%29.rar%7C45001386%7C11BE3806BF33E411D759F420759C44C5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>240</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Comprimit en .rar</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3120.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> TNC - El somi de Mozart</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3120&url=ed2k%3A%2F%2F%7Cfile%7CTeatre%2520Nacional%2520de%2520Catalunya%2520-%2520El%2520somni%2520de%2520Mozart%2520per%2520jbcat.rar%7C62096149%7CEF9B1A0B9F7C6E060AF8C4E3131E45F5%7Ch%3DJTWS4N2O2GOJVTR2ZSXIUD4VFNJDISSE%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>147</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per jbcat</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5156.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tomeu Penya - et donem la nota</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5156&url=ed2k%3A%2F%2F%7Cfile%7CTomeu%2520Penya%2520-%2520et%2520donem%2520la%2520nota%2520%28moi%29.rar%7C28789823%7C6A200DF19A596D882D1B682EFB94CA70%7Ch%3DNFBMR3UMJIHBIMTVRMLXY2BQZYYMSIHJ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>211</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">mp3 portada</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=8327.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Tota la música de la Patum</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=8327&url=ed2k%3A%2F%2F%7Cfile%7Ctota%2520la%2520m%25C3%25BAsica%2520de%2520patum.rar%7C84232931%7C43CAFE8445E0F4BF751794BE4C17F6C3%7Ch%3DIM4IGH2TGLFR4DJXP52PHX4NJ7MU7R3V%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>2090</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="10.00 punts (6 Vots)" width="64" height="12" border="0" align="bottom" title="10.00 punts (6 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Gaudeix de la música de la Patum a casa..... i sense trapitjades!!</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="9">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2717.html" title="La pataqueta - cançons infantils">La pataqueta - can...</a><br></td><td width="40"> <div align="right">2951</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8327.html" title="Tota la música de la Patum">Tota la música de...</a><br></td><td width="40"> <div align="right">2090</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3218.html" title="Xesco Boix - Cançons infantils d&#039;ara i de sempre">Xesco Boix - Canç...</a><br></td><td width="40"> <div align="right">1959</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4281.html" title="Antitank CD">Antitank CD</a><br></td><td width="40"> <div align="right">1722</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7402.html" title="Els Pets - Com anar al cel i tornar (2007)">Els Pets - Com ana...</a><br></td><td width="40"> <div align="right">1639</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7008.html" title="Gossos-Oxigen (2007)">Gossos-Oxigen (200...</a><br></td><td width="40"> <div align="right">1638</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7288.html" title="Pirat&#039;s Sound Sistema - Vol. II">Pirat&#039;s Sound Sist...</a><br></td><td width="40"> <div align="right">1626</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5342.html" title="Rock&amp;Cat - el disc">Rock&amp;Cat - el disc...</a><br></td><td width="40"> <div align="right">1532</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1515.html" title="Josep Maria Cantimplora - Hotel Acapulco">Josep Maria Cantim...</a><br></td><td width="40"> <div align="right">1383</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6448.html" title="El Tribut A Sopa De Cabra - Podre Tornar Enrera">El Tribut A Sopa D...</a><br></td><td width="40"> <div align="right">1163</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=310.html" title="Al Tall - Vares Velles">Al Tall - Vares Ve...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6069.html" title="Cram - En brut">Cram - En brut</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8305.html" title="Partaka - Per sempre més (1986)">Partaka - Per semp...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3531.html" title="Sapo - Vatua l&#039;olla">Sapo - Vatua l&#039;oll...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5512.html" title="Música Nostra - Ball de bot">Música Nostra - B...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=585.html" title="Els Pets - Sol">Els Pets - Sol</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4149.html" title="Alikata Rock - Ara si ke mos l&#039;han pegat...">Alikata Rock - Ara...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=604.html" title="Berta - Em Sents">Berta - Em Sents</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5369.html" title="Sopa de cabra - Ben endins">Sopa de cabra - Be...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=723.html" title="Xot - Xot">Xot - Xot</a><br></td><td width="40"> <div align="right">10.0</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13937.html" title="Ovidi Montllor.-.Salvat-Papasseit.per.Ovidi.Montllor(ruccata">Ovidi Montllor.-.Salva...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13461.html" title="Antonia Font - Vostè és Aquí">Antonia Font - Vostè ...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13315.html" title="Nour - Detotarrel">Nour - Detotarrel</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13314.html" title="Lexu&#039;s - saps">Lexu&#039;s - saps</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13313.html" title="GROLLERS DE SA FACTORÍA - GROLLERITZACIÓ">GROLLERS DE SA FACTOR...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=13312.html" title="Buhos">Buhos</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=12570.html" title="Els Catarres - Cançons 2011 (Disc públic)">Els Catarres - Cançon...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=12182.html" title="Ivette Nadal - A l&#039;esquena d&#039;un elefant - Flac">Ivette Nadal - A l&#039;esq...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=12181.html" title="Ivette Nadal - A l&#039;esquena d&#039;un elefant">Ivette Nadal - A l&#039;esq...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=12113.html" title="La Porta dels Somnis - Aire Lliure - 2010 flac">La Porta dels Somnis -...</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagelinklast"><a href='index.php@page=34&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'><</a></span>
+<span class="pagelink"><a href='index.php@page=31&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>31</a></span><span class="pagelink"><a href='index.php@page=32&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>32</a></span><span class="pagelink"><a href='index.php@page=33&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>33</a></span><span class="pagelink"><a href='index.php@page=34&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>34</a></span><span class="pagecurrent"><a href='index.php@page=35&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>35</a></span><span class="pagelink"><a href='index.php@page=36&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>36</a></span><span class="pagelink"><a href='index.php@page=37&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>37</a></span><span class="pagelink"><a href='index.php@page=38&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>38</a></span><span class="pagelinklast"><a href='index.php@page=36&amp;cat=9&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<link rel="stylesheet" href="./archive-notice.css"><script src="./archive-notice.js"></script></body>
+</HTML>

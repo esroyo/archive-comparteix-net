@@ -1,0 +1,644 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Jocs</TITLE>
+<META NAME='KEYWORDS' CONTENT='Jocs'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Jocs" href="rss.php@cat=7">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=7.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=7.html'><font color=black>Jocs</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=7" title="Canal RSS de la categoria Jocs"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 1
+&nbsp;&nbsp;<b>eLinks</b>: 26&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 20461 vegades" title="Categoria visualitzada 20461 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="7">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/7">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<br><div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1" style="border: 1px solid #eeeeee; background-color: #f7f7f7;"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+<font class="main_col_sub">
+<img src="template/comparteix/image/folder.png" align="absmiddle" border=0> <B><A HREF="index.php@cat=62.html" title="Pedaços cont&eacute; 0 subcategories...">Pedaços</A></B></font>&nbsp;<BR>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div><br/>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=497.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> 42 Jocs Web en Català</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=497&url=ed2k%3A%2F%2F%7Cfile%7C42%2520Games%2520-%252042%2520Jocs%2520-%252042%2520Juegos%2520%28JocsWeb%29.rar%7C10255670%7CE54F916BE7BA69139BC27049EB34093D%7Ch%3DYM6RMVWHMBF4QZWCM52RSIH5GUQ47LKH%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>981</strong>,   
+Puntuaci&oacute;:<img src="image/punts/5punts.gif" alt="4.75 punts (4 Vots)" width="64" height="12" border="0" align="bottom" title="4.75 punts (4 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">42 Jocs Web en Català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1708.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Aprén a llegir amb Pipo</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1708&url=ed2k%3A%2F%2F%7Cfile%7CPipo%2520apren%2520a%2520llegir%2520%28catala%29%2520by%2520bolin.rar%7C464241355%7C68DDD4303C7A2FA8FF742BF3C52ABA90%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>1523</strong>,   
+Puntuaci&oacute;:<img src="image/punts/7punts.gif" alt="7.00 punts (3 Vots)" width="64" height="12" border="0" align="bottom" title="7.00 punts (3 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc infantil</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1707.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Aprén música amb Pipo</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1707&url=ed2k%3A%2F%2F%7Cfile%7C%28joc%2520infantil%2520en%2520catal%25C3%25A0%29%2520Apr%25C3%25A8n%2520m%25C3%25BAsica%2520amb%2520Pipo.zip%7C533413461%7C8641DB608D1AFBA165D000BCA11047C8%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>559</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc infantil</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=334.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Clic</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=334&url=ed2k%3A%2F%2F%7Cfile%7CClic.zip%7C12208151%7CBC5B1F2F67E71756F9F01D5FCCD017E1%7Ch%3D7E5YP2M7B5JSEUBSN3H66JUFK27D4FMQ%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>512</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc Educatiu</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1167.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Comarques.Països.Catalans. Joc En Flash</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1167&url=ed2k%3A%2F%2F%7Cfile%7CComarques.Pa%25C3%25AFsos.Catalans.-.JOC.flash.win32.-.pa%25C3%25ADs.valenci%25C3%25A0.principat.de.catalunya.illes.balears.-.ppcc.exe%7C619120%7CED3731DC9E0A3D1E8D986325B531AF49%7Ch%3D4VG3STHU6SGBU56DDGJNC77ITRLDUXXO%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>1189</strong>,   
+Puntuaci&oacute;:<img src="image/punts/7punts.gif" alt="6.50 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="6.50 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc en flash que consisteix en anar posant totes les comarques dels Països Catalans. Molt recomanat.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7512.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Cotos, coto, cau, cinquet - Joc de cartes</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7512&url=ed2k%3A%2F%2F%7Cfile%7CCotos%2C%2520coto%2C%2520cau%2C%2520cinquet%2520-%2520Joc%2520de%2520cartes%2520-%2520By%2520twisterska.zip%7C1806422%7C78C714F6E6DFC27DCE9FF6D5A1FAEE4B%7Ch%3DDY5KZD7HZ2KLUJO4CQDW5XWQJCLQIOTE%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>455</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Cotos, coto, cau, cinquet - Joc de cartes - By twisterska.zip</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1712.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Descobreix l'Univers amb Pipo</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1712&url=ed2k%3A%2F%2F%7Cfile%7CDescobreix_l%25E2%2580%2599Univers_amb_Pipo_by_el_pollo4_%28_catalan_infantil_%29.rar%7C177644924%7C56D4E57307F72934828E0DE6381AAB6D%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>591</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc infantil</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=6040.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El Gran Pet de la màquina de l'oncle Albert</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=6040&url=ed2k%3A%2F%2F%7Cfile%7CEl.Gran.Pet.de.la.m%C3%A0quina.de.l%27oncle.Albert.%28joc.catal%C3%A0%29.%28Trapella%29.iso%7C655998976%7CDF628E0A3FE546FFF41955C7172C412C%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>624</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="7.25 punts (4 Vots)" width="64" height="12" border="0" align="bottom" title="7.25 punts (4 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc educatiu en català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=6575.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> F1 06 Pobles d'Europa</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=6575&url=ed2k%3A%2F%2F%7Cfile%7CF1%25202006%2520Pobles%2520d%27europa%2520%28pueblos%2520de%2520europa%29.rar%7C685733223%7C82FA52B8CB91BD9748E4FDE49C4118BD%7Ch%3DSMGMPMG5XULGYRW5NOGXZY5UY7UX7WG5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>532</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="7.75 punts (4 Vots)" width="64" height="12" border="0" align="bottom" title="7.75 punts (4 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc F1 2006 amb la possibilitat d'elegir diferents nacionalitats europees (Catalunya, Euskal Herria, Galicia, Bretanya, Corcega, etc.)</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=6041.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Faves comptades</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=6041&url=ed2k%3A%2F%2F%7Cfile%7CFaves.comptades.%28Barcelona.multimedia%29.%28catal%C3%A0%29.CloneCD.per.Trapella.rar%7C137027507%7C449C0F9B716263AF99AD4393B5B0C7A4%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>386</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">joc educatiu en català</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3414.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> FIFA 2006 per PC</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3414&url=ed2k%3A%2F%2F%7Cfile%7CFifa.2006.PC.FREEDOM%2520FOR%2520CATALONIA%2520DVD.rar%7C2582832138%7CE393AE233C3499761EE05508B0F3FBFC%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>685</strong>,   
+Puntuaci&oacute;:<img src="image/punts/6punts.gif" alt="5.33 punts (3 Vots)" width="64" height="12" border="0" align="bottom" title="5.33 punts (3 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">By Ordinador</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1713.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Gaudí o el joc de l'arquitecte</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1713&url=ed2k%3A%2F%2F%7Cfile%7CGaud%25C3%25AD.o.el.Joc.de.l%27Arquitecte.-.by.Sebas.nrg%7C673106076%7C3675CFC5AC2317E085213E0399FA8E17%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>565</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per Sebas</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1716.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Joc del Pingu</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1716&url=ed2k%3A%2F%2F%7Cfile%7CJoc%2520del%2520Pingu%2520%28CloneCD%29.rar%7C622522092%7CA5D4C4A1CEA88A8D463673E68D502972%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>1367</strong>,   
+Puntuaci&oacute;:<img src="image/punts/1punts.gif" alt="1.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="1.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">per Jav</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1711.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Juga amb Pipo a la ciutat</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1711&url=ed2k%3A%2F%2F%7Cfile%7CJuga.amb.Pipo.a.la.Ciutat.Clonecd.rar%7C421280766%7C9D2657FD0DDC983DA69871CD821FC2AB%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>661</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc infantil</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1721.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> L'album secret de l'oncle Albert</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1721&url=ed2k%3A%2F%2F%7Cfile%7CL%27%25C3%2580LBUM.SECRET.de.l%27oncle.Albert.nrg.%28per.Independ%25C3%25A8ncia2014.%28ruccatala.cjb.net%29.rar%7C211656424%7C4E17AB4F1EE70DA353E7F861DCA21AF6%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>628</strong>,   
+Puntuaci&oacute;:<img src="image/punts/5punts.gif" alt="4.50 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="4.50 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">A partir de 7 anys</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3990.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> La Bella o la Bèstia</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3990&url=ed2k%3A%2F%2F%7Cfile%7CLa%2520Bella%2520o%2520la%2520B%25C3%25A8stia%2520%5BJoc%2520Multim%25C3%25A8dia%5D%5Brucatala.tk%5D.rar%7C409114647%7CE33E5DF7694CBD61D8D2514285D87870%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>369</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Joc Multimèdia</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1717.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Les tres bessones - Jugar i aprendre</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1717&url=ed2k%3A%2F%2F%7Cfile%7C%28Las%2520tres%2520mellizas%29%2520Jugar%2520i%2520aprendre%2520-1-%2520%28Les%25203%2520bessones%29%28catalan%29.zip%7C298256638%7CCD6624A0AAB269448733F87D1AA1EDBB%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>730</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Primer joc de les tres bessones</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1719.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Les tres bessones - L'escola</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1719&url=ed2k%3A%2F%2F%7Cfile%7C%28Las%2520Tres%2520Mellizas%29%2520L%27Escola%2520-4-%2520%28Les%25203%2520Bessones%29%28Catal%25C3%25A0%29.rar%7C470549800%7C115D9D65DD4FB01EDA0B1886A7D76688%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>608</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Quart joc de les tres bessones</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1720.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Les tres bessones - La caseta</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1720&url=ed2k%3A%2F%2F%7Cfile%7CLa.caseta.-3-.%28Les.3.bessones%29%28catalan%29.zip%7C105218709%7C4A247D9C1E1B9861F06A849F08579B64%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>833</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="9.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="9.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Tercer joc de les tres bessones</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1718.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Les tres bessones - Sopa de contes</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1718&url=ed2k%3A%2F%2F%7Cfile%7C%28Las%2520tres%2520mellizas%29%2520Sopa%2520de%2520contes%2520-2-%2520%28Les%25203%2520bessones%29%28catalan%29.zip%7C293527261%7C03826B04236CAB8A2F87F64ABA0EEF9A%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>649</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Segon joc de les tres bessones</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="7">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1708.html" title="Aprén a llegir amb Pipo">Aprén a llegir am...</a><br></td><td width="40"> <div align="right">1523</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1716.html" title="Joc del Pingu">Joc del Pingu</a><br></td><td width="40"> <div align="right">1367</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1167.html" title="Comarques.Països.Catalans. Joc En Flash">Comarques.Països....</a><br></td><td width="40"> <div align="right">1189</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=497.html" title="42 Jocs Web en Català">42 Jocs Web en Cat...</a><br></td><td width="40"> <div align="right">981</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4749.html" title="Otijocs - El secret del doctor Pots">Otijocs - El secre...</a><br></td><td width="40"> <div align="right">893</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1720.html" title="Les tres bessones - La caseta">Les tres bessones ...</a><br></td><td width="40"> <div align="right">833</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4446.html" title="Civilization IV: Catalunya V.3.1">Civilization IV: C...</a><br></td><td width="40"> <div align="right">803</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1717.html" title="Les tres bessones - Jugar i aprendre">Les tres bessones ...</a><br></td><td width="40"> <div align="right">730</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3414.html" title="FIFA 2006 per PC">FIFA 2006 per PC</a><br></td><td width="40"> <div align="right">685</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1711.html" title="Juga amb Pipo a la ciutat">Juga amb Pipo a la...</a><br></td><td width="40"> <div align="right">661</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=373.html" title="Selecció catalana per al PES 4 - PS2">Selecció catalana...</a><br></td><td width="40"> <div align="right">9.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4446.html" title="Civilization IV: Catalunya V.3.1">Civilization IV: C...</a><br></td><td width="40"> <div align="right">9.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=372.html" title="Selecció catalana per al PES 4 - PC">Selecció catalana...</a><br></td><td width="40"> <div align="right">8.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6575.html" title="F1 06 Pobles d&#039;Europa">F1 06 Pobles d&#039;Eur...</a><br></td><td width="40"> <div align="right">7.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1715.html" title="Pingu i els seus amics">Pingu i els seus a...</a><br></td><td width="40"> <div align="right">7.7</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6040.html" title="El Gran Pet de la màquina de l&#039;oncle Albert">El Gran Pet de la ...</a><br></td><td width="40"> <div align="right">7.3</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1708.html" title="Aprén a llegir amb Pipo">Aprén a llegir am...</a><br></td><td width="40"> <div align="right">7.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=1167.html" title="Comarques.Països.Catalans. Joc En Flash">Comarques.Països....</a><br></td><td width="40"> <div align="right">6.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3414.html" title="FIFA 2006 per PC">FIFA 2006 per PC</a><br></td><td width="40"> <div align="right">5.3</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=8028.html" title="[Ps2] Dragon Ball Z Sparking Neo en Català">[Ps2] Dragon Ball Z Sp...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7512.html" title="Cotos, coto, cau, cinquet - Joc de cartes">Cotos, coto, cau, cinq...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6575.html" title="F1 06 Pobles d&#039;Europa">F1 06 Pobles d&#039;Europa</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6041.html" title="Faves comptades">Faves comptades</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6040.html" title="El Gran Pet de la màquina de l&#039;oncle Albert">El Gran Pet de la màq...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4749.html" title="Otijocs - El secret del doctor Pots">Otijocs - El secret de...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4446.html" title="Civilization IV: Catalunya V.3.1">Civilization IV: Catal...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=4445.html" title="Civilization IV: Almogàver">Civilization IV: Almog...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3990.html" title="La Bella o la Bèstia">La Bella o la Bèstia</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3414.html" title="FIFA 2006 per PC">FIFA 2006 per PC</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagecurrent"><a href='index.php@page=1&amp;cat=7&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>1</a></span><span class="pagelink"><a href='index.php@page=2&amp;cat=7&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>2</a></span><span class="pagelinklast"><a href='index.php@page=2&amp;cat=7&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<link rel="stylesheet" href="./archive-notice.css"><script src="./archive-notice.js"></script></body>
+</HTML>

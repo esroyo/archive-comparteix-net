@@ -1,0 +1,844 @@
+<!-- NAME: add.tpl -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><title>Comparteix - Afegeix un eLink</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="SHORTCUT ICON" href="icona.png">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function blank_check(name,almess) {
+var blank,blank_ch;
+blank_ch = "document.myform."+name+".value";
+blank = eval(blank_ch);
+if (!blank) { alert(almess); return false;}
+else {return true;}
+}
+function form_submit(faction) {
+cat_index = document.myform.parent.selectedIndex;
+if(!blank_check("title","Completeu el campo Títol")) document.myform.title.focus();
+else if(!blank_check("url","Completeu el camp eLink")) document.myform.url.focus();
+else if(!blank_check("scont","Completeu el camp Descripció")) document.myform.scont.focus();
+else if(!blank_check("name","Completeu el camp Nom")) document.myform.name.focus();
+else if(!blank_check("email","Completeu el camp E-mail")) document.myform.email.focus();
+else if(!blank_check("passwd","Completeu el camp Contrasenya")) document.myform.passwd.focus();
+else if (document.myform.parent.options[cat_index].value ==0) alert(' Trieu la categoria ');
+else {
+document.myform.action = faction;
+document.myform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+  <tr>
+    <td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+  <tr valign="middle">
+    <td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+    <td align="center"><a href="http://www.acpv.cat"><img src="image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+  </tr>
+</table>
+<!-- HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+	<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+	<tr>
+	 
+	 <td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+	 <a href='index.php.html'>INICI</a></font></td>
+	
+	<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=.html">
+	Afegeix un eLink</a></font></td>
+	<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+	Novetats</a></font></td>
+		
+	<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+	Populars</a></font></td>
+		
+	<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+	F&ograve;rums</a></font></td>
+	<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+	TOP 10</a></font></td>
+	
+	<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+	Mapa de categories</a></font></td>
+	<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+	Enlla&ccedil;os</a></font></td>
+	</tr>
+	</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: here_static.html -->
+<div align="center">
+<table border='0' cellpadding='0' cellspacing='0' width='715' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; >> </font>
+<font size='2'>Afegeix un eLink</font>
+</td></tr>
+<tr><td height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: here_static.html -->
+<!-- HERE START -->
+<!-- Search bar -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- Search bar -->
+<br>
+<div  align="center">
+<table border=0 width="715"><tr><td align=center>
+<table width="97%" cellspacing="0" cellpadding="0" border="0" >
+<tr>
+<td  align="left" valign=top width="11"><img src="template/comparteix/image/ul.gif" width="11" height="11" border="0"></td>
+<td bgcolor="#F6F6F6" width="100%"><img src="template/comparteix/image/x1.gif"></td>
+<td  align="right" valign=top width="11"><img src="template/comparteix/image/ur.gif" width="11" height="11" border="0"></td>
+</tr>
+<tr>
+<td bgcolor="#F6F6F6"><img src="template/comparteix/image/x1.gif"></td>
+<td bgcolor="#F6F6F6">
+<ul><FONT size="2">
+<li> Els camps marcats amb un asterisc (*) són obligatoris.</li>
+<li> Els eLinks s'han d'introduir sense cap format, ni html, ni bbcode, ni res. Només l'enllaç ed2k, per favor.</li>
+<li> La <i>descripció</i> no pot sobrepassar els 200 caràcters. Per a donar més inforamció useu la <i>descripció estesa</i>.</li>
+<li> Mida <b>màxima</b> d'imatge: <b>100KB</b>. (Formats: jpg, png i gif)</li>
+<li> Recordeu la contrasenya per actualitzar en el futur les dades de l'eLink.</li>
+<li> El camp <em>eLink relacionat</em> s'usarà per a enllaçar dos eLinks que van junts, per exemple, una pel·lícula i els seus subtítols, un programa i el pegat per a traduir-lo, una pel·lícula dividida en 2 CD's. No es permetrà l'enllaç de dos eLinks que no tinguen relació directa. Per tal d'enllaçar-los, s'ha d'emplenar el camp amb la ID de l'eLink cap al que voleu enllaçar. Podeu veure la ID d'un eLink visitant la pàgina de detalls.</li>
+<li> Al camp de descripció estesa es permet la inclusió de codi HTML lleuger (a, i, b, etc.).</li>
+<li> Si no esteu segur, feu una cerca ràpida per a comprobar que el fitxer que aneu a penjar no existeix al directori.</li>
+<li> L'ús d'aquesta pàgina web implica la lectura i acceptació de la <b><a href="forums/index.php@action=vthread&amp;forum=1&amp;topic=4.html">Normativa</a></b></li></FONT></ul>
+</td>
+<td bgcolor="#F6F6F6"><img src="template/comparteix/image/x1.gif"></td>
+</tr>
+<tr>
+<td  align="left" valign=bottom width="11"><img src="template/comparteix/image/dl.gif" width="11" height="11" border="0"></td>
+<td bgcolor="#F6F6F6" width=""><img src="template/comparteix/image/x1.gif"></td>
+<td align="right" valign=bottom width="11"><img src="template/comparteix/image/dr.gif" width="11" height="11" border="0"></td>
+</tr>
+</table>
+<br/>
+<form action='add.php.html' method='post' name="myform" ENCTYPE="multipart/form-data">
+<input type='hidden' name='switch' value='add'>
+<table border='0' width='715' cellpadding='0' cellspacing='0'>
+<tr><td height=2 bgcolor="gray" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr><td  height='25' colspan='2' bgcolor='#E0E0E0' align='center'><font size=2><b>eLink nou</b></font></td></tr>
+<tr><td height=1 bgcolor="gray" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='115' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Títol</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='text' name='title' maxlength='60' size='40' title="T&iacute;tol que tindr&agrave; aquest enlla&ccedil;/&iacute;tem (m&agrave;xim 60 car&agrave;cters)"></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;eLink </font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='text' name='url' value='ed2k://' onblur="if(this.value=='') this.value='ed2k://';" onfocus="if(this.value=='ed2k://') this.value='';" size='40' title="Enganxeu ac&iacute; l'enlla&ccedil; eD2k (sense HTML, per favor)"></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Categories</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><select name='parent'>
+<option value=''>Seleccioneu categoria</option>
+<option value='22'>Arrel>> Altres vídeos</option>
+<option value='220'>Arrel>> Altres vídeos>> Anuncis</option>
+<option value='442'>Arrel>> Altres vídeos>> Ballet</option>
+<option value='226'>Arrel>> Altres vídeos>> Castellers</option>
+<option value='443'>Arrel>> Altres vídeos>> Castellers>> Aplec de Muixerangues</option>
+<option value='277'>Arrel>> Altres vídeos>> Castellers>> Concurs de Tarragona</option>
+<option value='325'>Arrel>> Altres vídeos>> Castellers>> Diada de la Mercè</option>
+<option value='350'>Arrel>> Altres vídeos>> Castellers>> Diada de Sant Joan</option>
+<option value='324'>Arrel>> Altres vídeos>> Castellers>> Diada de Tots Sants</option>
+<option value='323'>Arrel>> Altres vídeos>> Castellers>> Diada del Mercadal </option>
+<option value='309'>Arrel>> Altres vídeos>> Castellers>> Diada dels Arreplegats</option>
+<option value='308'>Arrel>> Altres vídeos>> Castellers>> Diada dels Minyons</option>
+<option value='276'>Arrel>> Altres vídeos>> Castellers>> Sant Fèlix</option>
+<option value='307'>Arrel>> Altres vídeos>> Castellers>> Santa Úrsula</option>
+<option value='66'>Arrel>> Altres vídeos>> Entrevistes</option>
+<option value='176'>Arrel>> Altres vídeos>> Esports</option>
+<option value='218'>Arrel>> Altres vídeos>> Esports>> Formula 1</option>
+<option value='65'>Arrel>> Altres vídeos>> Teatre</option>
+<option value='59'>Arrel>> Altres vídeos>> Videoclips</option>
+<option value='60'>Arrel>> Altres vídeos>> Videoclips>> Concerts i Directes</option>
+<option value='195'>Arrel>> Altres vídeos>> Vídeos polítics</option>
+<option value='5'>Arrel>> Àudio</option>
+<option value='8'>Arrel>> Àudio>> Cançons</option>
+<option value='467'>Arrel>> Àudio>> Cançons>> Himnes</option>
+<option value='256'>Arrel>> Àudio>> Cançons>> La Muixeranga</option>
+<option value='257'>Arrel>> Àudio>> Cançons>> Toc de Castells</option>
+<option value='468'>Arrel>> Àudio>> Contes</option>
+<option value='191'>Arrel>> Àudio>> Directes (no editats)</option>
+<option value='11'>Arrel>> Àudio>> Discografies</option>
+<option value='9'>Arrel>> Àudio>> Discos</option>
+<option value='145'>Arrel>> Àudio>> Documents sonors</option>
+<option value='69'>Arrel>> Àudio>> Llibres sonors</option>
+<option value='190'>Arrel>> Àudio>> Monòlegs/Acudits</option>
+<option value='258'>Arrel>> Àudio>> Ràdio</option>
+<option value='259'>Arrel>> Àudio>> Ràdio>> En guàrdia</option>
+<option value='63'>Arrel>> Àudio>> Recopilacions</option>
+<option value='64'>Arrel>> Documentals</option>
+<option value='519'>Arrel>> Documentals>> A la romana</option>
+<option value='465'>Arrel>> Documentals>> Arquitectures</option>
+<option value='637'>Arrel>> Documentals>> BBC - El planeta viu</option>
+<option value='164'>Arrel>> Documentals>> Bèsties</option>
+<option value='623'>Arrel>> Documentals>> Boira Negra</option>
+<option value='90'>Arrel>> Documentals>> Catalunya des de l\'aire</option>
+<option value='91'>Arrel>> Documentals>> Catalunya des del mar</option>
+<option value='219'>Arrel>> Documentals>> Cronos</option>
+<option value='135'>Arrel>> Documentals>> Dies de transició</option>
+<option value='231'>Arrel>> Documentals>> El medi ambient</option>
+<option value='232'>Arrel>> Documentals>> Els grans descobriments</option>
+<option value='464'>Arrel>> Documentals>> Els Pirineus des de l\'aire</option>
+<option value='84'>Arrel>> Documentals>> Històries de Catalunya</option>
+<option value='210'>Arrel>> Documentals>> Històries de Catalunya>> 1a Temporada</option>
+<option value='211'>Arrel>> Documentals>> Històries de Catalunya>> 2a Temporada</option>
+<option value='173'>Arrel>> Documentals>> L\'Imperi daurat d\'egipte</option>
+<option value='172'>Arrel>> Documentals>> L\'univers elegant</option>
+<option value='242'>Arrel>> Documentals>> National geographic</option>
+<option value='291'>Arrel>> Documentals>> Natura viva</option>
+<option value='71'>Arrel>> Documentals>> Planeta Blau</option>
+<option value='244'>Arrel>> Documentals>> Segle XX</option>
+<option value='554'>Arrel>> Documentals>> Segle XX>> 2007 - 2008</option>
+<option value='347'>Arrel>> Documentals>> Temps indòmit</option>
+<option value='652'>Arrel>> Documentals>> Thalassa</option>
+<option value='310'>Arrel>> Documentals>> Un avís de la història</option>
+<option value='474'>Arrel>> Documentals>> Veterinaris</option>
+<option value='163'>Arrel>> Documentals>> Zona Roja</option>
+<option value='7'>Arrel>> Jocs</option>
+<option value='62'>Arrel>> Jocs>> Pedaços</option>
+<option value='10'>Arrel>> Lectura</option>
+<option value='133'>Arrel>> Lectura>> Articles</option>
+<option value='13'>Arrel>> Lectura>> Còmic/Manga</option>
+<option value='70'>Arrel>> Lectura>> Còmic/Manga>> Bola de drac</option>
+<option value='377'>Arrel>> Lectura>> Còmic/Manga>> Naruto</option>
+<option value='187'>Arrel>> Lectura>> Legislació</option>
+<option value='12'>Arrel>> Lectura>> Llibres</option>
+<option value='185'>Arrel>> Lectura>> Llibres de referència</option>
+<option value='228'>Arrel>> Lectura>> Llibres de referència>> Khôra</option>
+<option value='26'>Arrel>> Lectura>> Manuals</option>
+<option value='132'>Arrel>> Lectura>> Revistes</option>
+<option value='134'>Arrel>> Lectura>> Revistes>> El temps d\'història</option>
+<option value='351'>Arrel>> Lectura>> Revistes>> Paper de vidre</option>
+<option value='57'>Arrel>> Material per a adults</option>
+<option value='23'>Arrel>> Miscel·lània</option>
+<option value='147'>Arrel>> Miscel·lània>> Altres llengües</option>
+<option value='539'>Arrel>> Miscel·lània>> Altres llengües>> Occità</option>
+<option value='193'>Arrel>> Miscel·lània>> Caràtules</option>
+<option value='205'>Arrel>> Miscel·lània>> Cuina</option>
+<option value='207'>Arrel>> Miscel·lània>> Lletres i partitures</option>
+<option value='194'>Arrel>> Miscel·lània>> Mapes</option>
+<option value='1'>Arrel>> Pel·lícules</option>
+<option value='2'>Arrel>> Pel·lícules (Animació)</option>
+<option value='175'>Arrel>> Pel·lícules (Animació)>> Astèrix</option>
+<option value='146'>Arrel>> Pel·lícules (Animació)>> Doraemon</option>
+<option value='148'>Arrel>> Pel·lícules (Animació)>> Shin Chan</option>
+<option value='105'>Arrel>> Pel·lícules (Animació)>> Tintín</option>
+<option value='470'>Arrel>> Pel·lícules (Animació)>> Wallace i Gromit</option>
+<option value='99'>Arrel>> Pel·lícules>> Acció</option>
+<option value='92'>Arrel>> Pel·lícules>> Aventures</option>
+<option value='94'>Arrel>> Pel·lícules>> C.Ficció/Fantasia</option>
+<option value='102'>Arrel>> Pel·lícules>> Comèdia/Humor</option>
+<option value='104'>Arrel>> Pel·lícules>> Crim</option>
+<option value='103'>Arrel>> Pel·lícules>> Curt</option>
+<option value='93'>Arrel>> Pel·lícules>> Drama</option>
+<option value='100'>Arrel>> Pel·lícules>> Guerra</option>
+<option value='125'>Arrel>> Pel·lícules>> Història</option>
+<option value='96'>Arrel>> Pel·lícules>> Horror</option>
+<option value='188'>Arrel>> Pel·lícules>> Infantil</option>
+<option value='98'>Arrel>> Pel·lícules>> Intriga</option>
+<option value='95'>Arrel>> Pel·lícules>> Musical</option>
+<option value='101'>Arrel>> Pel·lícules>> Oest</option>
+<option value='97'>Arrel>> Pel·lícules>> Romàntiques/Amor</option>
+<option value='6'>Arrel>> Programari</option>
+<option value='24'>Arrel>> Programari>> Pedaços</option>
+<option value='67'>Arrel>> Programes de TV</option>
+<option value='128'>Arrel>> Programes de TV>> 30 Minuts</option>
+<option value='279'>Arrel>> Programes de TV>> 60 minuts</option>
+<option value='441'>Arrel>> Programes de TV>> Aeroport</option>
+<option value='68'>Arrel>> Programes de TV>> Afers Exteriors</option>
+<option value='538'>Arrel>> Programes de TV>> Afers Exteriors>> 1a Temporada</option>
+<option value='266'>Arrel>> Programes de TV>> Afers Exteriors>> 2a Temporada</option>
+<option value='209'>Arrel>> Programes de TV>> Afers Exteriors>> 3a Temporada</option>
+<option value='482'>Arrel>> Programes de TV>> APM 2007</option>
+<option value='403'>Arrel>> Programes de TV>> Arrels</option>
+<option value='444'>Arrel>> Programes de TV>> Barçòvia</option>
+<option value='239'>Arrel>> Programes de TV>> Caçadors de bolets</option>
+<option value='240'>Arrel>> Programes de TV>> Caçadors de bolets>> 1a Temporada</option>
+<option value='241'>Arrel>> Programes de TV>> Caçadors de bolets>> 2a Temporada</option>
+<option value='439'>Arrel>> Programes de TV>> Caçadors de bolets>> 3a Temporada</option>
+<option value='625'>Arrel>> Programes de TV>> Caçadors de bolets>> 5a Temporada</option>
+<option value='509'>Arrel>> Programes de TV>> Caçadors de paraules</option>
+<option value='510'>Arrel>> Programes de TV>> Colors en sèrie</option>
+<option value='224'>Arrel>> Programes de TV>> Cuina per solters</option>
+<option value='603'>Arrel>> Programes de TV>> Dinamita!</option>
+<option value='604'>Arrel>> Programes de TV>> Dinamita!>> 1a Temporada</option>
+<option value='605'>Arrel>> Programes de TV>> Dinamita!>> 2a Temporada</option>
+<option value='611'>Arrel>> Programes de TV>> Dinamita!>> 3a Temporada</option>
+<option value='617'>Arrel>> Programes de TV>> Dinamita!>> 4a Temporada</option>
+<option value='131'>Arrel>> Programes de TV>> El Favorit</option>
+<option value='297'>Arrel>> Programes de TV>> El meu avi</option>
+<option value='486'>Arrel>> Programes de TV>> En forma</option>
+<option value='288'>Arrel>> Programes de TV>> Entre línies</option>
+<option value='280'>Arrel>> Programes de TV>> Just for laughs</option>
+<option value='281'>Arrel>> Programes de TV>> Karakia</option>
+<option value='286'>Arrel>> Programes de TV>> Karakia>> 1a Temporada</option>
+<option value='287'>Arrel>> Programes de TV>> Karakia>> 2a Temporada</option>
+<option value='304'>Arrel>> Programes de TV>> Karakia>> 3a temporada</option>
+<option value='305'>Arrel>> Programes de TV>> Karakia>> 4a temporada</option>
+<option value='306'>Arrel>> Programes de TV>> Karakia>> 5a temporada</option>
+<option value='527'>Arrel>> Programes de TV>> Karakia>> 6a temporada</option>
+<option value='170'>Arrel>> Programes de TV>> La cosa nostra</option>
+<option value='440'>Arrel>> Programes de TV>> La rentadora</option>
+<option value='537'>Arrel>> Programes de TV>> Mania</option>
+<option value='302'>Arrel>> Programes de TV>> Nit de misteri</option>
+<option value='407'>Arrel>> Programes de TV>> On Anem?</option>
+<option value='318'>Arrel>> Programes de TV>> Pecats capitals</option>
+<option value='294'>Arrel>> Programes de TV>> Polònia</option>
+<option value='451'>Arrel>> Programes de TV>> Polònia>> 1a Temporada</option>
+<option value='434'>Arrel>> Programes de TV>> Polònia>> 2a Temporada</option>
+<option value='541'>Arrel>> Programes de TV>> Polònia>> 3a temporada</option>
+<option value='435'>Arrel>> Programes de TV>> Polònia>> Extres</option>
+<option value='202'>Arrel>> Programes de TV>> Quarts de Nou</option>
+<option value='392'>Arrel>> Programes de TV>> Quarts de Nou>> 2005</option>
+<option value='393'>Arrel>> Programes de TV>> Quarts de Nou>> 2006</option>
+<option value='150'>Arrel>> Programes de TV>> Sexes</option>
+<option value='267'>Arrel>> Programes de TV>> Sexes>> 1a Temporada</option>
+<option value='268'>Arrel>> Programes de TV>> Sexes>> 2a Temporada</option>
+<option value='278'>Arrel>> Programes de TV>> Supernanny</option>
+<option value='367'>Arrel>> Programes de TV>> Un lloc estrany</option>
+<option value='417'>Arrel>> Programes de TV>> Villa Guerrilla</option>
+<option value='483'>Arrel>> Programes de TV>> Virus</option>
+<option value='3'>Arrel>> Sèries</option>
+<option value='4'>Arrel>> Sèries (Animació)</option>
+<option value='638'>Arrel>> Sèries (Animació)|Els desastres del Rei Artús [DVD]</option>
+<option value='167'>Arrel>> Sèries (Animació)>> 3x3 Ulls</option>
+<option value='168'>Arrel>> Sèries (Animació)>> 3x3 Ulls>> OVA(s)</option>
+<option value='238'>Arrel>> Sèries (Animació)>> Bleach</option>
+<option value='290'>Arrel>> Sèries (Animació)>> Bob el manetes</option>
+<option value='19'>Arrel>> Sèries (Animació)>> Bola de Drac</option>
+<option value='42'>Arrel>> Sèries (Animació)>> Bola de Drac>> Bola de drac GT</option>
+<option value='41'>Arrel>> Sèries (Animació)>> Bola de Drac>> Bola de drac Z</option>
+<option value='40'>Arrel>> Sèries (Animació)>> Bola de Drac>> Bola de drac [Central]</option>
+<option value='331'>Arrel>> Sèries (Animació)>> Bola de Drac>> Bola de Drac [Valencià]</option>
+<option value='43'>Arrel>> Sèries (Animació)>> Bola de Drac>> OVA(s)</option>
+<option value='639'>Arrel>> Sèries (Animació)>> Caçadors de Dracs</option>
+<option value='36'>Arrel>> Sèries (Animació)>> Card Captor Sakura</option>
+<option value='636'>Arrel>> Sèries (Animació)>> CO2</option>
+<option value='600'>Arrel>> Sèries (Animació)>> Code Geass R2</option>
+<option value='599'>Arrel>> Sèries (Animació)>> Combat Xiaolin</option>
+<option value='251'>Arrel>> Sèries (Animació)>> Conan, el nen del futur</option>
+<option value='329'>Arrel>> Sèries (Animació)>> Corto Maltés</option>
+<option value='37'>Arrel>> Sèries (Animació)>> Cowboy Bebop</option>
+<option value='328'>Arrel>> Sèries (Animació)>> DNA²</option>
+<option value='317'>Arrel>> Sèries (Animació)>> Dome</option>
+<option value='221'>Arrel>> Sèries (Animació)>> Doraemon</option>
+<option value='136'>Arrel>> Sèries (Animació)>> Dr.Slump</option>
+<option value='284'>Arrel>> Sèries (Animació)>> Dragon Quest (Fly)</option>
+<option value='282'>Arrel>> Sèries (Animació)>> El capità Harlock</option>
+<option value='612'>Arrel>> Sèries (Animació)>> El capità Harlock>> Català - Castellà</option>
+<option value='613'>Arrel>> Sèries (Animació)>> El capità Harlock>> Català - Japonès</option>
+<option value='263'>Arrel>> Sèries (Animació)>> El rei artur</option>
+<option value='528'>Arrel>> Sèries (Animació)>> Els barrufets</option>
+<option value='515'>Arrel>> Sèries (Animació)>> Els Bobobobs</option>
+<option value='655'>Arrel>> Sèries (Animació)>> Els Dalton</option>
+<option value='643'>Arrel>> Sèries (Animació)>> Els desastres del Rei Artús [TDT]</option>
+<option value='430'>Arrel>> Sèries (Animació)>> Els dotze regnes</option>
+<option value='469'>Arrel>> Sèries (Animació)>> Els jetsons</option>
+<option value='549'>Arrel>> Sèries (Animació)>> Els Quatre Fantàstics (2006)</option>
+<option value='368'>Arrel>> Sèries (Animació)>> Escaflowne</option>
+<option value='394'>Arrel>> Sèries (Animació)>> Ferros a les dents</option>
+<option value='149'>Arrel>> Sèries (Animació)>> FLCL</option>
+<option value='196'>Arrel>> Sèries (Animació)>> Full Metal Panic</option>
+<option value='431'>Arrel>> Sèries (Animació)>> Futbol Galàctic</option>
+<option value='646'>Arrel>> Sèries (Animació)>> Gasp!</option>
+<option value='15'>Arrel>> Sèries (Animació)>> Green Green</option>
+<option value='56'>Arrel>> Sèries (Animació)>> Green Green>> OVA(s)</option>
+<option value='283'>Arrel>> Sèries (Animació)>> Història de Catalunya (amb en Dragui)</option>
+<option value='74'>Arrel>> Sèries (Animació)>> Inu-Yasha</option>
+<option value='570'>Arrel>> Sèries (Animació)>> Ja arriba en Noddy</option>
+<option value='166'>Arrel>> Sèries (Animació)>> Kimagure Orange Road</option>
+<option value='635'>Arrel>> Sèries (Animació)>> La Legió de Superherois</option>
+<option value='216'>Arrel>> Sèries (Animació)>> Lacets</option>
+<option value='140'>Arrel>> Sèries (Animació)>> Lady Oscar</option>
+<option value='154'>Arrel>> Sèries (Animació)>> Les 3 bessones</option>
+<option value='490'>Arrel>> Sèries (Animació)>> Les aventures d\'en Massagran</option>
+<option value='452'>Arrel>> Sèries (Animació)>> Les confessions dels animals (Creature Comforts)</option>
+<option value='653'>Arrel>> Sèries (Animació)>> Lila</option>
+<option value='233'>Arrel>> Sèries (Animació)>> Lucky Luke</option>
+<option value='177'>Arrel>> Sèries (Animació)>> L\'Abella Maia</option>
+<option value='571'>Arrel>> Sèries (Animació)>> L\'ós de la gran casa blava </option>
+<option value='364'>Arrel>> Sèries (Animació)>> Martin Mistery</option>
+<option value='492'>Arrel>> Sèries (Animació)>> Megaman, el ciberguerrer</option>
+<option value='568'>Arrel>> Sèries (Animació)>> Minúscul</option>
+<option value='402'>Arrel>> Sèries (Animació)>> Mr Bogus</option>
+<option value='39'>Arrel>> Sèries (Animació)>> Musculman</option>
+<option value='14'>Arrel>> Sèries (Animació)>> Naruto</option>
+<option value='32'>Arrel>> Sèries (Animació)>> Neon Genesis Evangelion</option>
+<option value='514'>Arrel>> Sèries (Animació)>> New Dr. Slump</option>
+<option value='38'>Arrel>> Sèries (Animació)>> Niea Under 7</option>
+<option value='391'>Arrel>> Sèries (Animació)>> One piece</option>
+<option value='414'>Arrel>> Sèries (Animació)>> Orphen Revenge</option>
+<option value='533'>Arrel>> Sèries (Animació)>> Petits fantasmes</option>
+<option value='534'>Arrel>> Sèries (Animació)>> Petits fantasmes>> Fantasmes al celler</option>
+<option value='642'>Arrel>> Sèries (Animació)>> Pingüins de Madagascar</option>
+<option value='654'>Arrel>> Sèries (Animació)>> Què hi ha, Scooby-Doo?</option>
+<option value='260'>Arrel>> Sèries (Animació)>> Quedes detingut</option>
+<option value='35'>Arrel>> Sèries (Animació)>> Ranma½</option>
+<option value='312'>Arrel>> Sèries (Animació)>> REC</option>
+<option value='33'>Arrel>> Sèries (Animació)>> Record of Lodoss War</option>
+<option value='477'>Arrel>> Sèries (Animació)>> Red vs. Blue</option>
+<option value='153'>Arrel>> Sèries (Animació)>> Rovelló</option>
+<option value='659'>Arrel>> Sèries (Animació)>> Samurai Champloo</option>
+<option value='76'>Arrel>> Sèries (Animació)>> Slam Dunk</option>
+<option value='137'>Arrel>> Sèries (Animació)>> Slam Dunk>> OVA(s)</option>
+<option value='249'>Arrel>> Sèries (Animació)>> Street Fighter II Victory</option>
+<option value='487'>Arrel>> Sèries (Animació)>> SuperAmics</option>
+<option value='155'>Arrel>> Sèries (Animació)>> Tortugues Ninja</option>
+<option value='156'>Arrel>> Sèries (Animació)>> Tortugues Ninja>> 3a Temporada</option>
+<option value='171'>Arrel>> Sèries (Animació)>> Tortugues Ninja>> 4a Temporada</option>
+<option value='178'>Arrel>> Sèries (Animació)>> Tortugues Ninja>> 5a Temporada</option>
+<option value='200'>Arrel>> Sèries (Animació)>> Tortugues Ninja>> 6a Temporada</option>
+<option value='201'>Arrel>> Sèries (Animació)>> Tortugues Ninja>> 7a Temporada</option>
+<option value='34'>Arrel>> Sèries (Animació)>> Trigun</option>
+<option value='601'>Arrel>> Sèries (Animació)>> Una mà de contes</option>
+<option value='289'>Arrel>> Sèries (Animació)>> Utena</option>
+<option value='213'>Arrel>> Sèries (Animació)>> Wickie el Viking</option>
+<option value='197'>Arrel>> Sèries (Animació)>> Widget</option>
+<option value='526'>Arrel>> Sèries (Animació)>> X-Men: Evolution</option>
+<option value='512'>Arrel>> Sèries>> 16 Dobles</option>
+<option value='513'>Arrel>> Sèries>> 16 Dobles>> 1a Temporada</option>
+<option value='245'>Arrel>> Sèries>> A dalt i abaix</option>
+<option value='246'>Arrel>> Sèries>> A dalt i abaix>> 1a Temporada</option>
+<option value='316'>Arrel>> Sèries>> A dalt i abaix>> 2a temporada</option>
+<option value='422'>Arrel>> Sèries>> Agència de viatges</option>
+<option value='292'>Arrel>> Sèries>> Allo! Allo!</option>
+<option value='293'>Arrel>> Sèries>> Allo! Allo!>> 1a Temporada</option>
+<option value='314'>Arrel>> Sèries>> Allo! Allo!>> 2a Temporada</option>
+<option value='352'>Arrel>> Sèries>> Allo! Allo!>> 3a Temporada</option>
+<option value='390'>Arrel>> Sèries>> Allo! Allo!>> 4a Temporada</option>
+<option value='413'>Arrel>> Sèries>> Allo! Allo!>> 5a Temporada</option>
+<option value='478'>Arrel>> Sèries>> Allo! Allo!>> 6a temporada</option>
+<option value='479'>Arrel>> Sèries>> Allo! Allo!>> 7a temporada</option>
+<option value='480'>Arrel>> Sèries>> Allo! Allo!>> 8a temporada</option>
+<option value='481'>Arrel>> Sèries>> Allo! Allo!>> 9a temporada</option>
+<option value='271'>Arrel>> Sèries>> Àngels i Sants</option>
+<option value='485'>Arrel>> Sèries>> Arnau</option>
+<option value='18'>Arrel>> Sèries>> Babylon 5</option>
+<option value='53'>Arrel>> Sèries>> Babylon 5>> 1a Temporada</option>
+<option value='54'>Arrel>> Sèries>> Babylon 5>> 2a Temporada</option>
+<option value='72'>Arrel>> Sèries>> Babylon 5>> 3a Temporada</option>
+<option value='330'>Arrel>> Sèries>> Babylon 5>> 4a temporada</option>
+<option value='345'>Arrel>> Sèries>> Babylon 5>> 5a Temporada</option>
+<option value='369'>Arrel>> Sèries>> Battlestar Galactica 2003</option>
+<option value='370'>Arrel>> Sèries>> Battlestar Galactica 2003>> Temporada 2</option>
+<option value='499'>Arrel>> Sèries>> Berlín, Berlín</option>
+<option value='501'>Arrel>> Sèries>> Berlín, Berlín>> 1a Temporada</option>
+<option value='502'>Arrel>> Sèries>> Berlín, Berlín>> 2a Temporada</option>
+<option value='503'>Arrel>> Sèries>> Berlín, Berlín>> 3a Temporada</option>
+<option value='504'>Arrel>> Sèries>> Berlín, Berlín>> 4a Temporada</option>
+<option value='656'>Arrel>> Sèries>> Boig per tu</option>
+<option value='647'>Arrel>> Sèries>> Boig per tu - TDT</option>
+<option value='657'>Arrel>> Sèries>> Boig per tu>> 1a Temporada</option>
+<option value='658'>Arrel>> Sèries>> Boig per tu>> 2a Temporada</option>
+<option value='547'>Arrel>> Sèries>> Bombers de Nova York</option>
+<option value='548'>Arrel>> Sèries>> Bombers de Nova York>> 1a Temporada</option>
+<option value='563'>Arrel>> Sèries>> Bombers de Nova York>> 2a Temporada</option>
+<option value='575'>Arrel>> Sèries>> Bombers de Nova York>> 3a Temporada</option>
+<option value='311'>Arrel>> Sèries>> Bones</option>
+<option value='399'>Arrel>> Sèries>> Bottom</option>
+<option value='400'>Arrel>> Sèries>> Bottom>> 1a Temporada</option>
+<option value='401'>Arrel>> Sèries>> Bottom>> 2a Temporada</option>
+<option value='651'>Arrel>> Sèries>> Breaking Bad</option>
+<option value='496'>Arrel>> Sèries>> Buck Rogers en el segle XXV</option>
+<option value='497'>Arrel>> Sèries>> Buck Rogers en el segle XXV>> 1a Temporada</option>
+<option value='589'>Arrel>> Sèries>> Buck Rogers en el segle XXV>> 2a Temporada</option>
+<option value='182'>Arrel>> Sèries>> Caiguts del cel</option>
+<option value='183'>Arrel>> Sèries>> Caiguts del cel>> 1a Temporada</option>
+<option value='634'>Arrel>> Sèries>> Camins misteriosos</option>
+<option value='236'>Arrel>> Sèries>> Casats amb fills</option>
+<option value='237'>Arrel>> Sèries>> Casats amb fills>> 1a Temporada</option>
+<option value='264'>Arrel>> Sèries>> Casats amb fills>> 2a Temporada</option>
+<option value='298'>Arrel>> Sèries>> Casats amb fills>> 3a Temporada</option>
+<option value='332'>Arrel>> Sèries>> Casats amb fills>> 4a temporada</option>
+<option value='349'>Arrel>> Sèries>> Casats amb fills>> 5a Temporada</option>
+<option value='374'>Arrel>> Sèries>> Casats amb fills>> 6a Temporada</option>
+<option value='421'>Arrel>> Sèries>> Casats amb fills>> 9a Temporada</option>
+<option value='618'>Arrel>> Sèries>> Chuck</option>
+<option value='619'>Arrel>> Sèries>> Chuck>> 1a Temporada</option>
+<option value='300'>Arrel>> Sèries>> Colombo</option>
+<option value='301'>Arrel>> Sèries>> Colombo>> 1a temporada</option>
+<option value='358'>Arrel>> Sèries>> Colombo>> 3a temporada</option>
+<option value='186'>Arrel>> Sèries>> Crims</option>
+<option value='321'>Arrel>> Sèries>> Dallas</option>
+<option value='454'>Arrel>> Sèries>> Dallas>> 3a Temporada</option>
+<option value='322'>Arrel>> Sèries>> Dallas>> 4a Temporada</option>
+<option value='455'>Arrel>> Sèries>> Dallas>> 5a Temporada</option>
+<option value='456'>Arrel>> Sèries>> Dallas>> 6a Temporada</option>
+<option value='640'>Arrel>> Sèries>> Danys i perjudicis (Damages)</option>
+<option value='641'>Arrel>> Sèries>> Danys i perjudicis (Damages)>> 1a Temporada</option>
+<option value='561'>Arrel>> Sèries>> Dawson\'s Creek</option>
+<option value='562'>Arrel>> Sèries>> Dawson\'s Creek>> 1a Temporada</option>
+<option value='363'>Arrel>> Sèries>> Despareguts</option>
+<option value='594'>Arrel>> Sèries>> Doctor Who [2005]</option>
+<option value='595'>Arrel>> Sèries>> Doctor Who [2005]>> 1a Temporada</option>
+<option value='596'>Arrel>> Sèries>> Doctor Who [2005]>> 2a Temporada</option>
+<option value='598'>Arrel>> Sèries>> Doctor Who [2005]>> 3a Temporada</option>
+<option value='581'>Arrel>> Sèries>> Dolmen</option>
+<option value='319'>Arrel>> Sèries>> Dr. Caparrós, medicina general</option>
+<option value='505'>Arrel>> Sèries>> Egipte</option>
+<option value='491'>Arrel>> Sèries>> El Guardià</option>
+<option value='582'>Arrel>> Sèries>> El meu heroi</option>
+<option value='583'>Arrel>> Sèries>> El meu heroi>> 1a Temporada</option>
+<option value='597'>Arrel>> Sèries>> El meu heroi>> 2a Temporada</option>
+<option value='602'>Arrel>> Sèries>> El meu heroi>> 3a Temporada</option>
+<option value='609'>Arrel>> Sèries>> El meu heroi>> 4a Temporada</option>
+<option value='615'>Arrel>> Sèries>> El meu heroi>> 5a Temporada</option>
+<option value='546'>Arrel>> Sèries>> El món de HG Wells</option>
+<option value='433'>Arrel>> Sèries>> El Món perdut</option>
+<option value='521'>Arrel>> Sèries>> El Món perdut>> 1a Temporada</option>
+<option value='522'>Arrel>> Sèries>> El Món perdut>> 2a Temporada</option>
+<option value='523'>Arrel>> Sèries>> El Món perdut>> 3a Temporada</option>
+<option value='16'>Arrel>> Sèries>> El nan roig</option>
+<option value='365'>Arrel>> Sèries>> El nan roig [remasteritzat]</option>
+<option value='366'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 1a temporada</option>
+<option value='419'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 2a Temporada</option>
+<option value='471'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 3a Temporada</option>
+<option value='493'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 4a Temporada</option>
+<option value='494'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 5a Temporada</option>
+<option value='542'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 6a temporada</option>
+<option value='555'>Arrel>> Sèries>> El nan roig [remasteritzat]>> 7a Temporada</option>
+<option value='48'>Arrel>> Sèries>> El nan roig>> 1a Temporada</option>
+<option value='49'>Arrel>> Sèries>> El nan roig>> 2a Temporada</option>
+<option value='50'>Arrel>> Sèries>> El nan roig>> 3a Temporada</option>
+<option value='161'>Arrel>> Sèries>> El nan roig>> 4a Temporada</option>
+<option value='162'>Arrel>> Sèries>> El nan roig>> 5a Temporada</option>
+<option value='389'>Arrel>> Sèries>> El Perepunyetes</option>
+<option value='457'>Arrel>> Sèries>> El Perepunyetes>> 1a Temporada</option>
+<option value='405'>Arrel>> Sèries>> El Perepunyetes>> 2a Temporada</option>
+<option value='445'>Arrel>> Sèries>> El Perepunyetes>> 3a Temporada</option>
+<option value='458'>Arrel>> Sèries>> El Perepunyetes>> 5a Temporada</option>
+<option value='179'>Arrel>> Sèries>> Els Joves</option>
+<option value='180'>Arrel>> Sèries>> Els Joves>> 1a Temporada</option>
+<option value='181'>Arrel>> Sèries>> Els Joves>> 2a Temporada</option>
+<option value='409'>Arrel>> Sèries>> Els Roper</option>
+<option value='410'>Arrel>> Sèries>> Els Roper>> 1a Temporada</option>
+<option value='411'>Arrel>> Sèries>> Els Roper>> 2a Temporada</option>
+<option value='412'>Arrel>> Sèries>> Els Roper>> 3a Temporada</option>
+<option value='234'>Arrel>> Sèries>> Embruixada</option>
+<option value='235'>Arrel>> Sèries>> Embruixada>> 1a Temporada</option>
+<option value='272'>Arrel>> Sèries>> Embruixada>> 2a Temporada</option>
+<option value='348'>Arrel>> Sèries>> Embruixada>> 3a temporada</option>
+<option value='273'>Arrel>> Sèries>> Embruixada>> 4a Temporada</option>
+<option value='25'>Arrel>> Sèries>> Farscape</option>
+<option value='47'>Arrel>> Sèries>> Farscape>> 1a Temporada</option>
+<option value='55'>Arrel>> Sèries>> Farscape>> 2a Temporada</option>
+<option value='130'>Arrel>> Sèries>> Farscape>> 3a Temporada</option>
+<option value='129'>Arrel>> Sèries>> Farscape>> 4a Temporada</option>
+<option value='247'>Arrel>> Sèries>> Firefly</option>
+<option value='248'>Arrel>> Sèries>> Firefly>> 1a Temporada</option>
+<option value='484'>Arrel>> Sèries>> Fiscal Chase</option>
+<option value='516'>Arrel>> Sèries>> Herois</option>
+<option value='517'>Arrel>> Sèries>> Herois>> 1a Temporada</option>
+<option value='556'>Arrel>> Sèries>> Herois>> 1a Temporada (HD)</option>
+<option value='106'>Arrel>> Sèries>> Hotel Fawlty</option>
+<option value='629'>Arrel>> Sèries>> Huff</option>
+<option value='630'>Arrel>> Sèries>> Huff>> 1a Temporada</option>
+<option value='436'>Arrel>> Sèries>> Invasió</option>
+<option value='500'>Arrel>> Sèries>> Invasió (First Wave)</option>
+<option value='506'>Arrel>> Sèries>> Invasió (First Wave)>> 1a Temporada</option>
+<option value='507'>Arrel>> Sèries>> Invasió (First Wave)>> 2a Temporada</option>
+<option value='508'>Arrel>> Sèries>> Invasió (First Wave)>> 3a Temporada</option>
+<option value='553'>Arrel>> Sèries>> Investigadors</option>
+<option value='606'>Arrel>> Sèries>> Ironside</option>
+<option value='607'>Arrel>> Sèries>> Ironside>> 1a Temporada</option>
+<option value='608'>Arrel>> Sèries>> Ironside>> 2a Temporada</option>
+<option value='616'>Arrel>> Sèries>> Ironside>> 3a Temporada</option>
+<option value='624'>Arrel>> Sèries>> Ironside>> 4a Temporada</option>
+<option value='627'>Arrel>> Sèries>> Ironside>> 5a Temporada</option>
+<option value='628'>Arrel>> Sèries>> Ironside>> 6a Temporada</option>
+<option value='632'>Arrel>> Sèries>> Ironside>> 7a Temporada</option>
+<option value='633'>Arrel>> Sèries>> Ironside>> 8a Temporada</option>
+<option value='217'>Arrel>> Sèries>> Jet Lag</option>
+<option value='295'>Arrel>> Sèries>> Jet Lag>> 1a temporada</option>
+<option value='342'>Arrel>> Sèries>> Jet Lag>> 2a temporada</option>
+<option value='344'>Arrel>> Sèries>> Jet Lag>> 3a temporada</option>
+<option value='420'>Arrel>> Sèries>> Jet Lag>> 4a Temporada</option>
+<option value='296'>Arrel>> Sèries>> Jet Lag>> 6a temporada</option>
+<option value='27'>Arrel>> Sèries>> Jo Claudi</option>
+<option value='243'>Arrel>> Sèries>> Joves Rebels</option>
+<option value='265'>Arrel>> Sèries>> Just for laughs</option>
+<option value='346'>Arrel>> Sèries>> Jutjant l\'Amy</option>
+<option value='488'>Arrel>> Sèries>> Jutjant l\'Amy>> 1a Temporada</option>
+<option value='489'>Arrel>> Sèries>> Jutjant l\'Amy>> 2a temporada</option>
+<option value='418'>Arrel>> Sèries>> Kingdom Hospital</option>
+<option value='472'>Arrel>> Sèries>> La dimensió desconeguda</option>
+<option value='473'>Arrel>> Sèries>> La dimensió desconeguda>> 1a Temporada</option>
+<option value='569'>Arrel>> Sèries>> La dimensió desconeguda>> 2a Temporada</option>
+<option value='588'>Arrel>> Sèries>> La dimensió desconeguda>> 3a Temporada</option>
+<option value='511'>Arrel>> Sèries>> La dimensió desconeguda>> 5a Temporada</option>
+<option value='252'>Arrel>> Sèries>> La memòria dels cargols</option>
+<option value='577'>Arrel>> Sèries>> La pitjor setmana de la meva vida</option>
+<option value='578'>Arrel>> Sèries>> La pitjor setmana de la meva vida>> 1a Temporada</option>
+<option value='614'>Arrel>> Sèries>> La Roma Antiga</option>
+<option value='545'>Arrel>> Sèries>> La Tata</option>
+<option value='552'>Arrel>> Sèries>> La Tata>> 1a Temporada</option>
+<option value='580'>Arrel>> Sèries>> La Tata>> 2a temporada</option>
+<option value='518'>Arrel>> Sèries>> La Via Augusta</option>
+<option value='462'>Arrel>> Sèries>> La Zona Morta</option>
+<option value='573'>Arrel>> Sèries>> La Zona Morta>> 1a Temporada</option>
+<option value='574'>Arrel>> Sèries>> La Zona Morta>> 2a Temporada</option>
+<option value='157'>Arrel>> Sèries>> Llei i Desordre</option>
+<option value='159'>Arrel>> Sèries>> Llei i Desordre>> 1a Temporada</option>
+<option value='214'>Arrel>> Sèries>> Lo Cartanyà</option>
+<option value='261'>Arrel>> Sèries>> Lo Cartanyà>> 1a Temporada</option>
+<option value='262'>Arrel>> Sèries>> Lo Cartanyà>> 2a Temporada</option>
+<option value='475'>Arrel>> Sèries>> Lo Cartanyà>> 3a temporada</option>
+<option value='274'>Arrel>> Sèries>> Lost (Perduts)</option>
+<option value='275'>Arrel>> Sèries>> Lost (Perduts)>> 2a Temporada</option>
+<option value='379'>Arrel>> Sèries>> L\'escurçó Negre</option>
+<option value='380'>Arrel>> Sèries>> L\'escurçó Negre>> 1a temporada</option>
+<option value='381'>Arrel>> Sèries>> L\'escurçó Negre>> 1a temporada DVDRip</option>
+<option value='382'>Arrel>> Sèries>> L\'escurçó Negre>> 2a temporada</option>
+<option value='383'>Arrel>> Sèries>> L\'escurçó Negre>> 2a temporada DVDRip</option>
+<option value='384'>Arrel>> Sèries>> L\'escurçó Negre>> 3a temporada</option>
+<option value='386'>Arrel>> Sèries>> L\'escurçó Negre>> 3a temporada DVDRip</option>
+<option value='387'>Arrel>> Sèries>> L\'escurçó Negre>> 4a temporada</option>
+<option value='388'>Arrel>> Sèries>> L\'escurçó Negre>> Especials</option>
+<option value='520'>Arrel>> Sèries>> L\'hora d\'Alfred Hitchcock</option>
+<option value='530'>Arrel>> Sèries>> L\'hora d\'Alfred Hitchcock>> 8a Temporada</option>
+<option value='529'>Arrel>> Sèries>> L\'hora d\'Alfred Hitchcock>> 9a Temporada</option>
+<option value='198'>Arrel>> Sèries>> L\'un per l\'altre</option>
+<option value='203'>Arrel>> Sèries>> L\'un per l\'altre>> 1a Temporada</option>
+<option value='204'>Arrel>> Sèries>> L\'un per l\'altre>> 2a Temporada</option>
+<option value='524'>Arrel>> Sèries>> Magnum</option>
+<option value='559'>Arrel>> Sèries>> Magnum>> 1a Temporada</option>
+<option value='560'>Arrel>> Sèries>> Magnum>> 2a Temporada</option>
+<option value='525'>Arrel>> Sèries>> Magnum>> 4a Temporada</option>
+<option value='450'>Arrel>> Sèries>> Mar de fons</option>
+<option value='590'>Arrel>> Sèries>> Mecanoscrit del segon origen</option>
+<option value='432'>Arrel>> Sèries>> Mirall Trencat</option>
+<option value='212'>Arrel>> Sèries>> Monthy Python\'s Fliying Circus</option>
+<option value='579'>Arrel>> Sèries>> Mr. Bean</option>
+<option value='158'>Arrel>> Sèries>> Nip/Tuck</option>
+<option value='160'>Arrel>> Sèries>> Nip/Tuck>> 1a Temporada</option>
+<option value='184'>Arrel>> Sèries>> Nip/Tuck>> 2a Temporada</option>
+<option value='373'>Arrel>> Sèries>> Nip/Tuck>> 3a Temporada</option>
+<option value='531'>Arrel>> Sèries>> Nip/Tuck>> 4a Temporada</option>
+<option value='626'>Arrel>> Sèries>> Nip/Tuck>> 5a Temporada</option>
+<option value='299'>Arrel>> Sèries>> N\'hi ha que neixen estrellats</option>
+<option value='336'>Arrel>> Sèries>> N\'hi ha que neixen estrellats>> 1a temporada</option>
+<option value='334'>Arrel>> Sèries>> N\'hi ha que neixen estrellats>> 2a temporada</option>
+<option value='335'>Arrel>> Sèries>> N\'hi ha que neixen estrellats>> 4a temporada</option>
+<option value='151'>Arrel>> Sèries>> Odyssey 5</option>
+<option value='152'>Arrel>> Sèries>> Odyssey 5>> 1a Temporada</option>
+<option value='438'>Arrel>> Sèries>> Oh! Europa</option>
+<option value='424'>Arrel>> Sèries>> Parelles</option>
+<option value='425'>Arrel>> Sèries>> Parelles>> 1a Temporada</option>
+<option value='426'>Arrel>> Sèries>> Parelles>> 2a Temporada</option>
+<option value='427'>Arrel>> Sèries>> Parelles>> 3a Temporada</option>
+<option value='29'>Arrel>> Sèries>> Plats bruts</option>
+<option value='77'>Arrel>> Sèries>> Plats bruts>> 1a Temporada</option>
+<option value='408'>Arrel>> Sèries>> Plats bruts>> 1a Temporada (DVD)</option>
+<option value='78'>Arrel>> Sèries>> Plats bruts>> 2a Temporada</option>
+<option value='406'>Arrel>> Sèries>> Plats bruts>> 3a Temporada</option>
+<option value='339'>Arrel>> Sèries>> Plats bruts>> 4a temporada</option>
+<option value='337'>Arrel>> Sèries>> Plats bruts>> 5a temporada</option>
+<option value='139'>Arrel>> Sèries>> Plats bruts>> 6a Temporada</option>
+<option value='141'>Arrel>> Sèries>> Porca Misèria</option>
+<option value='229'>Arrel>> Sèries>> Porca Misèria>> 1a Temporada</option>
+<option value='230'>Arrel>> Sèries>> Porca Misèria>> 2a Temporada</option>
+<option value='437'>Arrel>> Sèries>> Porca Misèria>> 3a Temporada</option>
+<option value='584'>Arrel>> Sèries>> Porca Misèria>> 3a Temporada (DVDRip)</option>
+<option value='540'>Arrel>> Sèries>> Porca Misèria>> 4a Temporada</option>
+<option value='585'>Arrel>> Sèries>> Porca Misèria>> 4a Temporada (DVDRip)</option>
+<option value='461'>Arrel>> Sèries>> Quico</option>
+<option value='255'>Arrel>> Sèries>> Roma</option>
+<option value='543'>Arrel>> Sèries>> Roseanne</option>
+<option value='544'>Arrel>> Sèries>> Roseanne>> 1a Temporada</option>
+<option value='423'>Arrel>> Sèries>> Safareig al despatx</option>
+<option value='550'>Arrel>> Sèries>> Sexe a Nova York</option>
+<option value='551'>Arrel>> Sèries>> Sexe a Nova York>> 1a Temporada</option>
+<option value='30'>Arrel>> Sèries>> Sí, Ministre</option>
+<option value='51'>Arrel>> Sèries>> Sí, Ministre>> 1a Temporada</option>
+<option value='52'>Arrel>> Sèries>> Sí, Ministre>> 2a Temporada</option>
+<option value='75'>Arrel>> Sèries>> Sí, Ministre>> 3a Temporada</option>
+<option value='174'>Arrel>> Sèries>> Sí, Primer Ministre</option>
+<option value='326'>Arrel>> Sèries>> Sí, Primer Ministre>> 1a temporada</option>
+<option value='327'>Arrel>> Sèries>> Sí, Primer Ministre>> 2a temporada</option>
+<option value='320'>Arrel>> Sèries>> Sitges</option>
+<option value='404'>Arrel>> Sèries>> Som així</option>
+<option value='446'>Arrel>> Sèries>> Som així>> 2a Temporada</option>
+<option value='28'>Arrel>> Sèries>> Star Trek TNG</option>
+<option value='372'>Arrel>> Sèries>> Star Trek TNG>> 1a Temporada</option>
+<option value='631'>Arrel>> Sèries>> Star Trek TNG>> 2a Temporada</option>
+<option value='648'>Arrel>> Sèries>> Star Trek TNG>> 3a Temporada</option>
+<option value='649'>Arrel>> Sèries>> Star Trek TNG>> 4a Tamporada</option>
+<option value='650'>Arrel>> Sèries>> Star Trek TNG>> 5a Temporada</option>
+<option value='353'>Arrel>> Sèries>> Star Trek: TOS</option>
+<option value='354'>Arrel>> Sèries>> Star Trek: TOS>> 1a Temporada</option>
+<option value='495'>Arrel>> Sèries>> Star Trek: TOS>> 2a Temporada</option>
+<option value='572'>Arrel>> Sèries>> Star Trek: TOS>> 3a Temporada</option>
+<option value='355'>Arrel>> Sèries>> Star Trek: Voyager</option>
+<option value='357'>Arrel>> Sèries>> Star Trek: Voyager>> 1a Temporada</option>
+<option value='476'>Arrel>> Sèries>> Star Trek: Voyager>> 2a temporada</option>
+<option value='591'>Arrel>> Sèries>> Star Trek: Voyager>> 3a Temporada</option>
+<option value='592'>Arrel>> Sèries>> Star Trek: Voyager>> 4a Temporada</option>
+<option value='17'>Arrel>> Sèries>> Stargate SG-1</option>
+<option value='415'>Arrel>> Sèries>> Stargate SG-1>> 10a Temporada</option>
+<option value='44'>Arrel>> Sèries>> Stargate SG-1>> 1a Temporada</option>
+<option value='45'>Arrel>> Sèries>> Stargate SG-1>> 2a Temporada</option>
+<option value='73'>Arrel>> Sèries>> Stargate SG-1>> 3a Temporada</option>
+<option value='81'>Arrel>> Sèries>> Stargate SG-1>> 4a Temporada</option>
+<option value='82'>Arrel>> Sèries>> Stargate SG-1>> 5a Temporada</option>
+<option value='83'>Arrel>> Sèries>> Stargate SG-1>> 6a Temporada</option>
+<option value='46'>Arrel>> Sèries>> Stargate SG-1>> 7a Temporada</option>
+<option value='397'>Arrel>> Sèries>> Stargate SG-1>> 8a Temporada</option>
+<option value='398'>Arrel>> Sèries>> Stargate SG-1>> 9a Temporada</option>
+<option value='340'>Arrel>> Sèries>> Stargate: Atlantis</option>
+<option value='341'>Arrel>> Sèries>> Stargate: Atlantis>> 1a temporada</option>
+<option value='416'>Arrel>> Sèries>> Temps de silenci</option>
+<option value='428'>Arrel>> Sèries>> Temps de silenci>> 1a temporada</option>
+<option value='429'>Arrel>> Sèries>> Temps de silenci>> 2a temporada</option>
+<option value='449'>Arrel>> Sèries>> Temps de silenci>> 3a temporada</option>
+<option value='199'>Arrel>> Sèries>> Teresina, S.A.</option>
+<option value='593'>Arrel>> Sèries>> Terminator: Les cròniques de Sarah Connor</option>
+<option value='254'>Arrel>> Sèries>> Terra de gegants </option>
+<option value='250'>Arrel>> Sèries>> That\'s my Bush</option>
+<option value='535'>Arrel>> Sèries>> The Nine</option>
+<option value='536'>Arrel>> Sèries>> The Nine>> 1a Temporada</option>
+<option value='586'>Arrel>> Sèries>> Tots Cinc</option>
+<option value='587'>Arrel>> Sèries>> Tots Cinc>> 1a Temporada</option>
+<option value='303'>Arrel>> Sèries>> Tres estrelles</option>
+<option value='215'>Arrel>> Sèries>> Trilita</option>
+<option value='557'>Arrel>> Sèries>> Turc per principiants</option>
+<option value='558'>Arrel>> Sèries>> Turc per principiants>> 1a Temporada</option>
+<option value='644'>Arrel>> Sèries>> V - Els Visitants</option>
+<option value='645'>Arrel>> Sèries>> V - Els Visitants>> 1a Temporada</option>
+<option value='165'>Arrel>> Sèries>> Ventdelplà</option>
+<option value='269'>Arrel>> Sèries>> Ventdelplà>> 1a Temporada</option>
+<option value='270'>Arrel>> Sèries>> Ventdelplà>> 2a Temporada</option>
+<option value='532'>Arrel>> Sèries>> Ventdelplà>> 3a Temporada</option>
+<option value='620'>Arrel>> Sèries>> Ventdelplà>> 4a Temporada</option>
+<option value='621'>Arrel>> Sèries>> Ventdelplà>> 5a Temporada</option>
+<option value='622'>Arrel>> Sèries>> Ventdelplà>> 6a Temporada</option>
+<option value='564'>Arrel>> Sèries>> Vic Mackey [DVD + TDT]</option>
+<option value='565'>Arrel>> Sèries>> Vic Mackey [DVD + TDT]>> 1a Temporada</option>
+<option value='566'>Arrel>> Sèries>> Vic MacKey [TDT]</option>
+<option value='567'>Arrel>> Sèries>> Vic MacKey [TDT]>> 1a Temporada</option>
+<option value='576'>Arrel>> Sèries>> Vic MacKey [TDT]>> 2a Temporada</option>
+<option value='20'>Arrel>> Subtítols</option>
+<option value='375'>Arrel>> Subtítols>> Allo! Allo!</option>
+<option value='498'>Arrel>> Subtítols>> Farscape</option>
+<option value='466'>Arrel>> Subtítols>> Lost</option>
+<option value='459'>Arrel>> Subtítols>> Prision Break</option>
+<option value='360'>Arrel>> Subtítols>> Star Trek TOS</option>
+<option value='359'>Arrel>> Subtítols>> Star Trek VOY</option>
+<option value='463'>Arrel>> Subtítols>> Stargate Atlantis</option>
+<option value='460'>Arrel>> Subtítols>> Stargate SG-1</option>
+</select></font></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Descripció</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<input name='scont' type='text' value='Idiomes, rip, etc.' onblur="if(this.value=='') this.value='Idiomes, rip, etc.';" onfocus="if(this.value=='Idiomes, rip, etc.') this.value='';" maxlength='200' size='70' title="Descripci&oacute; de l'enlla&ccedil;, curta i sint&egrave;tica (m&agrave;xim 200 car&agrave;cters!)"></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<!-- BEGIN DYN: upfile -->
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Puja una imatge</font></td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='file' name='upfile' size='40' title="Introdu&iuml;u un fitxer d'imatge (mida m&agrave;xima: 100Kb)"></td>
+</tr>
+    
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<!-- END DYN: upfile -->
+<!-- BEGIN DYN: tdcol -->
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2' color="#aaaaaa">&nbsp;&nbsp;Format de fitxer</font></td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='text' name='user1' maxlength='15' size='40'></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2' color="#aaaaaa">&nbsp;&nbsp;eLink relacionat</font></td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='text' name='user2' maxlength='15' size='40'></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<!-- END DYN: tdcol -->
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Nom d'Usuari</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='text' name='name' maxlength='40' size='40' title="Introdu&iuml;u el vostre nom d'usuari/a (feu servir sempre el mateix!)"></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;E-mail</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<font size='3'><input type='text' name='email' maxlength='40' size='40' title="Introdu&iuml;u la vostra adre&ccedil;a de correu (no es far&agrave; p&uacute;blica en cap moment)"></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Contrasenya</font> *</td>
+<td bgcolor='#F6F6F6'>&nbsp;<input type='password' name='passwd' maxlength='10' size='10' title="Introdu&iuml;u la vostra contrasenya personal per a modificar l'enlla&ccedil; en el futur."></td>
+</tr>
+<tr><td height=1 bgcolor="#CCCCCC" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td width='110' height='27'  bgcolor='#F6F6F6'><font size='2'>&nbsp;&nbsp;Descripció estesa</font></td>
+<td bgcolor='#F6F6F6'>&nbsp;<textarea name='lcont' rows='7' cols='50' ></textarea></td>
+</tr>
+<tr><td height=1 bgcolor="gray" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+<tr>
+<td  height='25' colspan='2' bgcolor='#E0E0E0' align='center'><font size='2'><input
+type='button' value='Envia'  onClick="form_submit('add.php')" class=cinput></font></td>
+</tr>
+<tr><td height=2 bgcolor="gray" colspan=2><img src="template/comparteix/image/x1.gif"></td></tr>
+</table></form>
+</td></tr></table></div>
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+  </tr>
+</table>
+
+</body>
+</html>
+<!-- END: add.tpl -->

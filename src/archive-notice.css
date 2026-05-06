@@ -1,0 +1,90 @@
+/* Archive Notice Styles */
+body {
+    padding-top: 50px;
+}
+
+#top-notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #FDF8B5;
+    border-bottom: 1px solid #ECE991;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-notice .content {
+    color: #A39709;
+    font: bold 14px arial;
+    text-shadow: 0 1px 0 #FFFFFF;
+    padding: 0 25px;
+}
+
+#top-notice a {
+    border-bottom: 1px dotted #A39709;
+    color: #A39709;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#top-notice a:hover {
+    text-decoration: none;
+}
+
+#archive-dialog {
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-family: Calibri, Arial, sans-serif;
+}
+
+#archive-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#archive-dialog h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+#archive-dialog p {
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+#archive-dialog ul {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+#archive-dialog .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#archive-dialog .close-btn:hover {
+    color: #000;
+}
+
+#archive-dialog .signature {
+    text-align: right;
+    font-style: italic;
+    margin-top: 2em;
+}

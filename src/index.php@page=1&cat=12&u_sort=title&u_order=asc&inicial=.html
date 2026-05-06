@@ -1,0 +1,643 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Comparteix - Llibres</TITLE>
+<META NAME='KEYWORDS' CONTENT='Llibres'>
+<link rel="SHORTCUT ICON" href="icona.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK rel="stylesheet" type="text/css" href="template/comparteix/linker.css">
+<link rel="alternate" type="application/rss+xml" title="Comparteix - Llibres" href="rss.php@cat=12">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function imgscale(ref) {
+w=ref.width;
+h=ref.height;
+if ( w<=150 && h<=150 ) {}
+else {if (w>h) {ref.width=150}
+else {ref.height=150}}
+}
+function mail_submit(faction) {
+blank= document.mailform.mailaddr.value;
+if(blank == '') {
+alert("Escriu la teva adreça de correu");
+document.mailform.mailaddr.focus();
+}
+else {
+document.mailform.action = faction;
+document.mailform.submit();
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body background="image/fons2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="700" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="white" style="border-right: solid black 1px; border-left: solid black 1px">
+<tr>
+<td height="100%" valign="top">
+<!-- HEADER START-->
+<table width="100%" height="90" border="0" align="center" cellpadding="0" cellspacing="0" background="image/title_fons_v2.gif">
+<tr valign="middle">
+<td align="left"><a href="index.php.html"><img src='image/title_v2.jpg' border="0" alt="Comparteix.tk - Directori d'enllaos (elinks) per a la xarxa eDonkey2000 (eD2k) / eMule" align="left"></a></td>
+<td align="center"><a href="http://www.acpv.cat"><img src="image/tv3.gif" width="468" height="60" alt="S&iacute; a TV3 al Pa&iacute;s Valenci&agrave;" style="border: 0;" title="#sensesenyal" /></a></td>
+</tr>
+</table>
+<!-- HEADER END -->
+<!-- CAT_HEADER START-->
+<!-- CAT_HEADER END -->
+<!-- MENU_BAR START-->
+<div  align="center">
+<table border='0' cellpadding='0' bgcolor='white' cellspacing='0' width='100%'>
+<tr><td>
+<table border='0' cellpadding='0' width='100%' cellspacing='1'>
+<tr>
+<td width="11%" height='19' bgcolor='#E0E0E0' align='center'><font  size='2'>
+<a href='index.php.html'>INICI</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href="add.php@sid=12.html">
+Afegeix un eLink</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='new.php.html'>
+Novetats</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='cool.php.html'>
+Populars</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="forums/index.html">
+F&ograve;rums</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font class="header"><a href='topsite.php.html'>
+TOP 10</a></font></td>
+<td width="11%" bgcolor='#003366' align='center'><font  class="header"><a href='sitemap.php.html'>
+Mapa de categories</a></font></td>
+<td align="center" bgcolor="#003366" width="11%"><font class="header"><a href="vincles.php.html">
+Enlla&ccedil;os</a></font></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<!-- MENU_BAR END -->
+<!-- HERE START -->
+<!-- NAME: show_here.tpl -->
+<div align="center"><table border='0' cellpadding='0' cellspacing='0' width='100%' bgcolor='#F6F6F6'>
+<tr><td height=22>&nbsp;<font size='2'>Ubicaci&oacute; </font>
+<!-- BEGIN DYN: row -->
+<font size='2'>>> <a href='index.php@cat=0.html'><font color=black>Arrel</font></a></font>
+<font size='2'>>> <a href='index.php@cat=10.html'><font color=black>Lectura</font></a></font>
+<font size='2'>>> <a href='index.php@cat=12.html'><font color=black>Llibres</font></a></font>
+<!-- END DYN: row -->
+</td>
+<td width="35" align="center" valign="middle">
+<a href="rss.php@cat=12" title="Canal RSS de la categoria Llibres"><img src="image/rss-xicotet.png" alt="RSS" border="0"></a>
+<td>
+</tr>
+<tr><td colspan="2" height=1 bgcolor="#999999"><img src="template/comparteix/image/x1.gif" border=0 width=1 height=1></td></tr>
+</table></div>
+<!-- END: show_here.tpl -->
+<!-- HERE START -->
+<!-- category summary / Search  -->
+<div align='center'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr>
+<!-- BEGIN DYN: serow1 -->
+<td bgcolor='#F6F6F6'>&nbsp;<font size='2'><b>Categories</b>: 0
+&nbsp;&nbsp;<b>eLinks</b>: 92&nbsp; <img src="image/ull.gif" align="absmiddle" alt="Categoria visualitzada 26717 vegades" title="Categoria visualitzada 26717 vegades"></font></td>
+<!-- END DYN: serow1 -->
+<td align=right bgcolor=#F6F6F6 height=22>
+<p><font>
+<form action="search.php" method="post" name="searchform" style='margin:0;padding:0'>
+<input type="hidden" name="search_sid" value="12">
+<input type="text" name="kword" size=18>
+<!-- BEGIN DYN: serow2 -->
+<font size=2>
+<select name="search_path">
+<option value = "">Totes les categories</option>
+<option value = "0/10/12">Aquesta categoria </option>
+</SELECT></font>
+<!-- END DYN: serow2 -->
+<input type="submit" value="Cercar" class=cinput>&nbsp;&nbsp;<font size=2><a href="ext_search.php.html">Avan&ccedil;ada</a>&nbsp;</font>
+</p></form></td></tr>
+<tr><td height=1 bgcolor="#999999" colspan=2><img src="template/comparteix/image/x1.gif" border=0 width=1 height=2></td></tr>
+</table></div>
+<!-- category summary / Search  -->
+<div  ALIGN=center><TABLE BORDER="0" WIDTH="94%" align="center" cellpadding="10" cellspacing="1"><TR>
+<!-- BEGIN DYN: tdcol -->
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<TD WIDTH='34%' VALIGN='TOP'>
+</TD>
+<!-- END DYN: tdcol -->
+</TR></TABLE></div>
+<table><tr>
+<TD WIDTH='600' VALIGN='TOP'><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr>
+<td>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2917.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Albert Sánchez Piñol - La pell freda</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2917&url=ed2k%3A%2F%2F%7Cfile%7C%5Be-llibre%5D%2520S%25C3%25A1nchez%2520Pi%25C3%25B1ol%2C%2520Albert%2520-%2520La%2520pell%2520freda.rar%7C293870%7C28883BA62CB7000B4B71D8035495A938%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>856</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="9.50 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="9.50 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3172.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Alfons Maseras - Ildaribal</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3172&url=ed2k%3A%2F%2F%7Cfile%7CAlfons%2520Maseras%2520-%2520Ildaribal.zip%7C163924%7C5C051FD5907026CB421CFE0BA28B4878%7Ch%3D2E33S5NAJUIYNH4BH6M3SFN63H6XF2DA%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>498</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2926.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Alfred Bosch - Les set aromes del món</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2926&url=ed2k%3A%2F%2F%7Cfile%7C%5Be-llibre%5D%2520Bosch%2C%2520Alfred%2520-%2520Les%2520set%2520aromes%2520del%2520m%25C3%25B3n.rar%7C582055%7C5E10B6CAE2B32C498532B18BB3C6EB72%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>679</strong>,   
+Puntuaci&oacute;:<img src="image/punts/10punts.gif" alt="9.67 punts (3 Vots)" width="64" height="12" border="0" align="bottom" title="9.67 punts (3 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Trobat a la xarxa</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=393.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Antoni Bolinches - 1000 Pessics de Saviesa</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=393&url=ed2k%3A%2F%2F%7Cfile%7C%28llibre-e%29.Bolinches%2C.Antoni..1000.pessics.de.saviesa.%28catal%25C3%25A0.Pa%25C3%25AFsos.Catalans%29.zip%7C476310%7CC879E3284FD72CC7B51E047456A57419%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>592</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">.lit i craquejador per passar-lo a html comprimits en .rar</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5510.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Antoni Carrasco - Saltimbanqui</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5510&url=ed2k%3A%2F%2F%7Cfile%7C%5Bebook%2520llibre-e%5D%28catal%25C3%25A0%29%2520Antoni%2520Carrasco%2520-%2520Saltimbanqui.lit%7C79865%7CF06A4F6105D2B741998445245BF1BB93%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>403</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">http://www.badosa.com/bin/obra.pl?id=n110</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3407.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Asha Miró - La filla del Ganges</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3407&url=ed2k%3A%2F%2F%7Cfile%7CMir%25C3%25B3%2C%2520Asha%2520-%2520La%2520filla%2520del%2520Ganges.zip%7C66448%7C26D84C6A7BF0A6ECCE611BFDFCA5114E%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>728</strong>,   
+Puntuaci&oacute;:<img src="image/punts/6punts.gif" alt="6.00 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="6.00 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">La història d'una adopció</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1082.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bernat Metge - Lo Sompni (1/4)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=1083"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1082&url=ed2k%3A%2F%2F%7Cfile%7CBernat_Metge_Lo_Sompni_%28lo_primer_libre%29.rar%7C9026827%7C5730ABCE61909B443B989D3F29ADCDAD%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>357</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Primer llibre</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1083.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bernat Metge - Lo Sompni (2/4)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=1087"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1083&url=ed2k%3A%2F%2F%7Cfile%7CBernat_Metge_Lo_Sompni_%28lo_segon_libre%29.rar%7C4558292%7C91C493A44BA79140D9A63419764EE617%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>312</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Segon llibre</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1087.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bernat Metge - Lo Sompni (3/4)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=1095"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1087&url=ed2k%3A%2F%2F%7Cfile%7CBernat_Metge_Lo_Sompni_%28lo_ter%25C3%25A7_libre%29.rar%7C8724400%7CBD705DD7B3CD73CAC6EA2490880A1327%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>371</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Tercer llibre</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1095.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bernat Metge - Lo Sompni (4/4)</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<a href="comparteix/review.php?sid=1082"><img src="image/cadenat2.png" border=0 alt="eLink relacionat" title="eLink relacionat" align="absmiddle"></a>   <A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1095&url=ed2k%3A%2F%2F%7Cfile%7CBernat_Metge_Lo_Sompni_%28lo_quart_libre%29.rar%7C7763333%7C65FA15E0CAC5A5E5673DE6D086949D7A%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>342</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Quart llibre</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=1359.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bernat Metge - Valter e de la pacient Griselda</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=1359&url=ed2k%3A%2F%2F%7Cfile%7CBernat%2520Metge%2520-%2520Valter%2520e%2520de%2520la%2520pacient%2520griselda.rar%7C5179670%7C1EEDBF78A2B2BA29C922110343DD6645%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>512</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Llibre escanejat en imatges .jpg</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=394.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Bonaventura Carles Aribau - Oda a la Pàtria</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=394&url=ed2k%3A%2F%2F%7Cfile%7C%28llibre-e%29%2520Oda%2520a%2520la%2520Patria%2520-%2520Bonaventura%2520Carles%2520Aribau%2520%28x%2520Lo%2520Dol%25C3%25A7ainer%2520de%2520Badalona%29%2520%28catdonkey.korfbalers.com%29.zip%7C262376%7CC254B7382E21380EBE9F68C97B26CAB5%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>1432</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="8.75 punts (4 Vots)" width="64" height="12" border="0" align="bottom" title="8.75 punts (4 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">.doc comprimit en .zip</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=868.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Cultura Lliure</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=868&url=ed2k%3A%2F%2F%7Cfile%7Cculturalliure.-.lawrence.lessig.-.creative.commons.-.en.catal%25C3%25A0.valenci%25C3%25A0.pdf%7C2291263%7CD91B35037BED976C5E6291EC0279F2EB%7Ch%3DNJFN6W2Q53JMEESXQTPSO3Q4Q573THWD%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>323</strong>,   
+Puntuaci&oacute;:<img src="image/punts/9punts.gif" alt="8.50 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="8.50 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Lawrence Lessig (CC) De com els grans mitjans de comunicació utilitzen la tecnologia i les lleis per enclaustrar la cultura i controlar la creativitat.</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=7563.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Cultura Lliure. De com els grans mitjans de comunicació util</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=7563&url=ed2k%3A%2F%2F%7Cfile%7Cculturalliure.pdf%7C2292354%7CCF41EDFDCF8D310284A4F4694FB5D992%7Ch%3DWQ3CW6X5UTK3AWISQD5HTZKLVRPJFTBI%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>391</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">llibre, cultura lliure,</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2486.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Daniel Nager - Aquari</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2486&url=ed2k%3A%2F%2F%7Cfile%7C%28llibre-e%29%2520Daniel%2520Nager%2520-%2520Aquari.pdf%7C1206034%7CCF749F1D63267A4F768F68B50E227173%7Ch%3DX53IW4TZVGWEYPMCGRPO6TEWUWK42JLC%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>369</strong>,   
+Puntuaci&oacute;:<img src="image/punts/7punts.gif" alt="7.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="7.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">en pdf</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5509.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> David Medina - Rates</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5509&url=ed2k%3A%2F%2F%7Cfile%7C%5Bebook%2520llibre-e%5D%28catal%25C3%25A0%29%2520David%2520Medina%2520-%2520Rates.lit%7C89275%7C748035BE4B3CBBE3DFE8FA8615BFED68%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>378</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">http://www.badosa.com/bin/obra.pl?id=n146</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=5505.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> David Medina - Tant de bo no ho entenguis</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=5505&url=ed2k%3A%2F%2F%7Cfile%7C%5Bebook%2520llibre-e%5D%28catal%25C3%25A0%29%2520David%2520Medina%2520-%2520Tant%2520de%2520bo%2520no%2520ho%2520entenguis.lit%7C99765%7C055E2B084202EC10997CB0BB60F85F68%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>400</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">http://www.badosa.com/bin/obra.pl?id=n132</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=3055.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> Doctrina sobre la llengua de les Balears i València</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=3055&url=ed2k%3A%2F%2F%7Cfile%7CAlcover%2C%2520Antoni%2520M.%2520-%2520Doctrina%2520sobre%2520la%2520llengua%2520de%2520les%2520balears%2520i%2520de%2520Val%25C3%25A8ncia.zip%7C24301%7C9DB82FA9FD6081212BB2003E8352EC4C%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>375</strong>,   
+Puntuaci&oacute;:<img src="image/punts/8punts.gif" alt="8.00 punts (1 Vots)" width="64" height="12" border="0" align="bottom" title="8.00 punts (1 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Antoni M. Alcover</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=448.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El Manifest Comunista</a>     </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=448&url=ed2k%3A%2F%2F%7Cfile%7C%5Bebook.catal%25C3%25A0.valenci%25C3%25A0%5D%2520Manifest%2520Comunista.rtf%7C207655%7C3F1F03D0CC57DE731F3A9D14D37CD9B3%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>473</strong>,   
+Puntuaci&oacute;:<img src="image/punts/6punts.gif" alt="6.00 punts (2 Vots)" width="64" height="12" border="0" align="bottom" title="6.00 punts (2 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">Manifest del Partit Comunista</font>
+</span></td>
+</tr>
+</table>
+<p>
+<p>
+<table width="96%" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#F8F8F8" style="border: solid #dddddd 1px;">
+<tr>
+<td bgcolor="#eeeeee"><span class="newstitle"><strong> </strong> </span> <div align="right">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="newstitle"><strong>
+<a class="newstitle" href="review.php@sid=2889.html"><img src="image/edonkey.gif" alt="edonkey" align="absmiddle" border="0"> El mirall del fotre</a>   <img src='template/comparteix/image/cool.gif' title='Fitxer Popular!' alt='popular'  </strong></span></td>
+<td> <div align="right"><span class="smallprint">
+<A HREF="javascript:void(0)" onclick="window.open('descarrega_rapida.php?sid=2889&url=ed2k%3A%2F%2F%7Cfile%7CAn%25C3%25B2nim%2520-%2520Kamasutra%2520catal%25C3%25A0.zip%7C28213%7CF00A8757B946F7B1EE32A5A9F9FC921D%7Ch%3DV2FQAPO4TU7VUXYZASAVUMB4ANTHIJPX%7C%2F','Desc&agrave;rrega r&agrave;pida','height=200, width=550,scrollbars=no')"><img src="image/descarrega2.png" title="Desc&agrave;rrega r&agrave;pida" alt="Desc&agrave;rrega r&agrave;pida" border=0 align=absmiddle></a> </span></div></td>
+</tr>
+</table>
+<span class="smallprint"> </span></div></td>
+</tr>
+<tr>
+<td><span class="smallprint">Desc&agrave;rregues: <Strong>953</strong>,   
+Puntuaci&oacute;:<img src="image/punts/cap.gif" alt="0.00 punts (0 Vots)" width="64" height="12" border="0" align="bottom" title="0.00 punts (0 Vots)">
+</span><br> <span class="bodytext">Descripci&oacute;: <font color="#666666">El kamasutra català, anònim del segle XIV</font>
+</span></td>
+</tr>
+</table>
+<p>
+<div align='center'>
+<form action="index.php.html" method="post">
+<input type=hidden name="cat" value="12">
+<input type=hidden name="inicial" value="">
+<TABLE BORDER='0' cellpadding='0' cellspacing='0' WIDTH='100%'>
+<tr><td align=right width=50%><font size=2>
+<select name="u_sort">
+<option value='title' selected>Títol</option>
+<option value='name' >Nom d'Usuari</option>
+<option value='count' >Visualitzacions</option>
+<option value='visit' >Descàrregues</option>
+<option value='uptime' >Data</option>
+<!-- BEGIN DYN: orform -->
+<!-- END DYN: orform -->
+</select><select name="u_order">
+<option selected value="desc" >Descendent</option>
+<option value="asc" selected>Ascendent</option>
+</select></font>
+<input type="submit" value="Ordenar" class=cinput>
+</td></TR>
+</TABLE>
+</div>
+</td>
+</tr>
+</table> </TD>
+<TD VALIGN='TOP' rowspan="2" width="200" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Descarregats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=394.html" title="Bonaventura Carles Aribau - Oda a la Pàtria">Bonaventura Carles...</a><br></td><td width="40"> <div align="right">1432</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2889.html" title="El mirall del fotre">El mirall del fotr...</a><br></td><td width="40"> <div align="right">953</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2917.html" title="Albert Sánchez Piñol - La pell freda">Albert Sánchez Pi...</a><br></td><td width="40"> <div align="right">856</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=11277.html" title="En Patufet i els Cargols (Conte infantil, 1964)">En Patufet i els C...</a><br></td><td width="40"> <div align="right">836</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5989.html" title="Miquel Martí i Pol - Haikús en temps de guerra">Miquel Martí i Po...</a><br></td><td width="40"> <div align="right">832</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=277.html" title="Joan Fuster - Nosaltres els valencians">Joan Fuster - Nosa...</a><br></td><td width="40"> <div align="right">830</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=279.html" title="Joan Fuster - Diccionari per a ociosos">Joan Fuster - Dicc...</a><br></td><td width="40"> <div align="right">797</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3407.html" title="Asha Miró - La filla del Ganges">Asha Miró - La fi...</a><br></td><td width="40"> <div align="right">728</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5636.html" title="Lao Tse - Tao te king">Lao Tse - Tao te k...</a><br></td><td width="40"> <div align="right">701</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2926.html" title="Alfred Bosch - Les set aromes del món">Alfred Bosch - Les...</a><br></td><td width="40"> <div align="right">679</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Valorats</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><table width="96%" align="center" border="0" cellpadding="0" cellspacing="0" class="smallprint"><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=11277.html" title="En Patufet i els Cargols (Conte infantil, 1964)">En Patufet i els C...</a><br></td><td width="40"> <div align="right">10.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2926.html" title="Alfred Bosch - Les set aromes del món">Alfred Bosch - Les...</a><br></td><td width="40"> <div align="right">9.7</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3406.html" title="Lluís Muntada - Canvi d&#039;agulles">Lluís Muntada - C...</a><br></td><td width="40"> <div align="right">9.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=2917.html" title="Albert Sánchez Piñol - La pell freda">Albert Sánchez Pi...</a><br></td><td width="40"> <div align="right">9.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6583.html" title="Res de nou al Pirineu">Res de nou al Piri...</a><br></td><td width="40"> <div align="right">9.3</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=277.html" title="Joan Fuster - Nosaltres els valencians">Joan Fuster - Nosa...</a><br></td><td width="40"> <div align="right">9.2</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=279.html" title="Joan Fuster - Diccionari per a ociosos">Joan Fuster - Dicc...</a><br></td><td width="40"> <div align="right">9.0</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=394.html" title="Bonaventura Carles Aribau - Oda a la Pàtria">Bonaventura Carles...</a><br></td><td width="40"> <div align="right">8.8</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=868.html" title="Cultura Lliure">Cultura Lliure</a><br></td><td width="40"> <div align="right">8.5</div></td></tr><tr><td><img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=3182.html" title="Xavier Vernetta - L&#039;esbudellador de l&#039;Eixample">Xavier Vernetta - ...</a><br></td><td width="40"> <div align="right">8.5</div></td></tr></table></tr></table></td></tr><tr><td height=1></td></tr></table><br><table border="0" cellpadding="0" cellspacing="0" width="180" bgcolor="gray" background="template/comparteix/image/fons_caixa_lateral.gif"><tr><td><table border="0" cellpadding="0" cellspacing="1" width="100%"><tr><td align="center" height="20"><font color="white" size=2 class=midsmall><b>M&eacute;s Nous</b></font></td></tr><tr><td bgcolor="#F6F6F6"><table width="100%" border="0" cellpadding="0" cellspacing="3"><tr><div align="left" class="smallprint">&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=14004.html" title="Las banderas en el País Valenciano">Las banderas en el Pa...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=11277.html" title="En Patufet i els Cargols (Conte infantil, 1964)">En Patufet i els Cargo...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7564.html" title="Programari lliure, societat lliure">Programari lliure, soc...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=7563.html" title="Cultura Lliure. De com els grans mitjans de comunicació util">Cultura Lliure. De com...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=6583.html" title="Res de nou al Pirineu">Res de nou al Pirineu</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5989.html" title="Miquel Martí i Pol - Haikús en temps de guerra">Miquel Martí i Pol - ...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5636.html" title="Lao Tse - Tao te king">Lao Tse - Tao te king</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5510.html" title="Antoni Carrasco - Saltimbanqui">Antoni Carrasco - Salt...</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5509.html" title="David Medina - Rates">David Medina - Rates</a><br/>&nbsp;<img src="image/arrow1.gif" border="0">&nbsp;<a href="review.php@sid=5508.html" title="Mercè Molist Ferrer - Sóc morta">Mercè Molist Ferrer -...</a><br/></div></tr></table></td></tr><tr><td height=1></td></tr></table></td></tr></table><br>
+</td>
+</tr>
+</table>
+<!-- DIRECT BAR START-->
+<center>
+<div class="box">
+<span class="pagecurrent"><a href='index.php@page=1&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>1</a></span><span class="pagelink"><a href='index.php@page=2&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>2</a></span><span class="pagelink"><a href='index.php@page=3&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>3</a></span><span class="pagelink"><a href='index.php@page=4&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>4</a></span><span class="pagelink"><a href='index.php@page=5&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>5</a></span><span class="pagelinklast"><a href='index.php@page=2&amp;cat=12&amp;u_sort=title&amp;u_order=asc&amp;inicial=.html'>></a></span>
+</div>
+</center>
+<!-- DIRECT BAR END-->
+<!-- CAT FOOTER START-->
+<!-- CAT FOOTER END -->
+<!-- FOOTER START-->
+<!-- FOOTER START-->
+<br>
+<center>
+<table style="width: 690px; border: 1px #999 solid; background-color: #f3f3f3; padding: 3px;">
+<tr><td>
+<table width="100%" border="0">
+<tr>
+<td valign="middle" align="left" width="80" height="46">
+<a href="rss.php@quantitat=10"><img src="image/rss-elinks.png" border="0"></a><br>
+<a href="forums/rss.php"><img src="image/rss-forums.png" border="0"></a>
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s20.sitemeter.com/stats.asp?site=s20comparteix" target="_top"><img src="image/meter.gif#http://s20.sitemeter.com/meter.asp?site=s20comparteix" alt="Site Meter" border="0" align="absmiddle"/></a> 
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+</td>
+<td valign="middle" align="center" width="55">
+<a href="http://www.mozilla-europe.org/ca/"><img src="image/firefox.png" border="0"></a>
+</td>
+<td valign="middle" align="right">
+<font style="font-size: 7pt; color: #777">L'&uacute;s d'aquesta p&agrave;gina web implica la lectura i acceptaci&oacute; de la <a href="forums/viewtopic.php@id=4.html">Normativa</a><br>
+En l&iacute;nia des del 14 de desembre de 2004, per i per a la comunitat eD2k<br>
+Modificacions i disseny per <a href='mailto:web(at)comparteix.tk'>Comparteix</a> &copy; 2004-2011 - Pa&iacute;s Valenci&agrave;<br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</center><br><!-- FOOTER END -->
+<!-- FOOTER END -->
+</td>
+</tr>
+</table>
+<link rel="stylesheet" href="./archive-notice.css"><script src="./archive-notice.js"></script></body>
+</HTML>
