@@ -15,3 +15,13 @@ converted to pure HTML for archival purposes. The site was shut down in November
 - **eLinks**: 13,760
 - **HTML files**: ~23,000
 - **Years online**: 2004-2013
+
+### Docker (local)
+
+```sh
+# build a docker image of this service
+docker build -t comparteix -f Dockerfile .
+
+# run the service on localhost:8000
+docker run -p 8000:80 comparteix
+```
